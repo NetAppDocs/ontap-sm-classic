@@ -465,11 +465,6 @@ entries:
         url: "/online-help-96-97/reference_applications_window.html"
     - title: Configuration update
       url: "/online-help-96-97/concept_configuration_update.html"
-      entries:
-      - title: Configure the administration details of an SVM
-        url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-      - title: Configuration Updates window
-        url: "/online-help-96-97/reference_configuration_updates_window.html"
     - title: Service Processors
       url: "/online-help-96-97/concept_service_processors.html"
     - title: Cluster peers
