@@ -427,7 +427,6 @@ entries:
           url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
       - title: Configuration update
         url: "/online-help-96-97/concept_configuration_update.html"
-        entries:
       - title: MetroCluster switchover and switchback
         url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
         entries:
