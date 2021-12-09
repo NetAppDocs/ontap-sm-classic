@@ -63,7 +63,7 @@ After the IdP is configured, if the user tries to log in by using the fully qual
 
 == Disable SAML authentication
 
- You can disable Security Assertion Markup Language (SAML) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration.
+You can disable Security Assertion Markup Language (SAML) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration.
 
 .About this task
 
