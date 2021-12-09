@@ -37,9 +37,6 @@ You can create a broadcast domain by using System Manager to provide a logical d
 . In the *Create Broadcast Domain* dialog box, specify the name, MTU size, IPspace, and ports for the broadcast domain that you want to create.
 . Click *Create*.
 
-*Related information*
-
-xref:reference_network_window.adoc[Network window]
 
 == Create subnets
 
@@ -67,4 +64,4 @@ You can specify the IP addresses as a range, as comma-separated multiple address
 
 xref:reference_network_window.adoc[Network window]
 
-// 2021-12-07, Created by Aoife
+// 2021-12-07, Created by Aoife sm-classic clean-up
