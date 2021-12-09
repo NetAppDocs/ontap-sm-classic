@@ -371,13 +371,6 @@ entries:
         url: "/online-help-96-97/task_monitoring_ha_pairs.html"
     - title: Set up the network
       url: "/online-help-96-97/concept_setting_up_network.html"
-      entries:
-      - title: Create IPspaces
-        url: "/online-help-96-97/task_creating_ipspaces.html"
-      - title: Create broadcast domains
-        url: "/online-help-96-97/task_creating_broadcast_domains.html"
-      - title: Create subnets
-        url: "/online-help-96-97/task_creating_subnets.html"
     - title: Set up physical storage
       url: "/online-help-96-97/concept_setting_up_physical_storage.html"
       entries:
@@ -420,24 +413,8 @@ entries:
         url: "/online-help-96-97/task_creating_snaplock_volumes.html"
     - title: Set up SAML authentication
       url: "/online-help-96-97/task_setting_up_saml_authentication.html"
-      entries:
-      - title: Enable SAML authentication
-        url: "/online-help-96-97/task_enabling_saml_authentication.html"
-      - title: Disable SAML authentication
-        url: "/online-help-96-97/task_disabling_saml_authentication.html"
     - title: Set up peering
       url: "/online-help-96-97/task_setting_up_peering.html"
-      entries:
-      - title: Prerequisites for cluster peering
-        url: "/online-help-96-97/reference_prerequisites_for_cluster_peering.html"
-      - title: Create intercluster LIFs
-        url: "/online-help-96-97/task_creating_intercluster_lifs.html"
-      - title: Create cluster peer relationships
-        url: "/online-help-96-97/task_creating_cluster_peer_relationships.html"
-      - title: Create SVM peers
-        url: "/online-help-96-97/task_creating_svm_peers.html"
-      - title: What passphrases are
-        url: "/online-help-96-97/concept_what_passphrases_are.html"
     - title: Manage clusters
       url: "/online-help-96-97/concept_managing_clusters.html"
       entries:
@@ -450,11 +427,6 @@ entries:
           url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
       - title: Configuration update
         url: "/online-help-96-97/concept_configuration_update.html"
-        entries:
-        - title: Configure the administration details of an SVM
-          url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-        - title: Configuration Updates window
-          url: "/online-help-96-97/reference_configuration_updates_window.html"
       - title: MetroCluster switchover and switchback
         url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
         entries:
@@ -492,60 +464,16 @@ entries:
         url: "/online-help-96-97/reference_applications_window.html"
     - title: Configuration update
       url: "/online-help-96-97/concept_configuration_update.html"
-      entries:
-      - title: Configure the administration details of an SVM
-        url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-      - title: Configuration Updates window
-        url: "/online-help-96-97/reference_configuration_updates_window.html"
     - title: Service Processors
       url: "/online-help-96-97/concept_service_processors.html"
-      entries:
-      - title: Isolating management network traffic
-        url: "/online-help-96-97/concept_isolating_management_traffic.html"
-      - title: Assigning IP addresses to Service Processors
-        url: "/online-help-96-97/task_assigning_ip_addresses_to_service_processors.html"
-      - title: Edit Service Processor settings
-        url: "/online-help-96-97/task_editing_service_processor_settings.html"
-      - title: Understand the Service Processor
-        url: "/online-help-96-97/concept_how_you_use_service_processors.html"
-      - title: Service Processors window
-        url: "/online-help-96-97/reference_service_processors_window.html"
     - title: Cluster peers
       url: "/online-help-96-97/concept_cluster_peers.html"
-      entries:
-      - title: Generating a peering passphrase
-        url: "/online-help-96-97/task_generating_peering_passphrase.html"
-      - title: Modifying the cluster peer passphrase
-        url: "/online-help-96-97/task_modifying_cluster_peer_passphrase.html"
-      - title: Modifying LIFs that are configured for the remote cluster
-        url: "/online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html"
-      - title: Change the peering encryption status
-        url: "/online-help-96-97/task_changing_peering_encryption_status.html"
-      - title: Delete cluster peer relationships
-        url: "/online-help-96-97/task_deleting_cluster_peer_relationships.html"
-      - title: Cluster Peers window
-        url: "/online-help-96-97/reference_cluster_peers_window.html"
     - title: High availability
       url: "/online-help-96-97/concept_high_availability.html"
-      entries:
-      - title: High Availability window
-        url: "/online-help-96-97/reference_high_availability.html"
     - title: Licenses
       url: "/online-help-96-97/concept_licenses.html"
-      entries:
-      - title: Delete licenses
-        url: "/online-help-96-97/task_deleting_licenses.html"
-      - title: License types and entitlement risk
-        url: "/online-help-96-97/concept_license_types_entitlement_risk.html"
-      - title: Licenses window
-        url: "/online-help-96-97/reference_licenses_window.html"
     - title: Cluster Expansion
       url: "/online-help-96-97/concept_cluster_expansion.html"
-      entries:
-      - title: Add nodes to a cluster
-        url: "/online-help-96-97/task_adding_nodes_to_cluster_using_system_manager.html"
-      - title: Configure the network details of the nodes
-        url: "/online-help-96-97/task_configuring_node_details_system_manager.html"
     - title: Update clusters
       url: "/online-help-96-97/concept_updating_clusters.html"
       entries:
@@ -565,22 +493,8 @@ entries:
         url: "/online-help-96-97/reference_cluster_update_window.html"
     - title: Date and time settings of a cluster
       url: "/online-help-96-97/concept_date_time.html"
-      entries:
-      - title: Date and Time window
-        url: "/online-help-96-97/reference_date_time_window.html"
     - title: SNMP
       url: "/online-help-96-97/concept_snmp.html"
-      entries:
-      - title: Enable or disable SNMP
-        url: "/online-help-96-97/task_enabling_or_disabling_snmp.html"
-      - title: Edit SNMP information
-        url: "/online-help-96-97/task_setting_snmp_information.html"
-      - title: Enable or disable SNMP traps
-        url: "/online-help-96-97/task_enabling_or_disabling_snmp_traps.html"
-      - title: Testing the trap host configuration
-        url: "/online-help-96-97/task_testing_trap_host.html"
-      - title: SNMP window
-        url: "/online-help-96-97/reference_snmp_window.html"
     - title: LDAP
       url: "/online-help-96-97/concept_ldap.html"
       entries:
