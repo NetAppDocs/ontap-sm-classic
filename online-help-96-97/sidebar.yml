@@ -96,13 +96,6 @@ entries:
             url: "/online-help-96-97/task_monitoring_ha_pairs.html"
         - title: Set up the network
           url: "/online-help-96-97/concept_setting_up_network.html"
-          entries:
-          - title: Create IPspaces
-            url: "/online-help-96-97/task_creating_ipspaces.html"
-          - title: Create broadcast domains
-            url: "/online-help-96-97/task_creating_broadcast_domains.html"
-          - title: Create subnets
-            url: "/online-help-96-97/task_creating_subnets.html"
         - title: Set up physical storage
           url: "/online-help-96-97/concept_setting_up_physical_storage.html"
           entries:
@@ -371,6 +364,13 @@ entries:
         url: "/online-help-96-97/task_monitoring_ha_pairs.html"
     - title: Set up the network
       url: "/online-help-96-97/concept_setting_up_network.html"
+      entries:
+      - title: Create IPspaces
+        url: "/online-help-96-97/task_creating_ipspaces.html"
+      - title: Create broadcast domains
+        url: "/online-help-96-97/task_creating_broadcast_domains.html"
+      - title: Create subnets
+        url: "/online-help-96-97/task_creating_subnets.html"
     - title: Set up physical storage
       url: "/online-help-96-97/concept_setting_up_physical_storage.html"
       entries:
@@ -413,8 +413,24 @@ entries:
         url: "/online-help-96-97/task_creating_snaplock_volumes.html"
     - title: Set up SAML authentication
       url: "/online-help-96-97/task_setting_up_saml_authentication.html"
+      entries:
+      - title: Enable SAML authentication
+        url: "/online-help-96-97/task_enabling_saml_authentication.html"
+      - title: Disable SAML authentication
+        url: "/online-help-96-97/task_disabling_saml_authentication.html"
     - title: Set up peering
       url: "/online-help-96-97/task_setting_up_peering.html"
+      entries:
+      - title: Prerequisites for cluster peering
+        url: "/online-help-96-97/reference_prerequisites_for_cluster_peering.html"
+      - title: Create intercluster LIFs
+        url: "/online-help-96-97/task_creating_intercluster_lifs.html"
+      - title: Create cluster peer relationships
+        url: "/online-help-96-97/task_creating_cluster_peer_relationships.html"
+      - title: Create SVM peers
+        url: "/online-help-96-97/task_creating_svm_peers.html"
+      - title: What passphrases are
+        url: "/online-help-96-97/concept_what_passphrases_are.html"
     - title: Manage clusters
       url: "/online-help-96-97/concept_managing_clusters.html"
       entries:
@@ -427,6 +443,11 @@ entries:
           url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
       - title: Configuration update
         url: "/online-help-96-97/concept_configuration_update.html"
+        entries:
+        - title: Configure the administration details of an SVM
+          url: "/online-help-96-97/task_configuring_administration_details_svm.html"
+        - title: Configuration Updates window
+          url: "/online-help-96-97/reference_configuration_updates_window.html"
       - title: MetroCluster switchover and switchback
         url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
         entries:
@@ -497,98 +518,16 @@ entries:
       url: "/online-help-96-97/concept_snmp.html"
     - title: LDAP
       url: "/online-help-96-97/concept_ldap.html"
-      entries:
-      - title: View the LDAP client configuration
-        url: "/online-help-96-97/task_viewing_ldap_client_configuration.html"
-      - title: Using LDAP services
-        url: "/online-help-96-97/task_using_ldap_services.html"
-      - title: LDAP window
-        url: "/online-help-96-97/reference_ldap_window.html"
     - title: Users
       url: "/online-help-96-97/concept_cluster_user_accounts.html"
       entries:
-      - title: Add a cluster user account
-        url: "/online-help-96-97/task_adding_cluster_user_account.html"
-      - title: Edit a cluster user account
-        url: "/online-help-96-97/task_editing_cluster_user_account.html"
-      - title: Change passwords for cluster user accounts
-        url: "/online-help-96-97/task_changing_passwords_for_cluster_user_accounts.html"
-      - title: Locking or unlocking cluster user accounts
-        url: "/online-help-96-97/task_locking_unlocking_cluster_user_accounts.html"
-      - title: User accounts (cluster administrators only)
-        url: "/online-help-96-97/concept_user_accounts_cluster_administrators_only.html"
       - title: Roles
         url: "/online-help-96-97/concept_roles_conceptual.html"
-      - title: Users window
-        url: "/online-help-96-97/reference_usesr_window_cluster_scope.html"
     - title: Roles
       url: "/online-help-96-97/concept_roles.html"
-      entries:
-      - title: Add roles
-        url: "/online-help-96-97/task_adding_roles_cluster_administrators_only.html"
-      - title: Edit roles
-        url: "/online-help-96-97/task_editing_roles.html"
-      - title: Roles and permissions
-        url: "/online-help-96-97/concept_roles_permissions.html"
-      - title: Roles window
-        url: "/online-help-96-97/reference_roles_cluster_scope.html"
     - title: Manage the network
       url: "/online-help-96-97/concept_managing_network.html"
       entries:
-      - title: IPspaces
-        url: "/online-help-96-97/concept_ipspaces.html"
-        entries:
-        - title: Edit IPspaces
-          url: "/online-help-96-97/task_editing_ipspaces.html"
-        - title: Delete IPspaces
-          url: "/online-help-96-97/task_deleting_ipspaces.html"
-      - title: Broadcast domains
-        url: "/online-help-96-97/concept_broadcast_domains.html"
-        entries:
-        - title: Edit broadcast domain settings
-          url: "/online-help-96-97/task_editing_broadcast_domains.html"
-        - title: Delete broadcast domains
-          url: "/online-help-96-97/task_deleting_broadcast_domains.html"
-      - title: Subnets
-        url: "/online-help-96-97/concept_subnets.html"
-        entries:
-        - title: Edit subnet settings
-          url: "/online-help-96-97/task_editing_subnets.html"
-        - title: Delete subnets
-          url: "/online-help-96-97/task_deleting_subnets.html"
-      - title: Network interfaces
-        url: "/online-help-96-97/concept_network_interfaces.html"
-        entries:
-        - title: Create network interfaces
-          url: "/online-help-96-97/task_creating_network_interfaces.html"
-        - title: Edit network interface settings
-          url: "/online-help-96-97/task_editing_network_interfaces.html"
-        - title: Delete network interfaces
-          url: "/online-help-96-97/task_deleting_network_interfaces.html"
-        - title: Migrating a LIF
-          url: "/online-help-96-97/task_migrating_lif.html"
-      - title: Ethernet ports
-        url: "/online-help-96-97/concept_ethernet_ports.html"
-        entries:
-        - title: Create interface groups
-          url: "/online-help-96-97/task_creating_interface_groups.html"
-        - title: Create VLAN interfaces
-          url: "/online-help-96-97/task_creating_vlan_interfaces.html"
-        - title: Edit Ethernet port settings
-          url: "/online-help-96-97/task_editing_ethernet_port_properties.html"
-        - title: Edit interface group settings
-          url: "/online-help-96-97/task_editing_interface_group_settings.html"
-        - title: Modifying the MTU size of a VLAN
-          url: "/online-help-96-97/task_editing_mtu_size_vlan.html"
-        - title: Delete VLANs
-          url: "/online-help-96-97/task_deleting_vlans.html"
-        - title: Ports and adapters
-          url: "/online-help-96-97/reference_ports_adapters.html"
-      - title: FC/FCoE and NVMe adapters
-        url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
-        entries:
-        - title: Edit the FC/FCoE and NVMe adapter speed settings
-          url: "/online-help-96-97/task_editing_fc_fcoe_adapter_speed.html"
       - title: Network window
         url: "/online-help-96-97/reference_network_window.html"
     - title: IPspaces
