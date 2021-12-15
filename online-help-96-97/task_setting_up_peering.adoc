@@ -13,7 +13,7 @@ Setting up peering involves creating intercluster logical interfaces (LIFs) on e
 
 image::../media/peering_workflow.gif[]
 
-== Prerequisites for cluster peering
+== [[prerequisites-peering, Prerequisites for cluster peering]] Prerequisites for cluster peering
 
 Before you set up cluster peering, you should confirm that the connectivity, port, IP address, subnet, firewall, and cluster-naming requirements are met.
 
@@ -82,7 +82,7 @@ You can create an authenticated cluster peer relationship to connect clusters so
 
 * You must have reviewed and completed the requirements for performing this task.
 +
-link:reference_prerequisites_for_cluster_peering.md#[Prerequisites for cluster peering]
+<<prerequisites-peering, Prerequisites for cluster peering>>
 
 * You must have created intercluster logical interfaces (LIFs).
 * You should be aware of which version of ONTAP each cluster is running.
