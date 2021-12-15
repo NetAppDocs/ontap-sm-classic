@@ -11,7 +11,7 @@ summary: "You can use System Manager to assign array LUNs to an existing aggrega
 [.lead]
 You can use System Manager to assign array LUNs to an existing aggregate and manage array LUNs.
 
-== Assigning array LUNs
+== Assign array LUNs
 
 You can use System Manager to assign unassigned array LUNs to an existing aggregate to increase the size of the aggregate.
 
@@ -32,7 +32,7 @@ You must use the command-line interface instead.
 . In the *Assign Array LUNs* dialog box, select the node to which you want to assign the array LUNs.
 . Click *Assign*.
 
-== Reassigning spare array LUNs to nodes
+== Reassign spare array LUNs to nodes
 
 You can use System Manager to reassign the ownership of spare array LUNs from one node to another to increase the capacity of an aggregate.
 
