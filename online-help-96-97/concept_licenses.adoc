@@ -117,10 +117,6 @@ Your storage system arrives from the factory with preinstalled software. If you 
 System Manager does not monitor evaluation licenses and does not provide any warning when an evaluation license is nearing expiry. An evaluation license is a temporary license that expires after a certain period of time.
 ====
 
-* <<GUID-D11B198E-5D68-4563-A87D-5C2F776538CF,Command buttons>>
-* <<GUID-BA6647A2-A56B-4F9B-9C5B-D672DF35D9E1,Packages tab>>
-* <<SECTION_07FABA42440E4171AC62052C02D9CF07,#SECTION_07FABA42440E4171AC62052C02D9CF07>>
-* <<SECTION_3A42EF6C7CAB4355ACF8596E3BE0E3C4,Details tab>>
 
 === Command buttons
 
