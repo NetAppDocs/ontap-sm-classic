@@ -11,13 +11,15 @@ summary: "You can quickly set up SMB/CIFS access to a new volume on either a new
 [.lead]
 You can quickly set up SMB/CIFS access to a new volume on either a new or existing storage virtual machine (SVM) using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier).
 
-Use this content if you want to configure access to a volume in the following way:
+Use this procedure if you want to configure access to a volume in the following way:
 
 * You want to use best practices, not explore every available opt (ONTAP 9.7 and earlier)ion.
 * Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
 +
 If your data network is flat, using these default objects ensures that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to the https://docs.netapp.com/us-en/ontap/networking/index.html[Network management documentation^] for information on how to configure LIF path failover.
 * NTFS file permissions will be used to secure the new volume.
+
+If you want details about the range of ONTAP SMB protocol capabilities, consult the link:../smb-admin/index.html[SMB reference overview].
 
 == Other ways to do this in ONTAP
 
@@ -29,4 +31,4 @@ If your data network is flat, using these default objects ensures that LIFs will
 
 |===
 
-// 2021-12-13, BURT 1415747
+// 2021-12-16, BURT 1415747
