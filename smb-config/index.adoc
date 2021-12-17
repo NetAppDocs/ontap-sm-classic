@@ -19,7 +19,7 @@ Use this procedure if you want to configure access to a volume in the following 
 If your data network is flat, using these default objects ensures that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to the https://docs.netapp.com/us-en/ontap/networking/index.html[Network management documentation^] for information on how to configure LIF path failover.
 * NTFS file permissions will be used to secure the new volume.
 
-If you want details about the range of ONTAP SMB protocol capabilities, consult the link:../smb-admin/index.html[SMB reference overview].
+If you want details about the range of ONTAP SMB protocol capabilities, consult the link:https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB reference overview^].
 
 == Other ways to do this in ONTAP
 

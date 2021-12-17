@@ -47,5 +47,3 @@ entries:
         url: "/nfs-config/task_verifying_nfs_access_from_unix_administration_host.html"
       - title: Configure and verify NFS client access (Adding an NFS volume to an NFS-enabled SVM)
         url: "/nfs-config/task_configuring_verifying_client_access_add_vol_existing_nfs_svm.html"
-    - title: Where to find additional information
-      url: "/nfs-config/reference_where_to_find_additional_information.html"
