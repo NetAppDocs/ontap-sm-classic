@@ -18,8 +18,8 @@ Adding NFS access to an existing SVM involves creating a data LIF, optionally co
  ** The subnet from which the data LIF's IP address will be provisioned, or optionally the specific IP address you want to assign to the data LIF
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The NFS protocol must be allowed on the SVM.
-+
-https://docs.netapp.com/us-en/ontap/networking/index.html
+
+For more information, see the link:https://docs.netapp.com/us-en/ontap/networking/index.html[Network management documentation^].
 
 .Steps
 

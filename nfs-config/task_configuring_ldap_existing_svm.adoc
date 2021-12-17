@@ -15,13 +15,7 @@ If you want the storage virtual machine (SVM) to get user information from Activ
 
 * The LDAP configuration must be using Active Directory (AD).
 +
-If you use another type of LDAP, you must use the command-line interface (CLI) and other documentation to configure LDAP.
-+
-https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf[NetApp Technical Report 4067: NFS in NetApp ONTAP^]
-+
-https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf[NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directory^]
-+
-https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical Report 4835: How to Configure LDAP in ONTAP^]
+If you use another type of LDAP, you must use the command-line interface (CLI) and other documentation to configure LDAP. For more information, see link:https://docs.netapp.com/us-en/ontap/nfs-config/using-ldap-concept.html[Overview of using LDAP^].
 
 * You must know the AD domain and servers, as well as the following binding information: the authentication level, the Bind user and password, the base DN, and the LDAP port.
 
@@ -67,3 +61,5 @@ The SVM uses the new LDAP client.
 image::../media/name_services_ldap_priority_nfs.gif[This graphic is described by the surrounding text.]
 +
 LDAP is the primary source of user information for name services and name mapping on this SVM.
+
+// 2021-12-17, BURT 1419119
