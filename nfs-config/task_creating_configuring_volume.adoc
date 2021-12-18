@@ -34,6 +34,7 @@ Any new volume created in System Manager is mounted by default at the root volum
 
 +
 If you want to organize certain volumes under a main volume named "`data`", you can move the new volume "`vol1`" from the root volume to the "`data`" volume.
+
 +
 image::../media/namespace_1_before_nfs.gif[This graphic is described by the surrounding text.]
 . Review the volume's security style and change it, if necessary:

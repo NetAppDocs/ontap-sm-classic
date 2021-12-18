@@ -43,5 +43,3 @@ entries:
         url: "/smb-config/task_verifying_smb_client_access.html"
       - title: Configure and verify CIFS client access
         url: "/smb-config/task_configuring_verifying_client_access.html"
-    - title: Where to find additional information
-      url: "/smb-config/reference_where_to_find_additional_information.html"
