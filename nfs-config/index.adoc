@@ -21,7 +21,7 @@ If your data network is flat, using these default objects ensures that LIFs will
 * UNIX file permissions will be used to secure the new volume.
 * LDAP, if used, is provided by Active Directory.
 
-If you want details about the range of ONTAP NFS protocol capabilities, consult the link:../nfs-admin/index.html[NFS reference overview].
+If you want details about the range of ONTAP NFS protocol capabilities, consult the link:https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS reference overview^].
 
 
 == Other ways to do this in ONTAP

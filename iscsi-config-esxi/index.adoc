@@ -9,17 +9,11 @@ summary: "This content describes how to quickly set up the iSCSI service on a st
 :imagesdir: ../media/
 
 [.lead]
-This content describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer.
+You can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer with the ONTAP System Manager classic interface (ONTAP 9.7 and earlier).
 
-This content is based on the following assumptions:
+Use these procedure if:
 
-* You want to use best practices, not explore every available option.
-* You do not want to read a lot of conceptual background.
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
-+
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
-
 * You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
 * You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
@@ -32,14 +26,26 @@ https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 +
 Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in this content.
 +
-You should see link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
+See link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
 
 * You are not configuring iSCSI SAN boot.
 * You are providing storage to VMs through the ESXi hypervisor and not running an iSCSI initiator within the VM.
 
+== Other ways to do this in ONTAP
+[cols=2,options="header"]
+|===
+| To perform these tasks with... | See this content...
+| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html[Provision SAN storage for VMware datastores^]
+| The ONTAP command line interface (CLI) | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html[LUN setup workflow with the CLI^]
+|===
+
+== Additional resources
+
 If these assumptions are not correct for your situation, you should see the following resources:
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration]
-* _VMware vSphere Storage_ for your version of ESXi 5 (available from http://www.vmware.com[VMware])
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration^]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration^]
+* _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware])
+
+// 17 dec 2021, BURT 1418089
