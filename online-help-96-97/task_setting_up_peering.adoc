@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set, up, peering, intercluster, logical, interfaces, lif, node, online, help, svm, prerequisites, cluster, connectivity, requirements, passphrases
 summary: "Setting up peering involves creating intercluster logical interfaces (LIFs) on each node, creating cluster peering, and creating SVM peering."
 ---
-= Setting up peering
+= Set up peering
 :icons: font
 :imagesdir: ../media/
 

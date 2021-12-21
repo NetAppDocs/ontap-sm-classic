@@ -11,7 +11,7 @@ summary: "You can use a Services Processor to monitor and manage your storage sy
 [.lead]
 You can use a Services Processor to monitor and manage your storage system parameters such as temperature, voltage, current, and fan speeds through System Manager.
 
-== Isolating management network traffic
+== Isolate management network traffic
 
 It is a best practice to configure SP/BMC and the e0M management interface on a subnet dedicated to management traffic. Running data traffic over the management network can cause performance degradation and routing problems.
 
@@ -28,7 +28,7 @@ If you cannot isolate management traffic, or if your dedicated management networ
 Some storage controllers, such as the AFF A800, have two external ports, one for BMC and the other for e0M. For these controllers, there is no requirement to configure BMC and e0M on the same IP subnet.
 ====
 
-== Assigning IP addresses to Service Processors
+== Assign IP addresses to Service Processors
 
 You can use System Manager to assign IP addresses to all of your Service Processors at the same time and to use these Service Processors to monitor and manage various system parameters of your storage systems.
 
@@ -57,7 +57,7 @@ Select *Manual Assignment*.
 
 . Click *Save*.
 
-== Editing Service Processor settings
+== Edit Service Processor settings
 
 You can modify Service Processor attributes, such as the IP address, the network mask or the prefix length, and the gateway address, by using System Manager. You can also allocate IP addresses to Service Processors that do not have any IP addresses assigned.
 
@@ -72,7 +72,7 @@ You can modify Service Processor attributes, such as the IP address, the network
 . In the *Service Processor* window, select the Service Processor that you want to modify, and then click *Edit*.
 . In the *Edit Service Processor* dialog box, make the required changes, and then click *Save and Close*.
 
-== Understanding the Service Processor
+== Understand the Service Processor
 
 A Service Processor is a system-independent resource in the storage system that helps you to monitor and manage storage system parameters such as temperature, voltage, current, and fan speeds.
 

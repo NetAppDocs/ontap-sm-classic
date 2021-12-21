@@ -11,7 +11,7 @@ summary: "You can use System Manager to create and manage storage virtual machin
 [.lead]
 You can use System Manager to create and manage storage virtual machine (SVM) user accounts.
 
-= Add SVM user accounts
+== Add SVM user accounts
 
 You can use System Manager to add a storage virtual machine (SVM) user account and to specify a user login method for accessing the storage system.
 
@@ -38,7 +38,7 @@ You can use System Manager to reset the password for a storage virtual machine (
 . Select the user account for which you want to modify the password, and then click *Reset Password*.
 . In the *Reset Password* dialog box, type the new password, confirm the new password, and then click *Change*.
 
-= Edit SVM user accounts
+== Edit SVM user accounts
 
 You can use System Manager to edit a storage virtual machine (SVM) user account by modifying the user login methods for accessing the storage system.
 
@@ -61,7 +61,7 @@ You can use System Manager to lock or unlock storage virtual machine (SVM) user 
 . In the *SVM User Details* pane, click *Users*.
 . In the *Users* window, select the user account for which you want to modify the account status, and then click either *Lock* or *Unlock*, as required.
 
-= Users window
+== Users window
 
 You can use the Users window to manage user accounts, to reset the password of a user, and to view information about all of the user accounts.
 

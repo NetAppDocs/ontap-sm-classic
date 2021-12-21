@@ -59,7 +59,7 @@ System Manager does not perform any validation checks for the DNS and DDNS setti
 By default, time to live is set to 24 hours and FQDN is set to `SVM name. domain name`.
 . Click *OK* to save the changes that you made.
 
-= DNS/DDNS Services window
+== DNS/DDNS Services window
 
 The DNS/DDNS Services window enables you to view and edit the current DNS and DDNS settings for your system.
 

@@ -30,7 +30,7 @@ You should not select the destination SVM for disaster recovery from the drop-do
 . Click *Create*.
 . Verify that the export policy that you created is displayed in the *Export Policies* window.
 
-== Renaming export policies
+== Rename export policies
 
 You can use System Managerto rename an existing export policy.
 
@@ -118,7 +118,7 @@ You can use System Manager to modify the specified client, access protocols, and
 . Click *OK*.
 . Verify that the updated changes for the export rule are displayed in the *Export Rules* tab.
 
-== Deleting export policy rules
+== Delete export policy rules
 
 You can use System Manager to delete export policy rules that are no longer required.
 

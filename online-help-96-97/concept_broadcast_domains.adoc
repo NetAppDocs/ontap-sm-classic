@@ -11,7 +11,7 @@ summary: "You can use System Manager to create and manage broadcast domains."
 [.lead]
 You can use System Manager to create and manage broadcast domains.
 
-== Editing broadcast domain settings
+== Edit broadcast domain settings
 
 You can use System Manager to modify the attributes of a broadcast domain such as the name, the MTU size, and the ports that are associated with the broadcast domain.
 
@@ -29,7 +29,7 @@ You must use the command-line interface (CLI) instead.
 . In the *Edit Broadcast Domain* dialog box, modify the broadcast domain attributes as required.
 . Click *Save and Close*.
 
-== Deleting broadcast domains
+== Delete broadcast domains
 
 You can delete a broadcast domain by using System Manager when you no longer require the broadcast domain.
 

@@ -11,7 +11,7 @@ summary: "You can use System Manager to add, edit, and delete LDAP client config
 [.lead]
 You can use System Manager to add, edit, and delete LDAP client configurations.
 
-= Add an LDAP client configuration
+== Add an LDAP client configuration
 
 You can use System Manager to add an LDAP client configuration at the cluster level or the storage virtual machine (SVM) level if you want to use LDAP services. You must first set up an LDAP client to use LDAP services.
 
@@ -50,7 +50,7 @@ At the SVM level, you can delete an LDAP client only for a selected SVM.
 . Select the confirmation check box, and then click *Delete*.
 . Verify that the LDAP client that you deleted is no longer displayed.
 
-== Editing an LDAP client configuration
+== Edit an LDAP client configuration
 
 You can use System Manager to edit an LDAP client configuration at the cluster level or the storage virtual machine (SVM) level.
 
