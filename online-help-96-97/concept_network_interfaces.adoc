@@ -117,7 +117,7 @@ If a route does not exist, a new route is automatically created based on the gat
 . Select the *Dynamic DNS (DDNS)* check box to enable DDNS.
 . Click *Create*.
 
-== Editing network interface settings
+== Edit network interface settings
 
 You can use System Manager to modify the network interface to enable management access for a data LIF.
 
@@ -133,7 +133,7 @@ You can use System Manager to modify the network interface to enable management 
 . In the *Edit Network Interface* dialog box, modify the network interface settings as required.
 . Click *Save and Close*.
 
-== Deleting network interfaces
+== Delete network interfaces
 
 You can use System Manager to delete a network interface to free the IP address of the interface and then use the IP address for a different purpose.
 
@@ -147,7 +147,7 @@ The status of the network interface must be disabled.
 . Select the interface that you want to delete, and then click *Delete*.
 . Select the confirmation check box, and then click *Delete*.
 
-== Migrating a LIF
+== Migrate a LIF
 
 You can use System Manager to migrate a data LIF or a cluster management LIF to a different port on the same node or on a different node within the cluster if the source port is faulty or requires maintenance.
 
@@ -174,8 +174,6 @@ The destination node and ports must be operational and must be able to access th
 xref:reference_network_window.adoc[Network window]
 
 xref:task_configuring_iscsi_protocol_on_svms.adoc[Configuring iSCSI protocol on SVMs]
-
-xref:task_configuring_node_details_system_manager.adoc[Configuring the network details of the nodes]
 
 https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
 

@@ -11,7 +11,7 @@ summary: "You can use System Manager to monitor different parts of a cluster."
 [.lead]
 You can use System Manager to monitor different parts of a cluster.
 
-== Acknowledging system health alerts
+== Acknowledge system health alerts
 
 You can use System Manager to acknowledge and respond to system health alerts for subsystems. You can use the information displayed to take the recommended action and correct the problem reported by the alert.
 
@@ -22,7 +22,7 @@ You can use System Manager to acknowledge and respond to system health alerts fo
 . Select the alert that you want to acknowledge, and then click *Acknowledge*.
 . Type your name, and then click *Acknowledge*.
 
-== Suppressing system health alerts
+== Suppress system health alerts
 
 You can use System Manager to suppress system health alerts that do not require any intervention from you.
 
@@ -33,7 +33,7 @@ You can use System Manager to suppress system health alerts that do not require 
 . Select the alert that you want to suppress, and then click *Suppress*.
 . Type your name, and then click *Suppress*.
 
-== Deleting system health alerts
+== Delete system health alerts
 
 You can use System Manager to delete system health alerts to which you have already responded.
 

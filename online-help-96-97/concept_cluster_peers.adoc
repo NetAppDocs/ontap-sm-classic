@@ -11,7 +11,7 @@ summary: "Peered clusters are required for data replication using SnapMirror tec
 [.lead]
 Peered clusters are required for data replication using SnapMirror technology and SnapVault technology, and for data replication using FlexCache volumes and SyncMirror technology in MetroCluster configurations. You can use System Manager to peer two clusters so that the peered clusters can coordinate and share resources between them.
 
-== Generating a peering passphrase
+== Generate a peering passphrase
 
 Starting with System Manager 9.6, you can generate a passphrase for the local cluster IPspace and use the same passphrase in the remote cluster when creating peering relationships.
 
@@ -37,7 +37,7 @@ For a successful generation, a message displays that identifies your passphrase.
  ** Click *Email passphrase details*.
  ** Click *Copy passphrase*.
 
-== Modifying the cluster peer passphrase
+== Modify the cluster peer passphrase
 
 You can modify the passphrase that is provided during cluster peer creation.
 
@@ -65,7 +65,7 @@ The passphrase is modified immediately. However, there might be a delay before t
 +
 The authentication status for the local cluster is displayed as `ok_and_offer` until you modify the passphrase in the remote cluster.
 
-== Modifying LIFs that are configured for the remote cluster
+== Modify LIFs that are configured for the remote cluster
 
 You can use System Manager to modify the IPspace and intercluster logical interfaces (LIFs) that are configured for the remote cluster. You can add new intercluster IP addresses or remove existing IP addresses.
 
@@ -90,7 +90,7 @@ The Edit Peer Network Parameters dialog window displays.
 . Click *Modify*.
 . Verify the changes that you made in the *Cluster Peers* window.
 
-== Changing the peering encryption status
+== Change the peering encryption status
 
 You can use System Manager to change the peering encryption status for the selected cluster.
 
@@ -144,7 +144,7 @@ The authentication status for the local cluster is displayed as `ok_and_offer` f
  .. Enter in the *Passphrase* field the same passphrase that was generated in the remote cluster.
  .. Click *Apply*.
 
-== Deleting cluster peer relationships
+== Delete cluster peer relationships
 
 You can use System Manager to delete a cluster peer relationship if the relationship is no longer required. You must delete the cluster peering relationship from each of the clusters in the peer relationship.
 

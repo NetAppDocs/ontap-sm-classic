@@ -92,7 +92,7 @@ For CHAP authentication, you must provide the user name and password, and then c
 
 . Click *OK*.
 
-= Set the default security for iSCSI initiators
+== Set the default security for iSCSI initiators
 
 You can use System Manager to remove the authentication settings for an initiator and to use the default security method to authenticate the initiator.
 
@@ -126,7 +126,7 @@ You can use System Manager to view the default authentication information and al
 . In the *Protocols* pane, click *iSCSI*.
 . In the *Initiator Security* tab of the *iSCSI* window, review the details.
 
-= iSCSI window
+== iSCSI window
 
 You can use the iSCSI window to start or stop the iSCSI service, change a storage system iSCSI node name, and create or change the iSCSI alias of a storage system. You can also add or change the initiator security setting for an iSCSI initiator that is connected to your storage system.
 

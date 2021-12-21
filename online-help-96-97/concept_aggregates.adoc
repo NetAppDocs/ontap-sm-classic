@@ -8,7 +8,7 @@ summary: "You can use System Manager to create aggregates to support the differi
 
 You can use System Manager to create aggregates to support the differing security, backup, performance, and data sharing requirements of your users.
 
-= Aggregates window
+== Aggregates window
 
 You can use the Aggregates window to create, display, and manage information about aggregates.
 

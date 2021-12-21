@@ -11,7 +11,7 @@ summary: "You can use System Manager to view, manage, or delete any software lic
 [.lead]
 You can use System Manager to view, manage, or delete any software licenses installed on a cluster or node.
 
-== Deleting licenses
+== Delete licenses
 
 You can use the Licenses window in System Manager to delete any software license that is installed on a cluster or a node.
 

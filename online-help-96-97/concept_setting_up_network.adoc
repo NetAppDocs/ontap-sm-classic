@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, system, manager, cluster, range
 summary: "Setting up the network consists of creating IPspaces, a broadcast domain, and subnets."
 ---
-= Setting up the network
+= Set up the network
 :icons: font
 :imagesdir: ../media/
 

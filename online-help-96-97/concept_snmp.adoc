@@ -11,7 +11,7 @@ summary: "You can use System Manager to configure SNMP to monitor SVMs in your c
 [.lead]
 You can use System Manager to configure SNMP to monitor SVMs in your cluster.
 
-== Enabling or disabling SNMP
+== Enable or disable SNMP
 
 You can enable or disable SNMP on your clusters by using System Manager. SNMP enables you to monitor the storage virtual machines (SVMs) in a cluster to avoid issues before they can occur and to prevent issues from occurring.
 
@@ -21,7 +21,7 @@ You can enable or disable SNMP on your clusters by using System Manager. SNMP en
 . In the *Setup* pane, click *SNMP*.
 . In the *SNMP* window, click either *Enable* or *Disable*.
 
-== Editing SNMP information
+== Edit SNMP information
 
 You can use the Edit SNMP Settings dialog box in System Manager to update information about the storage system location and contact personnel, and to specify the SNMP communities of your system.
 
@@ -47,7 +47,7 @@ The community name can be of 32 characters and must not contain the following sp
 . Click *OK*.
 . Verify the changes that you made to the SNMP settings in the *SNMP* window.
 
-== Enabling or disabling SNMP traps
+== Enable or disable SNMP traps
 
 SNMP traps enable you to monitor the health and state of the various components of your storage system. You can use the Edit SNMP Settings dialog box in System Manager to enable or disable SNMP traps on your storage system.
 
@@ -64,7 +64,7 @@ Although SNMP is enabled by default, SNMP traps are disabled by default.
 . If you enable SNMP traps, add the host name or IP address of the hosts to which the traps are sent.
 . Click *OK*.
 
-== Testing the trap host configuration
+== Test the trap host configuration
 
 You can use System Manager to test whether you have configured the trap host settings correctly.
 

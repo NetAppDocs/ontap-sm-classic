@@ -11,7 +11,7 @@ summary: "You can use System Manager to create and manage IPspaces."
 [.lead]
 You can use System Manager to create and manage IPspaces.
 
-== Editing IPspaces
+== Edit IPspaces
 
 You can use System Manager to rename an existing IPspace.
 
@@ -27,11 +27,8 @@ You can use System Manager to rename an existing IPspace.
 . In the *Edit IPspace* dialog box, specify a new name for the IPspace.
 . Click *Rename*.
 
-== Deleting IPspaces
-:icons: font
-:imagesdir: ../media/
+== Delete IPspaces
 
-[.lead]
 You can use System Manager to delete an IPspace when you no longer require the IPspace.
 
 .Before you begin

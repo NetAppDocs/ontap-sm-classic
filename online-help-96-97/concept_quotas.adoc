@@ -182,11 +182,8 @@ The maximum number of files on a hard quota.
 +
 The maximum number of files on a soft quota.
 
-= Quota management
-:icons: font
-:imagesdir: ../media/
+== Quota management
 
-[.lead]
 System Manager includes several features that help you to create, edit, or delete quotas. You can create a user, group, or tree quota and you can specify quota limits at the disk and file levels. All quotas are established on a per-volume basis.
 
 After creating a quota, you can perform the following tasks:
@@ -194,14 +191,11 @@ After creating a quota, you can perform the following tasks:
 * Enable and disable quotas
 * Resize quotas
 
-= Quotas window
-:icons: font
-:imagesdir: ../media/
+== Quotas window
 
-[.lead]
 You can use the Quotas window to create, display, and manage information about quotas.
 
-== Tabs
+=== Tabs
 
 * *User Defined Quotas*
 +
@@ -215,7 +209,7 @@ You can use the Quota Report tab to view the space and file usage and to edit th
 +
 You can use the Quota Status on Volumes tab to view the status of a quota and to turn quotas on or off and to resize quotas.
 
-== Command buttons
+=== Command buttons
 
 * *Create*
 +
@@ -233,7 +227,7 @@ Deletes the selected quota from the quotas list.
 +
 Updates the information in the window.
 
-== User Defined Quotas list
+=== User Defined Quotas list
 
 The quotas list displays the name and storage information for each quota.
 
@@ -287,7 +281,7 @@ Specifies the maximum number of files in a soft quota.
 +
 This field is hidden by default.
 
-== Details area
+=== Details area
 
 The area below the quotas list displays quota details such as the quota error, space usage and limits, and file usage and limits.
 

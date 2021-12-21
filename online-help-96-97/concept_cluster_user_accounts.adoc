@@ -28,7 +28,7 @@ In clusters on which SAML authentication is enabled, for a particular applicatio
 . Type a password for the user to connect to the storage system, and then confirm the password.
 . Add one or more user login methods, and then click *Add*.
 
-== Editing a cluster user account
+== Edit a cluster user account
 
 You can use System Manager to edit a cluster user account by modifying the user login methods for accessing the storage system.
 
@@ -39,7 +39,7 @@ You can use System Manager to edit a cluster user account by modifying the user 
 . In the *Users* window, select the user account that you want to modify, and then click *Edit*.
 . In the *Modify User* dialog box, modify the user login methods, and then click *Modify*.
 
-== Changing passwords for cluster user accounts
+== Change passwords for cluster user accounts
 
 You can use System Manager to reset the password for a cluster user account.
 
@@ -50,7 +50,7 @@ You can use System Manager to reset the password for a cluster user account.
 . Select the user account for which you want to modify the password, and then click *Change Password*.
 . In the *Change Password* dialog box, type the new password, confirm the new password, and then click *Change*.
 
-== Locking or unlocking cluster user accounts
+== Lock or unlock cluster user accounts
 
 You can use System Manager to lock or unlock cluster user accounts.
 

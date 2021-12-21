@@ -23,7 +23,7 @@ You can use System Manager to add an access-control role and to specify the comm
 . In the *Add Role* dialog box, type the role name and add the role attributes.
 . Click *Add*.
 
-== Editing roles
+== Edit roles
 
 You can use System Manager to modify an access-control role's access to a command or command directory and to restrict a user's access to only a specified set of commands. You can also remove a role's access to the default command directory.
 

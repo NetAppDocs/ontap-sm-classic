@@ -11,77 +11,67 @@ summary: "You can use System Manager to manage LDAP configurations."
 [.lead]
 You can use System Manager to manage LDAP configurations.
 
-== Viewing the LDAP client configuration
+== Edit active LDAP clients
 
-You can use System Manager to view the LDAP clients that are configured for a storage virtual machine (SVM) in a cluster.
+You can use System Manager to associate an active LDAP client with a storage virtual machine (SVM), which enables you to use LDAP as a name service or for name mapping.
 
 .Steps
 
-. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
-. In the *Setup* pane, click *LDAP*.
-+
-The list of LDAP clients are displayed in the LDAP window.
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *LDAP Configuration*.
+. In the *LDAP Configuration* window, click *Edit*.
+. In the *Active LDAP Client* dialog box, select the LDAP client that you want to edit, and perform the following actions:
+ ** Modify the Active Directory domain servers.
+ ** Modify the preferred Active Directory servers.
+. Click *OK*.
+. Verify that the changes that you made are updated in the *LDAP Configuration* window.
 
-== Using LDAP services
+== Delete active LDAP clients
 
-An LDAP server enables you to centrally maintain user information. If you store your user database on an LDAP server in your environment, you can configure your storage virtual machine (SVM) to look up user information in your existing LDAP database.
+You can use System Manager to delete an active LDAP client when you do not want a storage virtual machine (SVM) to be associated with it.
 
-.About this task
+.Steps
 
-ONTAP supports LDAP for user authentication, file access authorization, and user lookup and mapping services between NFS and CIFS.
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. Click the *SVM Settings* tab.
+. In the *Services* pane, click *LDAP Configuration*.
+. Click *Delete*.
+. Select the confirmation check box, and then click *Delete*.
 
-== LDAP window
+== LDAP Configuration window
 
-You can use the LDAP window to view LDAP clients for user authentication, file access authorization, and user search, and to map services between NFS and CIFS at the cluster level.
+You can use the LDAP Configuration window to edit or delete active LDAP clients at the storage virtual machine (SVM) level.
 
 === Command buttons
 
-* *Add*
-+
-Opens the Create LDAP Client dialog box, which enables you to create and configure LDAP clients.
-
 * *Edit*
 +
-Opens the Edit LDAP Client dialog box, which enables you to edit LDAP client configurations. You can also edit active LDAP clients.
+Opens the Active LDAP Client dialog box, which enables you to edit the properties of the active LDAP client, such as Active Directory domain servers and preferred Active Directory servers.
 
 * *Delete*
 +
-Opens the Delete LDAP Client(s) dialog box, which enables you to delete LDAP client configurations. You can also delete an active LDAP client.
+Opens the Delete Active LDAP Client dialog box, which enables you to delete the active LDAP client.
 
 * *Refresh*
 +
 Updates the information in the window.
 
-=== LDAP client list
+=== LDAP Configuration area
 
-Displays (in tabular format) details about LDAP clients.
+Displays the details about the active LDAP client.
 
-* *LDAP Client Configuration*
+* *LDAP client name*
 +
-Displays the name of the LDAP client configuration that you specified.
+Displays the name of the active LDAP client.
 
-* *Storage Virtual Machine*
+* *Active Directory Domain Servers*
 +
-Displays the name of the storage virtual machine (SVM) for each LDAP client configuration.
-
-* *Schema*
-+
-Displays the schema for each LDAP client.
-
-* *Minimum Bind Level*
-+
-Displays the minimum bind level for each LDAP client.
-
-* *Active Directory Domain*
-+
-Displays the Active Directory domain for each LDAP client configuration.
-
-* *LDAP Servers*
-+
-Displays the LDAP server for each LDAP client configuration.
+Displays the Active Directory domain for the active LDAP client.
 
 * *Preferred Active Directory Servers*
 +
-Displays the preferred Active Directory server for each LDAP client configuration.
+Displays the preferred Active Directory server for the active LDAP client.
 
-// 2021-12-09, Created by Aoife, sm-classic rework
+// 2021-12-21, Created by Aoife, sm-classic rework
