@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/index.html
 sidebar: sidebar
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer
-summary: "This content describes how to quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
+summary: "You can quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
 ---
 = iSCSI configuration for ESXi using VSC overview
 :icons: font
@@ -11,9 +11,8 @@ summary: "This content describes how to quickly set up the iSCSI service on a st
 [.lead]
 You can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer with the ONTAP System Manager classic interface (ONTAP 9.7 and earlier).
 
-Use these procedure if:
+Use this procedure if:
 
-* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
 * You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
 * You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
