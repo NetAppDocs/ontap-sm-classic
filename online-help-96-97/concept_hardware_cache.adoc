@@ -16,7 +16,7 @@ You can use System Manager to manage Hardware Cache modules.
 Flash Cache is known as Hardware Cache in System Manager.
 ====
 
-== Enabling or disabling Flash Cache modules
+== Enable or disable Flash Cache modules
 
 You can enable or disable the external cache functionality for a storage system that has a Flash Cache module installed by using System Manager. You can enable Flash Cache modules based on the workload requirements of your storage system.
 

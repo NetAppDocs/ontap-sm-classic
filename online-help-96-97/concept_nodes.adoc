@@ -9,6 +9,24 @@ summary: "You can use System Manager to view the details of the nodes in the clu
 [.lead]
 You can use System Manager to view the details of the nodes in the cluster.
 
+== Initialize the ComplianceClock time
+
+You can use System Manager to initialize the ComplianceClock time to the current cluster time. You must initialize the ComplianceClock time in order to create SnapLock aggregates.
+
+.Before you begin
+
+The SnapLock license must be installed.
+
+.About this task
+
+You cannot modify or stop the ComplianceClock time after it is initialized.
+
+.Steps
+
+. Click *Storage* > *Nodes*.
+. Select the node, and then click *Initialize ComplianceClock*.
+. In the *Initialize ComplianceClock* dialog box, click *Yes* to initialize the ComplianceClock time to the current cluster time.
+
 == Nodes window
 
 You can use the Nodes window to view the details of the nodes in a cluster.
