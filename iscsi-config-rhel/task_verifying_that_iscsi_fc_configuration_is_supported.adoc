@@ -13,7 +13,7 @@ For reliable operation, you must verify that the entire iSCSI configuration is s
 
 .Steps
 
-. Go to the Interoperability Matrix to verify that you have a supported combination of the following components:
+. Go to the https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool] to verify that you have a supported combination of the following components:
  ** ONTAP software
  ** Host computer CPU architecture (for standard rack servers)
  ** Specific processor blade model (for blade servers)
@@ -35,7 +35,3 @@ Review the alerts to identify the packages that are required for your operating 
  ** Policies and Guidelines
 +
 Provides general guidelines for all SAN configurations.
-
-*Related information*
-
-https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
