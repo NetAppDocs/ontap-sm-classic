@@ -11,7 +11,7 @@ summary: 'You can use System Manager to manage FC/FCoE and NVMe adapters.'
 [.lead]
 You can use System Manager to manage FC/FCoE and NVMe adapters.
 
-== Editing the FC/FCoE and NVMe adapter speed settings
+== Edit the FC/FCoE and NVMe adapter speed settings
 
 You can modify the FC/FCoE and NVMe adapter speed settings by using the Edit FC/FCoE and NVMe Adapter Settings dialog box in System Manager.
 
@@ -27,4 +27,4 @@ xref:reference_network_window.adoc[Network window]
 
 https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]
 
-// 2021-12-10, Created by Aoife, sm-classic rework 
+// 2021-12-10, Created by Aoife, sm-classic rework

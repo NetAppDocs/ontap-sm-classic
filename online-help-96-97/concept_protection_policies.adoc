@@ -52,7 +52,7 @@ Opens the Delete Policy dialog box, which enables you to delete a policy.
 +
 Updates the information in the window.
 
-== Protection policies list
+=== Protection policies list
 
 * *Name*
 +
@@ -79,4 +79,6 @@ Displays details of the protection policy, such as the user who created the poli
 * *Policy Rules tab*
 +
 Displays details of the rules that are applied to the policy. The Policy Rules tab is displayed only if the selected policy contains rules.
+
 //2021-12-07, created by mairead sm-classic-rework
+//2021-12-22, edited by Aoife, sm-classic rework

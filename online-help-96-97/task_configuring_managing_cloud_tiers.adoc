@@ -77,7 +77,7 @@ If you have selected AWS Commercial Cloud Service (C2S) as the type, you must sp
 . Click *Save* to save the cloud tier.
 . Click *Save and Attach Aggregates* to save the cloud tier and to attach aggregates to the cloud tier.
 
-== Attaching an aggregate to a cloud tier
+== Attach an aggregate to a cloud tier
 
 You can use System Manager to attach an All Flash aggregate to a cloud tier. You can store infrequently used data in cloud tiers.
 
@@ -151,7 +151,7 @@ Shared disks support two RAID types: RAID-DP and RAID-TEC.
 . Select the *FabricPool* checkbox, and then select a cloud tier from the list.
 . Click *Create*.
 
-== Changing the tiering policy of a volume
+== Change the tiering policy of a volume
 
 You can use System Manager to change the default tiering policy of a volume to control whether the data of the volume is moved to the cloud tier when the data becomes inactive.
 
@@ -162,7 +162,7 @@ You can use System Manager to change the default tiering policy of a volume to c
 . Select the volume for which you want to change the tiering policy, and then click *More Actions* > *Change Tiering Policy*.
 . Select the required tiering policy from the *Tiering Policy* list, and then click *Save*.
 
-== Editing a cloud tier
+== Edit a cloud tier
 
 You can use System Manager to modify the configuration information of cloud tier. The configuration details that you can edit include the name, fully qualified domain name (FQDN), port, access key ID, secret key, and object store certificate.
 
@@ -176,7 +176,7 @@ If you have selected AWS Commercial Cloud Service (C2S) cloud tier, you can modi
 
 . Click *Save*.
 
-= Deleting a cloud tier
+== Delete a cloud tier
 
 You can use System Manager to delete a cloud tier that you no longer require.
 

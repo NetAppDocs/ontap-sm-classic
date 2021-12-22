@@ -50,7 +50,7 @@ You must add unique VLAN tags.
 
 . Click *Create*.
 
-== Editing Ethernet port settings
+== Edit Ethernet port settings
 
 You can edit Ethernet port settings such as the duplex mode and speed settings by using System Manager.
 
@@ -61,7 +61,7 @@ You can edit Ethernet port settings such as the duplex mode and speed settings b
 . In the *Edit Ethernet Port* dialog box, modify the duplex mode and speed settings to either `manual` or `automatic`.
 . Click *Edit*.
 
-== Editing interface group settings
+== Edit interface group settings
 
 You can use System Manager to add ports to an interface group, to remove ports from an interface group, and to modify the usage mode and load distribution pattern of the ports in an interface group.
 
@@ -75,7 +75,7 @@ You cannot modify the MTU settings of an interface group that is assigned to a b
 . Select an interface group, and then click *Edit*.
 . Modify the interface group settings as required, and then click *Save and Close*.
 
-== Modifying the MTU size of a VLAN
+== Modify the MTU size of a VLAN
 
 If you want to modify the MTU size of a VLAN interface that is not part of a broadcast domain, you can use System Manager to change the size.
 
@@ -89,7 +89,7 @@ You must not modify the MTU size of the management port e0M.
 . Select the VLAN that you want to modify, and then click *Edit*.
 . In the *Edit VLAN* dialog box, modify the MTU size as required, and then click *Save*.
 
-== Deleting VLANs
+== Delete VLANs
 
 You can delete VLANs that are configured on network ports by using System Manager. You might have to delete a VLAN before removing a NIC from its slot. When you delete a VLAN, the VLAN is automatically removed from all of the failover rules and groups that use the VLAN.
 
