@@ -11,7 +11,7 @@ summary: "You can use System Manager to manage Kerberos interface services."
 [.lead]
 You can use System Manager to manage Kerberos interface services.
 
-== Editing Kerberos configuration
+== Edit Kerberos configuration
 
 You can use System Manager to enable Kerberos and to edit a Kerberos configuration that is associated with a storage virtual machine (SVM),which enables the SVM to use Kerberos security services for NFS.
 

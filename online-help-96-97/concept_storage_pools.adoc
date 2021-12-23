@@ -60,7 +60,7 @@ For example, if there are 10 SSDs in the SSD RAID group and the option `raid.min
 . In the *Summary* dialog box, review how the cache is distributed among various aggregates and the free space of the storage pool.
 . Click *Add*.
 
-== Deleting storage pools
+== Delete storage pools
 
 You might want to delete a storage pool when the cache of the storage pool is not optimal or when it is no longer used by any aggregate or Flash Pool aggregate. You can delete a storage pool by using the Delete Storage Pool dialog box in System Manager.
 

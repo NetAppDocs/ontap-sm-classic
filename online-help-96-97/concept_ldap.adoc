@@ -11,7 +11,7 @@ summary: "You can use System Manager to configure an LDAP server that centrally 
 [.lead]
 You can use System Manager to configure an LDAP server that centrally maintains user information.
 
-== Viewing the LDAP client configuration
+== View the LDAP client configuration
 
 You can use System Manager to view the LDAP clients that are configured for a storage virtual machine (SVM) in a cluster.
 
@@ -22,7 +22,7 @@ You can use System Manager to view the LDAP clients that are configured for a st
 +
 The list of LDAP clients are displayed in the LDAP window.
 
-== Using LDAP services
+== Use LDAP services
 
 An LDAP server enables you to centrally maintain user information. If you store your user database on an LDAP server in your environment, you can configure your storage virtual machine (SVM) to look up user information in your existing LDAP database.
 
