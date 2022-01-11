@@ -2,18 +2,20 @@
 permalink: snmp-config/task_adding_snmpv3_security_user.html
 sidebar: sidebar
 keywords: snmpv3, offer, advance, security, passphrase, encryption, system, manager, cluster, level, snmp, utilities, utility, traphost, authentication, privacy, setting, add an snmpv3 security user
-summary: "SNMPv3 offers advanced security by using passphrases and encryption. You can use the System Manager to add an SNMPv3 user at the cluster level. The SNMPv3 user can run SNMP utilities from the traphost (SNMP manager) using the authentication and privacy settings that you specify."
+summary: "You can use the ONTAP System Manager 'classic' interface with ONTAP 9.7 or earlier to add an SNMPv3 user at the cluster level."
 ---
 = Add an SNMPv3 security user
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-SNMPv3 offers advanced security by using passphrases and encryption. You can use the System Manager to add an SNMPv3 user at the cluster level. The SNMPv3 user can run SNMP utilities from the traphost (SNMP manager) using the authentication and privacy settings that you specify.
+You can use the ONTAP System Manager _classic_ interface with ONTAP 9.7 or earlier to add an SNMPv3 user at the cluster level.
+
+The SNMPv3 user can run SNMP utilities from the traphost (SNMP manager) using the authentication and privacy settings that you specify. SNMPv3 offers advanced security by using passphrases and encryption.
 
 .About this task
 
-When you add an SNMPv3 user at the cluster level, that user can access the cluster through all the LIFs that have the `mgmt` firewall policy applied.
+When you add an SNMPv3 user at the cluster level, that user can access the cluster through all the LIFs that have the "`mgmt`" firewall policy applied.
 
 .Steps
 
@@ -26,7 +28,7 @@ A security user name must not exceed 31 characters and must not contain the foll
 +
 `, / : " ' |`
 
- .. For Engine ID, select the default value `Local Engine ID`
+ .. For Engine ID, select the default value `Local Engine ID`.
 +
 The Engine ID is used to generate authentication and encryption keys for SNMPv3 messages.
 
@@ -43,3 +45,5 @@ image::../media/snmp_cfg_v3user_step3.gif[This image shows the Add SNMP3 User di
 You can add multiple security user names, clicking *OK* after each addition. For example, if you use SNMP to monitor different applications that require different privileges, you might need to add an SNMPv3 user for each monitoring or management function.
 
 . When you finish adding user names, click *OK* in the *Edit SNMP Settings* dialog box.
+
+// BURT 1415755, 11 JAN 2022
