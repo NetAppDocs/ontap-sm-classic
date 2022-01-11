@@ -31,7 +31,7 @@ If you want details about the range of ONTAP NFS and SMB protocol capabilities, 
 [cols=2,options="header"]
 |===
 | To perform these tasks with... | See this content...
-| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_windows_smb.html[Provision NAS storage for Windows servers using SMB^]
+| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_nfs_and_smb.html[Provision NAS storage for both Windows and Linux using both NFS and SMB^]
 | The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html[SMB configuration overview with the CLI^]
 
 link:https://docs.netapp.com/us-en/ontap/nfs-config/index.html[NFS configuration overview with the CLI^]
