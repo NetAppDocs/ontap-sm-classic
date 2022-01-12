@@ -45,6 +45,6 @@ If these assumptions are not correct for your situation, you should see the foll
 * https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration^]
 * https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration^]
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration^]
-* _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware])
+* _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware^])
 
 // 17 dec 2021, BURT 1418089
