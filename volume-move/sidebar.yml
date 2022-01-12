@@ -16,5 +16,3 @@ entries:
           url: "/volume-move/task_updating_lun_reporting_nodes_after_moving_volume.html"
         - title: Update NDMP backup after moving a volume
           url: "/volume-move/task_updating_ndmp_backup_after_moving_volume.html"
-      - title: Where to find additional information
-        url: "/volume-move/reference_where_to_find_additional_information.html"

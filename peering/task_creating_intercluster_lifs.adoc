@@ -2,14 +2,14 @@
 permalink: peering/task_creating_intercluster_lifs.html
 sidebar: sidebar
 keywords: creating, create, intercluster, logical, interface, lif, enable, network, communicate, ipspace, peer, relationship, create intercluster lif, starting with ontap 9.3
-summary: "Creating intercluster logical interfaces (LIFs) enables the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship."
+summary: "Beginning with ONTAP 9.3, until ONTAP 9.7, you can use the ONTAP System Manager 'classic' interface to create intercluster logical interfaces (LIFs), which enable the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship."
 ---
-= Create intercluster LIFs(starting with ONTAP 9.3)
+= Create intercluster LIFs (starting with ONTAP 9.3)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Creating intercluster logical interfaces (LIFs) enables the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.
+Beginning with ONTAP 9.3, until ONTAP 9.7, you can use the ONTAP System Manager _classic_ interface to create intercluster logical interfaces (LIFs), which enable the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.
 
 .About this task
 
@@ -31,3 +31,5 @@ image::../media/intercluster_lif_creation_93.gif[This image is explained by the 
 == What to do next
 
 You should enter the cluster details in the Cluster Peering window to continue with cluster peering.
+
+// BURT 1415746, 10 JAN 2022

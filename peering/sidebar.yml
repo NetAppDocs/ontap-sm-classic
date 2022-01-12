@@ -25,6 +25,5 @@ entries:
         - title: Create intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
           url: "/peering/task_creating_intercluster_interfaces_on_all_nodes.html"
         - title: Create a cluster peer relationship (ONTAP 9.2 or earlier)
-          url: "/peering/task_creating_cluster_peer_relationships_93_later.html"
-    - title: Where to find additional information
-      url: "/peering/reference_where_to_find_additional_information.html"
+          url: "/peering/task_creating_cluster_peer_relationships_92_earlier.html"
+    
