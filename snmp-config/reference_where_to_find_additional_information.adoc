@@ -20,3 +20,5 @@ Describes how to configure subnets, intercluster LIFs, routes, firewall policies
 * http://www.netapp.com/us/media/tr-4220.pdf[NetApp Technical Report 4220: SNMP Support in Data ONTAP^]
 +
 Describes SNMP support in ONTAP, including a detailed comparison of SNMP support in 7-Mode and cluster environments, and a list of all default events that are supported by SNMP traps.
+
+// BURT 1415755, 11 JAN 2022, THIS TOPIC WAS REMOVED FROM THE SIDEBAR
