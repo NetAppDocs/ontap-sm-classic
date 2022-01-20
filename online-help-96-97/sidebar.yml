@@ -223,17 +223,6 @@ entries:
         url: "/online-help-96-97/task_disabling_saml_authentication.html"
     - title: Set up peering
       url: "/online-help-96-97/task_setting_up_peering.html"
-      entries:
-      - title: Prerequisites for cluster peering
-        url: "/online-help-96-97/reference_prerequisites_for_cluster_peering.html"
-      - title: Create intercluster LIFs
-        url: "/online-help-96-97/task_creating_intercluster_lifs.html"
-      - title: Create cluster peer relationships
-        url: "/online-help-96-97/task_creating_cluster_peer_relationships.html"
-      - title: Create SVM peers
-        url: "/online-help-96-97/task_creating_svm_peers.html"
-      - title: What passphrases are
-        url: "/online-help-96-97/concept_what_passphrases_are.html"
     - title: Manage clusters
       url: "/online-help-96-97/concept_managing_clusters.html"
       entries:
