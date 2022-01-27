@@ -31,9 +31,10 @@ link:http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: Sn
 [cols=2,options="header"]
 |===
 | To perform these tasks with... | See this content...
-| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_dp_restore_to_new_volume.html[Restore to a new volume^]
-| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection overview with the CLI^]
+| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_dp_restore_from_vault.html[Restore a volume from an earlier Snapshot copy^]
+| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/data-protection/restore-volume-snapvault-backup-task.html[Restore the contents of a volume from a SnapMirror destination^]
 
 |===
 
 // 2022-1-24, BURT 1446401
+// 2022-1-27, change links in table 
