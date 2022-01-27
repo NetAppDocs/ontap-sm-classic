@@ -1,7 +1,7 @@
 ---
 permalink: volume-disaster-prep/index.html
 sidebar: sidebar
-keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview
+keywords: content, protect, source, volume, peer, ontap, cluster, preparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview
 summary: "You can quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this content if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks."
 ---
 = Volume disaster recovery preparation overview
@@ -31,9 +31,10 @@ xref:../peering/index.html[Cluster and SVM peering configuration]
 |===
 | To perform these tasks with... | See this content...
 | The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_dp_prepare_mirror.html[Prepare for mirroring and vaulting^]
-| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection overview with the CLI^]
+| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/peering/create-cluster-relationship-93-later-task.html[Create a cluster peer relationship (ONTAP 9.3 and later)^]
 
 |===
 
 // 2021-12-17, BURT 1446398
-// 2022-1-24, remove unnecessary links  
+// 2022-1-24, remove unnecessary links
+// 2022-1-27, change CLI link in table
