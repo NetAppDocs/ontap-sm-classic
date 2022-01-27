@@ -37,8 +37,9 @@ link:http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: Sn
 |===
 | To perform these tasks with... | See this content...
 | The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_dp_configure_mirror.html[Configure mirrors and vaults^]
-| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection overview with the CLI^]
+| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/data-protection/create-replication-relationship-task.html[Create a replication relationship^]
 
 |===
 
 // 2022-1-24, BURT 1446399
+//2022-1-27. update CLI link in table
