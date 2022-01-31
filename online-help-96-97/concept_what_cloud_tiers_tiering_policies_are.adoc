@@ -25,7 +25,7 @@ Moves the inactive (cold) data and the Snapshot copies from the active file syst
 +
 Moves the newly transferred data of a data protection (DP) volume to the cloud tier.
 
-* *All (starting with System Manager 9.6)*
+* *All (Beginning with System Manager 9.6)*
 +
 Moves all data to the cloud tier.
 

@@ -23,7 +23,7 @@ Use this procedure if:
  ** Manually, using an address that will be added to an existing subnet
 * You have at least two high-speed Ethernet ports (1 GbE minimum, 10 GbE recommended) available on each node in the cluster.
 +
-Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in this content.
+Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in his procedure.
 +
 See link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
 
@@ -31,9 +31,11 @@ See link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Netwo
 * You are providing storage to VMs through the ESXi hypervisor and not running an iSCSI initiator within the VM.
 
 == Other ways to do this in ONTAP
-[cols=2,options="header"]
+
 |===
-| To perform these tasks with... | See this content...
+
+h| To perform these tasks with... h| Refer to...
+
 | The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html[Provision SAN storage for VMware datastores^]
 | The ONTAP command line interface (CLI) | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html[LUN setup workflow with the CLI^]
 |===
@@ -47,4 +49,5 @@ If these assumptions are not correct for your situation, you should see the foll
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration^]
 * _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware^])
 
-// 17 dec 2021, BURT 1418089
+// BURT 1418089, 17 DEC 2021
+// BURT 1448684, 31 JAN 2022

@@ -31,7 +31,7 @@ This procedure does not cover raw device mapping (RDM) disks or using N-port ID 
 == Other ways to do this in ONTAP
 [cols=2,options="header"]
 |===
-| To perform these tasks with... | See this content...
+| To perform these tasks with... | Refer to...
 | The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html[Provision SAN storage for VMware datastores^]
 | The ONTAP command line interface (CLI) | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html[LUN setup workflow with the CLI^]
 |===
@@ -45,4 +45,5 @@ If these assumptions are not correct for your situation, you should see the foll
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration^]
 * _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware^])
 
-// 2022-01-11, BURT 1449742
+// BURT 1449742, 11 JAN 2022
+// BURT 1448684, 31 JAN 2022

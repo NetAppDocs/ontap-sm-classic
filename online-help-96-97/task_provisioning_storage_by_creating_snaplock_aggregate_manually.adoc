@@ -19,9 +19,9 @@ The SnapLock license must have been added.
 
 * In MetroCluster configurations, you can create only SnapLock Enterprise aggregates.
 * For array LUNs, only SnapLock Enterprise aggregates are supported.
-* Starting with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
+* Beginning with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
 * If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.
-* Starting with ONTAP 9.1, you can create a SnapLock aggregate on an AFF platform.
+* Beginning with ONTAP 9.1, you can create a SnapLock aggregate on an AFF platform.
 
 .Steps
 
