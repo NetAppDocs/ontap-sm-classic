@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-prep/index.html
 sidebar: sidebar
-keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview
-summary: "You can quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this procedure if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks."
+keywords: content, protect, source, volume, peer, ontap, cluster, preparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview
+summary: "You can quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this content if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks."
 ---
 = Volume disaster recovery preparation overview
 :icons: font
@@ -24,15 +24,6 @@ link:../peering/index.html[Cluster and SVM peering configuration]
 * You have enabled the SnapMirror license on both the source and the destination clusters.
 * You want to use default policies and schedules, and not create custom policies.
 * You want to use best practices, not explore every available option (ONTAP 9.7 and earlier).
-+
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
-
-If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
-
-* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-cmpr/GUID-5CB10C70-AC11-41C0-8C16-B4D0DF916E9B.html[ONTAP 9 commands^]
-+
-Provides the set of commands for configuring and managing SnapMirror relationships. You might want to use the SnapMirror commands to write a script that creates multiple SnapMirror relationships.
 
 == Other ways to do this in ONTAP
 
@@ -41,9 +32,10 @@ Provides the set of commands for configuring and managing SnapMirror relationshi
 h| To perform these tasks with... h| Refer to...
 
 | The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_dp_prepare_mirror.html[Prepare for mirroring and vaulting^]
-| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection overview with the CLI^]
+| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/peering/create-cluster-relationship-93-later-task.html[Create a cluster peer relationship (ONTAP 9.3 and later)^]
 
 |===
 
-// BURT 1446398, 17 DEC 2022
-// BURT 1448684, 31 JAN 2022
+// 2021-12-17, BURT 1446398
+// 2022-1-24, remove unnecessary links
+// 2022-1-27, change CLI link in table
