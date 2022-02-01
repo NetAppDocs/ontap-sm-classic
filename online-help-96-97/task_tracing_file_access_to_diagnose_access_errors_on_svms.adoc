@@ -2,14 +2,14 @@
 permalink: online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html
 sidebar: sidebar
 keywords: trace, file, access, diagnost, error, svm, system, manager, online, help
-summary: "Starting with System Manager 9.6, you can diagnose CIFS or NFS file access errors on a storage virtual machine (SVM)."
+summary: "Beginning with System Manager 9.6, you can diagnose CIFS or NFS file access errors on a storage virtual machine (SVM)."
 ---
 = Tracing file access to diagnose access errors on SVMs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Starting with System Manager 9.6, you can diagnose CIFS or NFS file access errors on a storage virtual machine (SVM).
+Beginning with System Manager 9.6, you can diagnose CIFS or NFS file access errors on a storage virtual machine (SVM).
 
 .About this task
 

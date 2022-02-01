@@ -22,7 +22,7 @@ Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data 
 * The time on the AD domain controllers, clients, and SVM must be synchronized within five minutes of each other.
 * The CIFS and NFS protocols must be allowed on the SVM.
 +
-This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
+This is the case if you did not follow this procedure to create the SVM while configuring a different protocol.
 
 .About this task
 
@@ -77,4 +77,6 @@ image::../media/nis_creation.gif[This image is explained by the surrounding text
 
 == What to do next
 
-You must now open the export policy of the SVM root volume.
+Open the export policy of the SVM root volume.
+
+// BURT 1448684, 31 JAN 2022
