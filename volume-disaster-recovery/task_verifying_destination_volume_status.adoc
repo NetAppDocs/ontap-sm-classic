@@ -34,7 +34,7 @@ image::../media/volume_edit_dest_vol_unix.gif[Screenshot of the Edit Volume dial
 . Enable Snapshot copy creation for the destination volume.
  .. Depending on your ONTAP version, navigate to the *Configure Volume Snapshot Copies* page in one of the following ways:
 +
-Starting with ONTAP 9.3: Select the destination volume, and then click *Actions* > *Manage Snapshots* > *Configure*.
+Beginning with ONTAP 9.3: Select the destination volume, and then click *Actions* > *Manage Snapshots* > *Configure*.
 +
 ONTAP 9.2 or earlier: Select the destination volume, and then click *Snapshot Copies* > *Configure*.
 

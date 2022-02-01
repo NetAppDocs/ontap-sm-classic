@@ -27,9 +27,9 @@ Cluster A and Cluster B
 a|
 
 |===
-Starting with ONTAP 9.3, you can generate the passphrase from the remote cluster while creating the cluster peer relationship.
+Beginning with ONTAP 9.3, you can generate the passphrase from the remote cluster while creating the cluster peer relationship.
 +
-link:task_creating_cluster_peer_relationship_starting_with_ontap_9_3.html[Creating a cluster peer relationship (starting with ONTAP 9.3)]
+link:task_creating_cluster_peer_relationship_starting_with_ontap_9_3.html[Creating a cluster peer relationship (Beginning with ONTAP 9.3)]
 
 . Identify the subnets, IP addresses, and ports that you will use for intercluster LIFs.
 +
@@ -49,7 +49,7 @@ a|
 a|
 
 a|
-IP address (starting with ONTAP 9.3, optional for ONTAP 9.2 or earlier)
+IP address (Beginning with ONTAP 9.3, optional for ONTAP 9.2 or earlier)
 a|
 
 a|

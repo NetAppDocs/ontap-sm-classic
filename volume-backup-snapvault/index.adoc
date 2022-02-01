@@ -17,7 +17,7 @@ Use this procedure if you want to create SnapVault backup relationships for volu
 * You are a cluster administrator.
 * You have configured the cluster peer relationship and the SVM peer relationship.
 +
-xref:../peering/index.html[Cluster and SVM peering configuration]
+link:../peering/index.html[Cluster and SVM peering configuration]
 
 * You must have enabled either the SnapMirror or SnapVault license, after all of the nodes in the cluster have been upgraded to the same version of ONTAP 9.
 * You want to use default protection policies and schedules, and not create custom policies.
@@ -42,4 +42,4 @@ link:http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: Sn
 |===
 
 // 2022-1-24, BURT 1446399
-//2022-1-27. update CLI link in table
+// 2022-1-27, update CLI link in table

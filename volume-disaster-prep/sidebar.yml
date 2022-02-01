@@ -8,7 +8,7 @@ entries:
         entries:
         - title: Verify the cluster peer relationship and SVM peer relationship
           url: "/volume-disaster-prep/task_verifying_cluster_peer_relationship.html"
-        - title: Create the SnapMirror relationship (starting with ONTAP 9.3)
+        - title: Create the SnapMirror relationship (Beginning with ONTAP 9.3)
           url: "/volume-disaster-prep/task_creating_snapmirror_relationships_93_later.html"
         - title: Create the SnapMirror relationship (ONTAP 9.2 or earlier)
           url: "/volume-disaster-prep/task_creating_snapmirror_relationships_92_earlier.html"
