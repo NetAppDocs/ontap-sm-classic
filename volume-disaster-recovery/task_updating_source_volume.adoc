@@ -19,10 +19,10 @@ You must perform this task from the *source* cluster.
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.
- ** Starting with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
+ ** Beginning with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
 . Select the SnapMirror relationship between the source and the destination volumes, and then click *Operations* > *Update*.
 . Perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.
- ** Starting with ONTAP 9.3: Select the *As per policy* option.
+ ** Beginning with ONTAP 9.3: Select the *As per policy* option.
  ** ONTAP 9.2 or earlier: Select the *On demand* option.
 . Select *Limit transfer bandwidth to* in order to limit the network bandwidth used for transfers, and then specify the maximum transfer speed.
 . Click *Update*.

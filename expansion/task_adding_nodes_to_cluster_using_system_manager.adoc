@@ -24,9 +24,10 @@ Only the ports that are in the default broadcast domain will be listed in the Ne
 
 . Add the new compatible nodes to the cluster:
 +
-[options="header"]
+[cols="1,3"]
 |===
-| If you are...| Do this...
+
+h| If you are... h| Do this...
 a|
 Not logged in to System Manager
 a|
@@ -49,7 +50,7 @@ a|
 
  .. Depending on the System Manager version that you are running, perform one of the following steps:
   *** ONTAP 9.4 or earlier: Click *Configuration* > *Cluster Expansion*.
-  *** Starting with ONTAP 9.5: Click *Configuration* > *Cluster* > *Expansion*
+  *** Beginning with ONTAP 9.5: Click *Configuration* > *Cluster* > *Expansion*
 System Manager searches for newly added nodes. If any warnings are displayed, you must fix them before proceeding. If new compatible nodes are discovered, proceed to the next step.
  .. Modify the name of the nodes.
  .. Specify the node licenses.

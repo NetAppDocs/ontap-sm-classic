@@ -11,7 +11,7 @@ summary: "Using ONTAP System Manager classic interface with ONTAP 9.7 or earlier
 [.lead]
 Using ONTAP System Manager classic interface with ONTAP 9.7 or earlier, you can nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster.
 
-== Requirements for using this content
+== Requirements for using these procedures
 
 Before you use perform these procedures, ensure that the following conditions are met:
 
@@ -55,8 +55,9 @@ Before moving volumes, you should evaluate whether the following approaches are 
 +
 https://docs.netapp.com/us-en/ontap/high-availability/index.html[High Availability^]
 
-* If you want to move only a LUN--without its containing volume--you can use the LUN move process.
+* If you want to move only a LUN without its containing volume, you can use the LUN move process.
 +
 https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
 
 // BURT 1415751, 10 JAN 2022
+// BURT 1418684, 31 JAN 2022

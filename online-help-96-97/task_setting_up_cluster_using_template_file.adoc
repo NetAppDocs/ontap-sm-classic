@@ -2,14 +2,14 @@
 permalink: online-help-96-97/task_setting_up_cluster_using_template_file.html
 sidebar: sidebar
 keywords: set, up, cluster, template, file, system, manager, online, help, autosupport
-summary: "You can use the template file that is provided in System Manager to set up a cluster by creating a cluster, setting up the node management and cluster management networks, and then setting up event notifications. (Starting with ONTAP System Manager 9.6, AutoSupport is not supported.) You can download the template file in .xlsx format or .csv format."
+summary: "You can use the template file that is provided in System Manager to set up a cluster by creating a cluster, setting up the node management and cluster management networks, and then setting up event notifications. (Beginning with ONTAP System Manager 9.6, AutoSupport is not supported.) You can download the template file in .xlsx format or .csv format."
 ---
 = Setting up a cluster by using the template file
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the template file that is provided in System Manager to set up a cluster by creating a cluster, setting up the node management and cluster management networks, and then setting up event notifications. (Starting with ONTAP System Manager 9.6, AutoSupport is not supported.) You can download the template file in `.xlsx` format or `.csv` format.
+You can use the template file that is provided in System Manager to set up a cluster by creating a cluster, setting up the node management and cluster management networks, and then setting up event notifications. (Beginning with ONTAP System Manager 9.6, AutoSupport is not supported.) You can download the template file in `.xlsx` format or `.csv` format.
 
 .About this task
 

@@ -29,7 +29,7 @@ The Capacity tab displays the top online aggregates that are nearing capacity, i
 +
 The Capacity tab provides a link to the number of volumes with the highest capacity utilized when you enter a valid value in the Volumes exceeding used capacity of field. It also displays the amount of inactive (cold) data available in the cluster.
 +
-The Efficiency tab displays the storage efficiency savings for a cluster or node. You can view the total logical space used, total physical space used, and the overall savings. You can select a cluster or a specific node to view the storage efficiency savings. For System Manager 9.5, the space used for Snapshot copies is _not_ included in the values for total logical space used, total physical space used, and overall savings. However, starting with System Manager 9.6, the space used for Snapshot copies is included in the values for total logical space used, total physical space used, and overall savings.
+The Efficiency tab displays the storage efficiency savings for a cluster or node. You can view the total logical space used, total physical space used, and the overall savings. You can select a cluster or a specific node to view the storage efficiency savings. For System Manager 9.5, the space used for Snapshot copies is _not_ included in the values for total logical space used, total physical space used, and overall savings. However, Beginning with System Manager 9.6, the space used for Snapshot copies is included in the values for total logical space used, total physical space used, and overall savings.
 +
 The refresh interval for the Cluster Overview panel is 15 minutes.
 +

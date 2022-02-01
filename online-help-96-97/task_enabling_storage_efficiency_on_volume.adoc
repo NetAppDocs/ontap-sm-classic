@@ -21,7 +21,7 @@ You can use System Manager to enable storage efficiency and to configure both de
 * You can enable background compression only if you have enabled background deduplication.
 * You can enable inline compression and inline deduplication with or without enabling background compression and background deduplication, respectively.
 * You can enable inline deduplication only on volumes that are contained by an aggregate with All Flash Optimized personality and on volumes that are contained by a Flash Pool aggregate.
-* Starting with System Manager 9.6, editing storage efficiency is supported for FlexGroup DP volumes.
+* Beginning with System Manager 9.6, editing storage efficiency is supported for FlexGroup DP volumes.
 
 .Steps
 
