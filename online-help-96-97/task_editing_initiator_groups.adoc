@@ -2,14 +2,14 @@
 permalink: online-help-96-97/task_editing_initiator_groups.html
 sidebar: sidebar
 keywords: edit, initiator, group, system, manager, online, help, port, set, dialog, box
-summary: "You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator group and its operating system. You can add initiators to or remove initiators from the initiator group. You can also change the port set associated with the initiator group."
+summary: "You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator group and its operating system. You can add initiators to or remove initiators from the initiator group. You can also change the portset associated with the initiator group."
 ---
 = Editing initiator groups
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator group and its operating system. You can add initiators to or remove initiators from the initiator group. You can also change the port set associated with the initiator group.
+You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator group and its operating system. You can add initiators to or remove initiators from the initiator group. You can also change the portset associated with the initiator group.
 
 .Steps
 
@@ -22,3 +22,5 @@ You can use the Edit Initiator Group dialog box in System Manager to change the 
 *Related information*
 
 xref:reference_luns_window.adoc[LUNs window]
+
+// 8 feb 2022, BURT 1456161

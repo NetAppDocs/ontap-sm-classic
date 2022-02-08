@@ -2,16 +2,16 @@
 permalink: nfs-config-esxi/index.html
 sidebar: sidebar
 keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc
-summary: "This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes."
+summary: "You can quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes."
 ---
 = NFS configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.
+You can quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.
 
-You should use this content if you want to configure NFS access for ESXi hosts to a volume in the following way:
+You should use this procedure if you want to configure NFS access for ESXi hosts to a volume in the following way:
 
 * You are working with clusters running ONTAP 9.
 * You want to use best practices, not explore every available option.
@@ -33,9 +33,12 @@ Using VMware VAAI for datastore provisioning is a best practice.
 
 * NFS access will be through NFSv3 and NFSv4 for use with VMware VAAI.
 
-If this content is not suitable for your situation, you should see the following documentation instead:
+If this procedure is not suitable for your situation, you should see the following documentation instead:
 
 * https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management^]
-* http://www.netapp.com/us/media/tr-4067.pdf[NetApp Technical Report 4067: NFS Best Practice and Implementation^]
-* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf[NetApp Technical Report 4668: Name Services Best Practices^]
-* http://www.netapp.com/us/media/tr-4597.pdf[NetApp Technical Report 4597: VMware vSphere with ONTAP^]
+* https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf[NetApp Technical Report 4067: NFS Best Practice and Implementation Guide^]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668.pdf[NetApp Technical Report 4668: Name Services Best Practices Guide^]
+* https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[NetApp Technical Report 4597: VMware vSphere with ONTAP^]
+
+// BURT 1448684, 31 JAN 2022
+// BURT 1455451, 04 FEB 2022
