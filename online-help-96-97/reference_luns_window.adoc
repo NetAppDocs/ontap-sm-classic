@@ -153,7 +153,7 @@ Specifies the operating system for the initiator group.
 
 * *Portset*
 +
-Displays the port set that is associated with the initiator group.
+Displays the portset that is associated with the initiator group.
 
 * *Initiator Count*
 +
@@ -165,21 +165,21 @@ The area below the Initiator Groups list displays details about the initiators t
 
 == Portsets tab
 
-This tab enables you to create, delete, or edit the settings of port sets.
+This tab enables you to create, delete, or edit the settings of portsets.
 
 == Command buttons
 
 * *Create*
 +
-Opens the Create Portset dialog box, which enables you to create port sets to limit access to your LUNs.
+Opens the Create Portset dialog box, which enables you to create portsets to limit access to your LUNs.
 
 * *Edit*
 +
-Opens the Edit Portset dialog box, which enables you to select the network interfaces that you want to associate with the port set.
+Opens the Edit Portset dialog box, which enables you to select the network interfaces that you want to associate with the portset.
 
 * *Delete*
 +
-Deletes the selected port set.
+Deletes the selected portset.
 
 * *Refresh*
 +
@@ -189,23 +189,23 @@ Updates the information in the window.
 
 * *Portset Name*
 +
-Displays the name of the port set.
+Displays the name of the portset.
 
 * *Type*
 +
-Specifies the type of protocol supported by the port set. The supported protocols are iSCSI, FC/FCoE, or Mixed (iSCSI and FC/FCoE).
+Specifies the type of protocol supported by the portset. The supported protocols are iSCSI, FC/FCoE, or Mixed (iSCSI and FC/FCoE).
 
 * *Interface Count*
 +
-Displays the number of network interfaces that are associated with the port set.
+Displays the number of network interfaces that are associated with the portset.
 
 * *Initiator Group Count*
 +
-Displays the number of initiator groups that are associated with the port set.
+Displays the number of initiator groups that are associated with the portset.
 
 == Details area
 
-The area below the Portsets list displays details about the network interfaces and initiator groups associated with the selected port set.
+The area below the Portsets list displays details about the network interfaces and initiator groups associated with the selected portset.
 
 *Related information*
 
@@ -232,3 +232,5 @@ xref:task_bringing_luns_online.adoc[Bringing LUNs online]
 xref:task_taking_luns_offline.adoc[Taking LUNs offline]
 
 xref:task_cloning_luns.adoc[Cloning LUNs]
+
+// 8 feb 2022, BURT 1456161

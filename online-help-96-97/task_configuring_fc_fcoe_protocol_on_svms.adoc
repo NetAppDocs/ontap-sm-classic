@@ -2,14 +2,14 @@
 permalink: online-help-96-97/task_configuring_fc_fcoe_protocol_on_svms.html
 sidebar: sidebar
 keywords: online, help, configure, fc, protocol, fcoe, svm, online, help, system, manager
-summary: "You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to port sets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager."
+summary: "You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager."
 ---
 = Configure FC protocol and FCoE protocol on SVMs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to port sets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.
+You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.
 
 .Before you begin
 
@@ -48,10 +48,12 @@ You can modify only the LIF name and home port. You must ensure that you do not 
 
 .Results
 
-The data LIFs and port sets are created with the specified configuration. The LIFs are distributed accordingly among the port sets. The FCP service is started if all of the LIFs are successfully created for at least one protocol.
+The data LIFs and portsets are created with the specified configuration. The LIFs are distributed accordingly among the portsets. The FCP service is started if all of the LIFs are successfully created for at least one protocol.
 
 If LIF creation fails, you can create the LIFs and start the FCP service from the FC/FCoE window.
 
 *Related information*
 
 https://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center]
+
+// 8 feb 2022, BURT 1456161
