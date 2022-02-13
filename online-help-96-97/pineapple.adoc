@@ -1,4 +1,4 @@
 ---
-permalink: online-help-96-97/pineapple.html
+permalink: pineapple.html
 redirect: online-help-96-97/concept_setting_up_network.html
 ---
