@@ -15,7 +15,9 @@ Use this procedure if:
 
 * You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
-* You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
+* You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to configure storage settings for your ESX host.
+** Beginning with VSC 7.0, VSC is included as a part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere] virtual appliance, which includes Virtual Storage Console, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+** Be sure to check the https://imt.netapp.com/[NetApp Interoperability Matrix Tool] to confirm compatibility between your current ONTAP and VSC releases.
 * Your network uses IPv4 addressing.
 * You want to assign addresses to logical interfaces using any of the following methods:
  ** Automatically from a subnet you define
@@ -40,14 +42,6 @@ h| To perform these tasks with... h| Refer to...
 | The ONTAP command line interface (CLI) | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html[LUN setup workflow with the CLI^]
 |===
 
-== Additional resources
-
-If these assumptions are not correct for your situation, you should see the following resources:
-
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration^]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration^]
-* _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware^])
-
-// BURT 1418089, 17 DEC 2021
+// BURT 1449741, 2022 Feb 16
 // BURT 1448684, 31 JAN 2022
+// BURT 1418089, 17 DEC 2021
