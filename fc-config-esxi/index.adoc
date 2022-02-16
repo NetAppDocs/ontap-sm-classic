@@ -14,8 +14,8 @@ Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you ca
 Use this procedure if:
 
 * You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to configure storage settings for your ESX host and to provision the datastores.
-** Beginning with VSC 7.0, VSC is included as a part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere] virtual appliance, which includes Virtual Storage Console, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
-** Be sure to check the https://imt.netapp.com/[NetApp Interoperability Matrix Tool] to confirm compatibility between your current ONTAP and VSC releases.
+** Beginning with VSC 7.0, VSC is part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere^] virtual appliance, which includes VSC, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+** Be sure to check the https://imt.netapp.com/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
 * Your network uses IPv4 addressing.
 * You are using traditional FC HBAs on ESXi 5.x and traditional FC switches.
 +
@@ -30,7 +30,7 @@ Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters are co
 +
 This procedure does not cover raw device mapping (RDM) disks or using N-port ID virtualization (NPIV) to provide FC directly to VMs.
 
-For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP] and the documentation for your VSC release.
+For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP^] and the documentation for your VSC release.
 
 // BURT 1449742, 2022 Feb 16
 // BURT 1448684, 31 JAN 2022

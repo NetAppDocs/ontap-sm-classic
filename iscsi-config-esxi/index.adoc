@@ -16,8 +16,8 @@ Use this procedure if:
 * You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
 * You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to configure storage settings for your ESX host.
-** Beginning with VSC 7.0, VSC is included as a part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere] virtual appliance, which includes Virtual Storage Console, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
-** Be sure to check the https://imt.netapp.com/[NetApp Interoperability Matrix Tool] to confirm compatibility between your current ONTAP and VSC releases.
+** Beginning with VSC 7.0, VSC is part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere^] virtual appliance, which includes VSC, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+** Be sure to check the https://imt.netapp.com/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
 * Your network uses IPv4 addressing.
 * You want to assign addresses to logical interfaces using any of the following methods:
  ** Automatically from a subnet you define
@@ -27,12 +27,12 @@ Use this procedure if:
 +
 Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in his procedure.
 +
-See link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
+See link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management^] for using the CLI to configure Ethernet port flow control.
 
 * You are not configuring iSCSI SAN boot.
 * You are providing storage to VMs through the ESXi hypervisor and not running an iSCSI initiator within the VM.
 
-For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP] and the documentation for your VSC release.
+For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP^] and the documentation for your VSC release.
 
 
 // BURT 1449741, 2022 Feb 16
