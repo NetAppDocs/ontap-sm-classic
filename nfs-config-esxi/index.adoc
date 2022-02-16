@@ -15,7 +15,7 @@ Use this procedure if:
 
 * You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to provision a datastore and create a volume.
 ** Beginning with VSC 7.0, VSC is part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere^] virtual appliance, which includes VSC, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
-** Be sure to check the https://imt.netapp.com/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
+** Be sure to check the https://imt.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
 * Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
 +
 If your data network is flat, these default objects prescribe that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management^] for information about how to configure LIF path failover.
