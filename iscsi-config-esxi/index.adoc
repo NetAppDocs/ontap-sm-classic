@@ -2,20 +2,22 @@
 permalink: iscsi-config-esxi/index.html
 sidebar: sidebar
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer
-summary: "You can quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
+summary: "Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
 ---
 = iSCSI configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer with the ONTAP System Manager classic interface (ONTAP 9.7 and earlier).
+Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer.
 
 Use this procedure if:
 
 * You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
-* You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
+* You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to configure storage settings for your ESX host.
+** Beginning with VSC 7.0, VSC is part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere^] virtual appliance, which includes VSC, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+** Be sure to check the https://imt.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
 * Your network uses IPv4 addressing.
 * You want to assign addresses to logical interfaces using any of the following methods:
  ** Automatically from a subnet you define
@@ -25,29 +27,14 @@ Use this procedure if:
 +
 Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in his procedure.
 +
-See link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
+See link:https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management^] for using the CLI to configure Ethernet port flow control.
 
 * You are not configuring iSCSI SAN boot.
 * You are providing storage to VMs through the ESXi hypervisor and not running an iSCSI initiator within the VM.
 
-== Other ways to do this in ONTAP
+For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP^] and the documentation for your VSC release.
 
-|===
 
-h| To perform these tasks with... h| Refer to...
-
-| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_san_provision_vmware.html[Provision SAN storage for VMware datastores^]
-| The ONTAP command line interface (CLI) | link:https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html[LUN setup workflow with the CLI^]
-|===
-
-== Additional resources
-
-If these assumptions are not correct for your situation, you should see the following resources:
-
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration^]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration^]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration^]
-* _VMware vSphere Storage_ for your version of ESXi 5 (available from link:http://www.vmware.com[VMware^])
-
-// BURT 1418089, 17 DEC 2021
+// BURT 1449741, 2022 Feb 16
 // BURT 1448684, 31 JAN 2022
+// BURT 1418089, 17 DEC 2021
