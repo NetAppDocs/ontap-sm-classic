@@ -532,10 +532,10 @@ entries:
           url: "/online-help-96-97/task_obtaining_ontap_software_images.html"
         - title: Update single-node clusters
           url: "/online-help-96-97/task_updating_single_node_clusters.html"
+        - title: About nondisruptive updates
+          url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
         - title: Update a cluster nondisruptively
           url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-        - title: Update a cluster nondisruptively
-          url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
         - title: Cluster Update window
           url: "/online-help-96-97/reference_cluster_update_window.html"
       - title: MetroCluster switchover and switchback
