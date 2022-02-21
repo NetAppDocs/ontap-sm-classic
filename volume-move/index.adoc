@@ -2,31 +2,25 @@
 permalink: volume-move/index.html
 sidebar: sidebar
 keywords: nondisruptive, data, volume, node, storage, virtual, machine, svm, ontap, cluster, volume move overview, move, overview
-summary: "You can use this content to nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster."
+summary: "Using ONTAP System Manager classic interface with ONTAP 9.7 or earlier, you can nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster."
 ---
 = Volume move overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use this content to nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster.
+Using ONTAP System Manager classic interface with ONTAP 9.7 or earlier, you can nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster.
 
-== Requirements for using this content
+== Requirements for using these procedures
 
-Before you use this content, ensure that the following conditions are met:
+Before you use perform these procedures, ensure that the following conditions are met:
 
 * The cluster is running ONTAP 9.
 * You have cluster administrator privileges.
 * You want to use best practices, not explore every available option.
-* You do not want to read a lot of conceptual background.
-* You want to use System Manager.
-+
-For some tasks, you must use the ONTAP command-line interface (CLI).
-
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
-
+For some tasks, you must use the ONTAP command-line interface (CLI).
 * You know which volume you want to move.
 +
 For help in deciding which volumes to move, you can use Active IQ Unified Manager (formerly OnCommand Unified Manager).
@@ -39,11 +33,19 @@ For help in deciding which volumes to move, you can use Active IQ Unified Manage
 +
 Volume move is not supported for NVMe configurations running ONTAP 9.5.
 
-If this content is not suitable for your situation, you should see the following documentation instead:
+== Other ways to do this in ONTAP
 
-* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]
-+
-Describes how to move volumes by using the CLI.
+|===
+
+h| To complete this task using... h| Refer to...
+
+a| The redesigned System Manager (available with ONTAP 9.7 and later)
+a| https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html[Manage volumes^]
+
+a| The ONTAP command-line interface
+a| https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]
+
+|===
 
 == Alternatives to volume move
 
@@ -53,6 +55,9 @@ Before moving volumes, you should evaluate whether the following approaches are 
 +
 https://docs.netapp.com/us-en/ontap/high-availability/index.html[High Availability^]
 
-* If you want to move only a LUN--without its containing volume--you can use the LUN move mechanism.
+* If you want to move only a LUN without its containing volume, you can use the LUN move process.
 +
 https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
+
+// BURT 1415751, 10 JAN 2022
+// BURT 1418684, 31 JAN 2022

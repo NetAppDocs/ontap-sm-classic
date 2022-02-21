@@ -23,7 +23,7 @@ You must perform this task from the *destination* cluster.
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.
- ** Starting with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
+ ** Beginning with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
 . Select the SnapMirror relationship between the source and the destination volumes.
 . Click *Operations* > *Quiesce* to disable future data transfers.
 . Select the confirmation check box, and then click *Quiesce*.

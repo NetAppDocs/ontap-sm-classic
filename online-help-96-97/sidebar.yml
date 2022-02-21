@@ -473,9 +473,9 @@ entries:
         url: "/online-help-96-97/task_adding_initiators.html"
       - title: Delete initiators from an initiator group
         url: "/online-help-96-97/task_deleting_initiators_from_initiator_group.html"
-      - title: Create port sets
+      - title: Create portsets
         url: "/online-help-96-97/task_creating_portsets.html"
-      - title: Delete port sets
+      - title: Delete portsets
         url: "/online-help-96-97/task_deleting_portsets.html"
       - title: Cloning LUNs
         url: "/online-help-96-97/task_cloning_luns.html"
@@ -493,7 +493,7 @@ entries:
         url: "/online-help-96-97/task_editing_initiator_groups.html"
       - title: Edit initiators
         url: "/online-help-96-97/task_editing_initiators.html"
-      - title: Edit port sets
+      - title: Edit portsets
         url: "/online-help-96-97/task_editing_port_sets.html"
       - title: View LUN information
         url: "/online-help-96-97/task_viewing_lun_information.html"

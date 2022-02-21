@@ -81,7 +81,7 @@ You can edit the details of the portset in a particular node by selecting the no
 +
 For CIFS and NFS protocols, data LIFs have management access by default. You must create a new management LIF only if required. For iSCSI and FC, a SVM management LIF is required because data protocols and management protocols cannot share the same LIF.
 
-. For NVMe protocol, starting with ONTAP 9.5, configure a minimum of one LIF for each node on the second page of the SVM Setup wizard: *Configure NVMe Protocol.*
+. For NVMe protocol, Beginning with ONTAP 9.5, configure a minimum of one LIF for each node on the second page of the SVM Setup wizard: *Configure NVMe Protocol.*
 +
 You must configure at least one LIF for each node in the HA pair. You can also specify two LIFs per node. Click the settings icon to toggle between one or two LIFs configurations.
 

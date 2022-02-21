@@ -19,7 +19,7 @@ You must perform this task from the *destination* cluster.
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.
- ** Starting with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
+ ** Beginning with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
 . Select the SVM that contains the SnapVault backup destination volume, and then click *Operations* > *Restore*.
 . In the *Restore* dialog box, restore the data to the original source volume or a new volume:
 +

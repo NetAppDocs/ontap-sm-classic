@@ -19,7 +19,7 @@ To add NFS access to an existing , you must first create a data logical interfac
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The NFS protocol must be allowed on the SVM.
 +
-This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
+This is the case if you did not follow this procedure to create the SVM while configuring a different protocol.
 
 .Steps
 
@@ -37,3 +37,5 @@ image::../media/svm_setup_cifs_nfs_page_lif_multi_nas_nfs_esxi.gif[This graphic 
 +
 Do not enter any information to provision a volume. You can provision datastores later using the Virtual Storage Console.
 . Click *Submit & Close*, and then click *OK*.
+
+// BURT 1448684, 31 JAN 2022

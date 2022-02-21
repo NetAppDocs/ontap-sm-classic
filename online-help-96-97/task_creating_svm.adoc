@@ -83,7 +83,7 @@ a|
 +
 [NOTE]
 ====
-At least one NVMe capable adapter must be available in one of the nodes to configure NVMe.        Also, starting with ONTAP 9.5, at least one NVMe LIF must be configured for each node of a HA pair associated with the SVM. You can create a maximum of two NVMe LIFs for each node in the pair.
+At least one NVMe capable adapter must be available in one of the nodes to configure NVMe.        Also, Beginning with ONTAP 9.5, at least one NVMe LIF must be configured for each node of a HA pair associated with the SVM. You can create a maximum of two NVMe LIFs for each node in the pair.
 +
 ====
 

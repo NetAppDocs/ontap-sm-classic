@@ -2,7 +2,7 @@
 permalink: online-help-96-97/reference_volumes_window.html
 sidebar: sidebar
 keywords: system, manager, volume, window, flexgroup, volume, online, help
-summary: "You can use the Volumes window to manage your FlexVol volumes and FlexGroup volumes. Starting with System Manager 9.6, you can also manage FlexCache volumes."
+summary: "You can use the Volumes window to manage your FlexVol volumes and FlexGroup volumes. Beginning with System Manager 9.6, you can also manage FlexCache volumes."
 ---
 = Volumes window
 :experimental:
@@ -10,7 +10,7 @@ summary: "You can use the Volumes window to manage your FlexVol volumes and Flex
 :imagesdir: ../media/
 
 [.lead]
-You can use the Volumes window to manage your FlexVol volumes and FlexGroup volumes. Starting with System Manager 9.6, you can also manage FlexCache volumes.
+You can use the Volumes window to manage your FlexVol volumes and FlexGroup volumes. Beginning with System Manager 9.6, you can also manage FlexCache volumes.
 
 You cannot view or manage volumes that are in storage virtual machines (SVMs) that are configured for disaster recovery by using System Manager. You must use the CLI instead.
 
@@ -129,11 +129,11 @@ Changes the data encryption key of the volume.
 +
 The data in the volume is re-encrypted using the new key that is automatically generated. The old key is automatically deleted after the rekey operation finishes.
 +
-Starting with System Manager 9.6, volume encryption rekey is supported for FlexGroup DP volumes and FlexCache volumes. Rekey is disabled for volumes that have inherited encryption from an NAE aggregate.
+Beginning with System Manager 9.6, volume encryption rekey is supported for FlexGroup DP volumes and FlexCache volumes. Rekey is disabled for volumes that have inherited encryption from an NAE aggregate.
 +
 [NOTE]
 ====
-If you initiate a volume move operation when the rekey operation of the same volume is in progress, the rekey operation is aborted. In System Manager 9.5 and earlier version, if you try to move a volume when a conversion or rekey operation of a volume is in progress, then the operation is aborted without warning. Starting with System Manager 9.6, if you attempt a volume move during a conversion or rekey operation, a message is displayed warning that the conversion or rekey operation will be aborted if you continue.
+If you initiate a volume move operation when the rekey operation of the same volume is in progress, the rekey operation is aborted. In System Manager 9.5 and earlier version, if you try to move a volume when a conversion or rekey operation of a volume is in progress, then the operation is aborted without warning. Beginning with System Manager 9.6, if you attempt a volume move during a conversion or rekey operation, a message is displayed warning that the conversion or rekey operation will be aborted if you continue.
 ====
 
  ** *Provision Storage for VMware*

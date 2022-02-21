@@ -1,45 +1,37 @@
 ---
 permalink: fc-config-esxi/index.html
 sidebar: sidebar
-keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer,
-summary: "This content describes how to quickly set up the FC service on a storage virtual machine, provision a LUN, and make the LUN available as a datastore using an FC HBA on an ESX host computer."
+keywords: fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer, virtual storage console, vsc
+summary: "Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you can quickly set up the FC service on a storage virtual machine (SVM), provision a LUN, and make the LUN available as a datastore using an FC HBA on an ESX host computer."
 ---
 = FC configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This content describes how to quickly set up the FC service on a storage virtual machine (SVM), provision a LUN, and make the LUN available as a datastore using an FC HBA on an ESX host computer.
+Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you can quickly set up the FC service on a storage virtual machine (SVM), provision a LUN, and make the LUN available as a datastore using an FC HBA on an ESX host computer.
 
-This content is based on the following assumptions:
+Use this procedure if:
 
-* You want to use best practices, not explore every available option.
-* You do not want to read a lot of conceptual background.
-* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
-+
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
-
-* You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host and to provision the datastores.
+* You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to configure storage settings for your ESX host and to provision the datastores.
+** Beginning with VSC 7.0, VSC is part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere^] virtual appliance, which includes VSC, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+** Be sure to check the https://imt.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
 * Your network uses IPv4 addressing.
 * You are using traditional FC HBAs on ESXi 5.x and traditional FC switches.
 +
-This content does not cover FCoE.
+This procedure does not cover FCoE.
 
 * You have at least two FC target ports available on each node in the cluster.
 +
-Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters are configurable. Configuring those ports is done in the ONTAP CLI and is not covered in this content.
+Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters are configurable. Configuring those ports is done in the ONTAP CLI and is not covered in this procedure.
 
 * You are not configuring FC SAN boot.
 * You are creating datastores on the host.
 +
-This content does not cover raw device mapping (RDM) disks or using N-port ID virtualization (NPIV) to provide FC directly to VMs.
+This procedure does not cover raw device mapping (RDM) disks or using N-port ID virtualization (NPIV) to provide FC directly to VMs.
 
-If these assumptions are not correct for your situation, you should see the following resources:
+For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP^] and the documentation for your VSC release.
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration]
-* _VMware vSphere Storage_ for your version of ESXi 5 (available from VMware).
-+
-http://www.vmware.com[VMware]
+// BURT 1449742, 2022 Feb 16
+// BURT 1448684, 31 JAN 2022
+// BURT 1449742, 11 JAN 2022

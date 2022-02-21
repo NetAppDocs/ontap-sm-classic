@@ -10,12 +10,12 @@ entries:
       entries:
       - title: Prepare for cluster peering
         url: "/peering/task_preparing_for_cluster_peering.html"
-      - title: Configure peer relationships (starting with ONTAP 9.3)
+      - title: Configure peer relationships (Beginning with ONTAP 9.3)
         url: "/peering/concept_creating_peer_relationships_93_later.html"
         entries:
-        - title: Create intercluster LIFs(starting with ONTAP 9.3)
+        - title: Create intercluster LIFs(Beginning with ONTAP 9.3)
           url: "/peering/task_creating_intercluster_lifs.html"
-        - title: Create a cluster peer relationship (starting with ONTAP 9.3)
+        - title: Create a cluster peer relationship (Beginning with ONTAP 9.3)
           url: "/peering/task_creating_cluster_peer_relationship_starting_with_ontap_9_3.html"
         - title: Create SVM peer relationship
           url: "/peering/task_creating_svm_peers.html"
@@ -25,6 +25,5 @@ entries:
         - title: Create intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
           url: "/peering/task_creating_intercluster_interfaces_on_all_nodes.html"
         - title: Create a cluster peer relationship (ONTAP 9.2 or earlier)
-          url: "/peering/task_creating_cluster_peer_relationships_93_later.html"
-    - title: Where to find additional information
-      url: "/peering/reference_where_to_find_additional_information.html"
+          url: "/peering/task_creating_cluster_peer_relationships_92_earlier.html"
+    

@@ -2,27 +2,22 @@
 permalink: iscsi-config-esxi/index.html
 sidebar: sidebar
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer
-summary: "This content describes how to quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
+summary: "Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
 ---
 = iSCSI configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This content describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer.
+Using the ONTAP System Manager classic interface (ONTAP 9.7 and earlier), you can quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer.
 
-This content is based on the following assumptions:
-
-* You want to use best practices, not explore every available option.
-* You do not want to read a lot of conceptual background.
-* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
-+
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+Use this procedure if:
 
 * You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
-* You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
+* You are using a supported version of Virtual Storage Console for VMware vSphere (VSC) to configure storage settings for your ESX host.
+** Beginning with VSC 7.0, VSC is part of the https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html[ONTAP Tools for VMware vSphere^] virtual appliance, which includes VSC, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+** Be sure to check the https://imt.netapp.com/matrix/[NetApp Interoperability Matrix Tool^] to confirm compatibility between your current ONTAP and VSC releases.
 * Your network uses IPv4 addressing.
 * You want to assign addresses to logical interfaces using any of the following methods:
  ** Automatically from a subnet you define
@@ -30,16 +25,16 @@ https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
  ** Manually, using an address that will be added to an existing subnet
 * You have at least two high-speed Ethernet ports (1 GbE minimum, 10 GbE recommended) available on each node in the cluster.
 +
-Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in this content.
+Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in his procedure.
 +
-You should see link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
+See link:https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management^] for using the CLI to configure Ethernet port flow control.
 
 * You are not configuring iSCSI SAN boot.
 * You are providing storage to VMs through the ESXi hypervisor and not running an iSCSI initiator within the VM.
 
-If these assumptions are not correct for your situation, you should see the following resources:
+For more information, see https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html[TR-4597: VMware vSphere for ONTAP^] and the documentation for your VSC release.
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration]
-* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration]
-* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration]
-* _VMware vSphere Storage_ for your version of ESXi 5 (available from http://www.vmware.com[VMware])
+
+// BURT 1449741, 2022 Feb 16
+// BURT 1448684, 31 JAN 2022
+// BURT 1418089, 17 DEC 2021

@@ -20,7 +20,7 @@ link:task_obtaining_ontap_software_images.md#[Obtaining ONTAP software images]
 
 .About this task
 
-* Starting with System Manager 9.5, you can update single-node clusters in two-pack MetroCluster configurations.
+* Beginning with System Manager 9.5, you can update single-node clusters in two-pack MetroCluster configurations.
 +
 You must perform this operation on both the sites.
 

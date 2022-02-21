@@ -10,19 +10,21 @@ summary: "After you successfully create a cluster peering relationship, you are 
 
 [.lead]
 After you successfully create a cluster peering relationship, you are ready to protect the availability of your data.
+// ///////////////////////////////////////////////////////////
+// TOPIC WAS REMOVED FROM SIDEBAR,  BURT 1415746, 10 JAN 2022
+// ///////////////////////////////////////////////////////////
+You can protect your data by using the following information:
 
-You can protect your data by using the following content:
-
-* xref:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
+* link:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
 +
 Describes how to quickly configure and monitor the SnapMirror relationships between volumes in different clusters.
 
-* xref:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
+* link:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 +
 Describes how to quickly configure an intercluster SnapVault relationship.
 
 
-More information is available in the following content:
+More information is available:
 
 * https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
 +

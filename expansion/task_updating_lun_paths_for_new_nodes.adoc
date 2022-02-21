@@ -39,9 +39,9 @@ cluster1::> network interface create -vserver vs1 -lif lif5 -role data
 ----
 
  .. For each SVM, verify that it has LIFs on all nodes in the cluster by using the `network interface show` command with the `-vserver` parameter.
-. Update port sets:
- .. Determine whether port sets exist by using the `lun portset show` command.
- .. If you want to make the new LIFs visible to existing hosts, add each new LIF to the port sets by using the `lun portset add` command--once for each LIF.
+. Update portsets:
+ .. Determine whether portsets exist by using the `lun portset show` command.
+ .. If you want to make the new LIFs visible to existing hosts, add each new LIF to the portsets by using the `lun portset add` command--once for each LIF.
 . If you use FC or FCoE, update zoning:
  .. Verify that zoning is set up correctly to enable the existing initiator ports on the host to connect to the new target ports on the new nodes.
  .. Update switch zoning to connect the new nodes to existing initiators.
@@ -58,3 +58,5 @@ Zoning setup varies depending on the switch that you use.
 https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration^]
 
 https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
+
+// 8 feb 2022, BURT 1456161
