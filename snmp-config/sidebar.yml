@@ -18,5 +18,3 @@ entries:
      url: "/snmp-config/task_testing_snmp_traps.html"
    - title: Test SNMP polling
      url: "/snmp-config/task_testing_snmp_polling.html"
- - title: Where to find additional information
-   url: "/snmp-config/reference_where_to_find_additional_information.html"

@@ -2,14 +2,16 @@
 permalink: peering/task_creating_intercluster_interfaces_on_all_nodes.html
 sidebar: sidebar
 keywords: cluster, communicate, logical, interface, lif, intercluster, create, ipspace, peer, relationship, create intercluster interfaces on all nodes, ontap 9.2 or earlier
-summary: "Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship."
+summary: "Using the ONTAP System Manager 'classic' interface with ONTAP 9.2 or an earlier ONTAP 9 release, you can create intercluster LIFs that will be used for peering."
 ---
 = Create intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.
+Using the ONTAP System Manager _classic_ interface with ONTAP 9.2 or an earlier ONTAP 9 release, you can create intercluster LIFs that will be used for peering.
+
+Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering.  The LIFs must be created on each node in each cluster for which you want to create a peer relationship.
 
 .Before you begin
 
@@ -21,7 +23,7 @@ You must perform this procedure on both clusters for which you want to create a 
 
 .Steps
 
-. Create an intercluster LIF on one node of the source cluster:
+. [[step1-intercluster-lif]]Create an intercluster LIF on one node of the source cluster:
  .. Navigate to the *Network Interfaces* window.
  .. Click *Create*.
 +
@@ -47,7 +49,7 @@ You must ensure that the IP address that you want to use either is already avail
 image::../media/lif_creation_intercluster.gif[The Create Network Inteface dialog box]
 
  .. Click *Create*.
-. Repeat Step <<STEP_E3AF9C0B3C474E49A20489FF21727472,#STEP_E3AF9C0B3C474E49A20489FF21727472>> for each node in the cluster.
+. Repeat <<step1-intercluster-lif,Step 1>> for each node in the cluster.
 +
 Each node in the cluster has an intercluster LIF.
 
@@ -63,3 +65,5 @@ You can click the column display icon (image:../media/icon_columnshowhide_sm_onc
 .Results
 
 All of the nodes in each cluster have intercluster LIFs that can all communicate with each other.
+
+// BURT 1415746, 10 JAN 2022

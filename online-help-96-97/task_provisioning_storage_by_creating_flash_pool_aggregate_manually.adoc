@@ -21,7 +21,7 @@ You can use System Manager to create a Flash Pool aggregate manually, or to conv
 
 * You cannot use partitioned SSDs while creating a Flash Pool aggregate.
 * You cannot mirror the aggregates if the cache source is storage pools.
-* Starting with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
+* Beginning with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
 * If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.
 
 .Steps

@@ -19,7 +19,7 @@ You must perform this task from the *destination* cluster.
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.
- ** Starting with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
+ ** Beginning with ONTAP 9.5: Click *Protection* > *Volume Relationships*.
 . Select the SnapMirror relationship between the source and the destination volumes, and then verify the status in the *Details* bottom tab.
 +
 The Details tab displays the health status of the SnapMirror relationship and shows the transfer errors and lag time.

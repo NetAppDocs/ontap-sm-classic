@@ -2,19 +2,21 @@
 permalink: online-help-96-97/task_creating_portsets.html
 sidebar: sidebar
 keywords: system, manager, port, set, create, online, help, lun
-summary: "You can use System Manager to create port sets to limit access to your LUNs."
+summary: "You can use System Manager to create portsets to limit access to your LUNs."
 ---
-= Create port sets
+= Create portsets
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create port sets to limit access to your LUNs.
+You can use System Manager to create portsets to limit access to your LUNs.
 
 .Steps
 
 . Click *Storage* > *LUNs*.
 . In the *Portsets* tab, click *Create*.
 . In the *Create Portset* dialog box, select the type of protocol.
-. Choose the network interface that you want to associate with the port set.
+. Choose the network interface that you want to associate with the portset.
 . Click *Create*.
+
+// 8 feb 2022, BURT 1456161
