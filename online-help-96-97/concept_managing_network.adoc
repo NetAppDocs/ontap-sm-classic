@@ -18,7 +18,7 @@ You can use System Manager to manage the network of your storage system by creat
 [.lead]
 You can use the Network window to view the list of network components, such as subnets, network interfaces, Ethernet ports, broadcast domains, FC/FCoE and NVMe adapters, and IPspaces, and to create, edit, or delete these components in your storage system.
 
-== Tabs
+=== Tabs
 
 * *Subnet*
 +
@@ -98,7 +98,7 @@ Specifies the broadcast domain to which the subnet belongs.
 +
 Specifies the IPspace to which the subnet belongs.
 
-== Details area
+=== Details area
 
 The area below the subnet list displays detailed information about the selected subnet, including the subnet range and a graph showing the available, used, and total number of IP addresses.
 
@@ -188,8 +188,7 @@ Specifies whether management access is enabled on the interface.
 * *Subnet*
 +
 Specifies the subnet to which the interface belongs.
-
-* *Role*
+mx* *Role*
 +
 Specifies the operational role of the interface, which can be data, intercluster, cluster, cluster management, or node management.
 
@@ -197,7 +196,7 @@ Specifies the operational role of the interface, which can be data, intercluster
 
 The area below the interface list displays detailed information about the selected interface: failover properties such as the home port, current port, speed of the ports, failover policy, failover group, and failover state, and general properties such as the administrative status, role, IPspace, broadcast domain, network mask, gateway, and DDNS status.
 
-== Ethernet Ports tab
+=== Ethernet Ports tab
 
 === Command buttons
 
@@ -273,7 +272,7 @@ Displays performance metrics graphs of the ethernet ports, including error rate 
 +
 Changing the client time zone or the cluster time zone impacts the performance metrics graphs. You should refresh your browser to view the updated graphs.
 
-== Broadcast Domain tab
+=== Broadcast Domain tab
 
 === Command buttons
 
@@ -318,7 +317,7 @@ The area below the broadcast domain list displays all the ports in a broadcast d
 * Green specifies that the port is enabled.
 * Red specifies that the port is disabled.
 
-== FC/FCoE and NVMe Adapters tab
+=== FC/FCoE and NVMe Adapters tab
 
 === Command buttons
 
@@ -360,7 +359,7 @@ Specifies whether the status of the adapter is online or offline.
 +
 Specifies whether the speed settings are automatic or manual.
 
-== Details area
+=== Details area
 
 The area below the FC/FCoE and NVMe adapters list displays detailed information about the selected adapters.
 
@@ -374,7 +373,7 @@ Displays performance metrics graphs of the FC/FCoE and NVMe adapter, including I
 +
 Changing the client time zone or the cluster time zone impacts the performance metrics graphs. You should refresh your browser to see the updated graphs.
 
-== IPspaces tab
+=== IPspaces tab
 
 === Command buttons
 
