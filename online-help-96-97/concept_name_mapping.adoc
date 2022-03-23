@@ -107,4 +107,4 @@ Specifies the direction of the group mapping. Possible values are `krb_unix` for
 
 https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB/CIFS management]
 
-// 2021-12-21, Created by Aoife, sm-classic rework
+// 2021-12-21, Created by Aoife, sm-classic rework.
