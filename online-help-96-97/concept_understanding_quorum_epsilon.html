@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Understanding quorum and epsilon</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Understanding quorum and epsilon" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_understanding_quorum_epsilon.html" />
-	<meta property="og:description" content="Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivit..." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/us-en/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/>
-  
-  <meta name="description" content="Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivit...">
-  <meta name="keywords" content=" understand, quorum, epsilon, cluster, health, function, online, help">
-  
-  
-
-  <!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/us-en/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
-  <!-- RSS Feed -->
-  
-
-  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
 
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
@@ -59,27 +50,11 @@
   
   <link rel="stylesheet" href="/us-en/ontap-sm-classic/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/us-en/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
-  <link rel="stylesheet" href='/us-en/ontap-sm-classic/css/product-family.css' type="text/css">
-  
-
-  
-  <link rel='stylesheet' href='/us-en/ontap-sm-classic/css/na-feature.css' type='text/css'>
-  
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='/us-en/ontap-sm-classic/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
-  
-    <script src='/us-en/ontap-sm-classic/js/na-search.js'></script>
-  
 
-  
-  <script src='/us-en/ontap-sm-classic/js/na-pagenav.js'></script>
-  
-
-  <link rel='stylesheet' href='/us-en/ontap-sm-classic/css/prism.css' type='text/css'>
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/us-en/ontap-sm-classic/js/na-search.js'></script><script src='/us-en/ontap-sm-classic/js/na-pagenav.js'></script><link rel='stylesheet' href='/us-en/ontap-sm-classic/css/prism.css' type='text/css'>
   <link rel='stylesheet' href='/us-en/ontap-sm-classic/css/prism-netapp.css' type='text/css'>
 
 
@@ -97,9 +72,7 @@
   <script src='/us-en/ontap-sm-classic/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/us-en/ontap-sm-classic/js/toc.js'></script>
-  <script src='/us-en/ontap-sm-classic/js/customscripts.js'></script>
-
-  <script>
+  <script src='/us-en/ontap-sm-classic/js/customscripts.js'></script><script>
       $(document).ready(function() {
           
           var collapseOnInit = true;
@@ -148,6 +121,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
+  </script><script>
+    pageRedirect("https://docs.netapp.com/us-en/ontap/system-admin/quorum-epsilon-concept.html");
   </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
   <script>
   if (document.location.hostname === "docs.netapp.com") {
@@ -158,7 +133,6 @@
   }
   </script>
   <script src='/us-en/ontap-sm-classic/js/version-dropdown.js'></script>
-  <script src='/us-en/ontap-sm-classic/js/product-family.js'></script>
   <script src='/us-en/ontap-sm-classic/js/FileSaver.min.js'></script>
   <script src='/us-en/ontap-sm-classic/js/jszip-utils.min.js'></script>
   <script src='/us-en/ontap-sm-classic/js/jszip.min.js'></script>
@@ -171,6 +145,25 @@
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  <div class="page-nav-toolbar">
+    <div id="version-dropdown"></div>
+    <div class="page-nav-contribute"  >
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_understanding_quorum_epsilon.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a>
+      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_understanding_quorum_epsilon.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a>
+      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a>
+    </div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">ON THIS PAGE</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
   <!-- Start top_hat -->
   <div class="n-top-hat">
     <div class="n-container">
@@ -4841,7 +4834,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/online-help-96-97/concept_what_nvme_is.html">
         What NVMe is
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/online-help-96-97/concept_what_nvme_subsystem_is.html">
-        What an NVMe subsystem is
+        Manage NVMe subsystems
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/online-help-96-97/concept_nvme_namespaces.html">
         NVMe namespaces
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/online-help-96-97/reference_nvme_namespaces_window.html">
@@ -5036,26 +5029,22 @@
   
 
   <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
-    <!-- Begin of page container -->
-    <article class="page-content">
+    <!-- Begin of page container --><article class="page-content">
       <div class="ie-utility">
   <div class="ie-menu">
     <div class="n-breadcrumb">
       <ul class="n-breadcrumb__list">
         <li class="n-breadcrumb__list-item">
-          <a href="https://www.netapp.com">Home</a>
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com">Documentation</a>
-        </li>
+        
+
         
 
         <li class="n-breadcrumb__list-item">
           <a href="/us-en/ontap-sm-classic/">System&nbsp;Manager&nbsp;Classic</a>
         </li>
-        <li class="n-breadcrumb__list-item">
-          Understanding quorum and epsilon
-        </li>
+
       </ul>
     </div>
     <div style="clear: both"></div><!-- Main needs to have height -->
@@ -5063,18 +5052,26 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Understanding quorum and epsilon</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-02-23 21:17:10 +0000">02/23/2022</time>
+    <time datetime="2022-03-21 09:13:12 +0000">03/21/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5089,61 +5086,12 @@
 </p>
 
 
-<div class="paragraph lead">
-<p>Quorum and epsilon are important measures of cluster health and function that together indicate how clusters address potential communications and connectivity challenges.</p>
-</div>
-<div class="paragraph">
-<p><em>Quorum</em> is a precondition for a fully functioning cluster. When a cluster is in quorum, a simple majority of nodes are healthy and can communicate with each other. When quorum is lost, the cluster loses the ability to accomplish normal cluster operations. Only one collection of nodes can have quorum at any one time because all of the nodes collectively share a single view of the data. Therefore, if two non-communicating nodes are permitted to modify the data in divergent ways, it is no longer possible to reconcile the data into a single data view.</p>
-</div>
-<div class="paragraph">
-<p>Each node in the cluster participates in a voting protocol that elects one node <em>master</em>; each remaining node is a <em>secondary</em>. The master node is responsible for synchronizing information across the cluster. When quorum is formed, it is maintained by continual voting. If the master node goes offline and the cluster is still in quorum, a new master is elected by the nodes that remain online.</p>
-</div>
-<div class="paragraph">
-<p>Because there is the possibility of a tie in a cluster that has an even number of nodes, one node has an extra fractional voting weight called <em>epsilon</em>. If the connectivity between two equal portions of a large cluster fails, the group of nodes containing epsilon maintains quorum, assuming that all of the nodes are healthy. For example, the following illustration shows a four-node cluster in which two of the nodes have failed. However, because one of the surviving nodes holds epsilon, the cluster remains in quorum even though there is not a simple majority of healthy nodes.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="../media/epsilon_preserving_quorum.gif" alt="This image is explained by the surrounding text.">
-</div>
-</div>
-<div class="paragraph">
-<p>Epsilon is automatically assigned to the first node when the cluster is created. If the node that holds epsilon becomes unhealthy, takes over its high-availability partner, or is taken over by its high-availability partner, then epsilon is automatically reassigned to a healthy node in a different HA pair.</p>
-</div>
-<div class="paragraph">
-<p>Taking a node offline can affect the ability of the cluster to remain in quorum. Therefore, ONTAP issues a warning message if you attempt an operation that will either take the cluster out of quorum or else put it one outage away from a loss of quorum. You can disable the quorum warning messages by using the <code>cluster quorum-service options modify</code> command at the advanced privilege level.</p>
-</div>
-<div class="paragraph">
-<p>In general, assuming reliable connectivity among the nodes of the cluster, a larger cluster is more stable than a smaller cluster. The quorum requirement of a simple majority of half the nodes plus epsilon is easier to maintain in a cluster of 24 nodes than in a cluster of two nodes.</p>
-</div>
-<div class="paragraph">
-<p>A two-node cluster presents some unique challenges for maintaining quorum. Two-node clusters use <em>cluster HA</em>, in which neither node holds epsilon; instead, both nodes are continuously polled to ensure that if one node fails, the other has full read-write access to data, as well as access to logical interfaces and management functions.</p>
-</div>
 
     </article>
     <!-- Page Container -->
   </div>
 
-  
-  <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Understanding quorum and epsilon](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_understanding_quorum_epsilon.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_understanding_quorum_epsilon.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a>
-    </div>
-    <div class="page-nav-container">
-      <nav class="page-nav-fixed">
-        <div class="page-nav-title">ON THIS PAGE</div>
-        <div class="page-nav-links">
-          <ul class="page-nav-inner" id="page-menu"></ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  
-  <div style="clear: both"></div><!-- Main needs to have height -->
-</div>
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
 
         </main>
 
@@ -5245,9 +5193,7 @@
 </div>
 </footer>
 
-      </div>
-
-      <!-- Elasticsearch JS -->
+      </div><!-- Elasticsearch JS -->
       <script type="text/javascript" src='/us-en/ontap-sm-classic/js/bundle.js'></script>
 
       <!-- Syntax Highlighting -->
@@ -5262,7 +5208,4 @@
     </script>
     <script src='/us-en/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/us-en/ontap-sm-classic/js/tabbed-blocks.js'></script>
-  </body>
-
-  
-</html>
+  </body></html>
