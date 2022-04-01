@@ -5048,11 +5048,19 @@
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 22:33:35 +0000">01/31/2022</time>
+    <time datetime="2022-04-01 16:24:01 +0000">04/01/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" href="https://github.com/netapp-thomi">
     <img  class="avatar avatar-small"
           alt="netapp-thomi"
@@ -5126,6 +5134,33 @@
 <div class="content">
 <img src="../media/switchover_switchback_workflow.jpg" alt="switchover switchback workflow">
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="about-metrocluster-switchover-and-switchback">About MetroCluster switchover and switchback</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Beginning with System Manager 9.6, you can use MetroCluster switchover and switchback operations to allow one cluster site to take over the tasks of another cluster site. This capability allows you to facilitate maintenance or recovery from disasters.</p>
+</div>
+<div class="paragraph">
+<p>A switchover operation allows one cluster (Site A) to take over the tasks that another cluster (Site B) usually performs. After the switchover, the cluster that has been taken over (Site B) can be brought down for maintenance and repairs. After the maintenance is completed, Site B can come up and healing tasks are completed, then you can initiate a switchback operation that allows the repaired cluster (Site B) to resume the tasks it usually performs.</p>
+</div>
+<div class="paragraph">
+<p>System Manager supports two kinds of switchover operations, based on the status of the remote cluster site:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A negotiated (planned) switchover: You initiate this operation when you need to do planned maintenance on a cluster or test your disaster recovery procedures.</p>
+</li>
+<li>
+<p>An unplanned switchover: You initiate this operation when a disaster has occurred on a cluster (Site B) and you want another site or cluster (Site A) to take over the tasks of the cluster affected by the disaster (Site B) while you perform repairs and maintenance.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>You perform the same steps in System Manager for both switchover operations. When you initiate a switchover, System Manager determines whether the operation is feasible and aligns the workload accordingly.</p>
 </div>
 </div>
 </div>
