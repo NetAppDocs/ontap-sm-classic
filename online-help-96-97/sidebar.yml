@@ -134,7 +134,7 @@ entries:
         - title: Configuration Updates window
           url: "/online-help-96-97/reference_configuration_updates_window.html"
       - title: MetroCluster switchover and switchback
-        url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
+        url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
         entries:
         - title: MetroCluster switchover and switchback workflow
           url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -205,16 +205,10 @@ entries:
       url: "/online-help-96-97/concept_ldap.html"
     - title: Users
       url: "/online-help-96-97/concept_cluster_user_accounts.html"
-      entries:
-      - title: Roles
-        url: "/online-help-96-97/concept_roles_conceptual.html"
     - title: Roles
       url: "/online-help-96-97/concept_roles.html"
     - title: Manage the network
       url: "/online-help-96-97/concept_managing_network.html"
-      entries:
-      - title: Network window
-        url: "/online-help-96-97/reference_network_window.html"
     - title: IPspaces
       url: "/online-help-96-97/concept_ipspaces.html"
     - title: Broadcast domains
