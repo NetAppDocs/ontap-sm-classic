@@ -12,7 +12,6 @@ entries:
     - title: ONTAP System Manager enhancements
       url: "/online-help-96-97/concept_system_manager_enhancements.html"
     - title: Set up the cluster by using ONTAP System Manager
-      url: "/online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html"
       entries:
       - title: Set up a cluster by using the template file
         url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
@@ -41,9 +40,6 @@ entries:
       url: "/online-help-96-97/task_configuring_system_manager_options.html"
     - title: View ONTAP System Manager log files
       url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-      entries:
-      - title: How system logging works
-        url: "/online-help-96-97/concept_how_system_logging_works.html"
     - title: Configure a cluster by using System Manager
       url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
       entries:
@@ -51,7 +47,6 @@ entries:
           interface
         url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
     - title: Set up the cluster
-      url: "/online-help-96-97/task_updating_cluster_name.html"
       entries:
       - title: Update the cluster name
         url: "/online-help-96-97/task_updating_cluster_name.html"
@@ -76,7 +71,6 @@ entries:
     - title: Set up the network
       url: "/online-help-96-97/concept_setting_up_network.html"
     - title: Set up physical storage
-      url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
       entries:
       - title: Assigning disks to nodes
         url: "/online-help-96-97/task_assigning_disks_to_nodes.html"
@@ -134,7 +128,7 @@ entries:
         - title: Configuration Updates window
           url: "/online-help-96-97/reference_configuration_updates_window.html"
       - title: MetroCluster switchover and switchback
-        url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
+        url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
         entries:
         - title: MetroCluster switchover and switchback workflow
           url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -205,10 +199,16 @@ entries:
       url: "/online-help-96-97/concept_ldap.html"
     - title: Users
       url: "/online-help-96-97/concept_cluster_user_accounts.html"
+      entries:
+      - title: Roles
+        url: "/online-help-96-97/concept_roles_conceptual.html"
     - title: Roles
       url: "/online-help-96-97/concept_roles.html"
     - title: Manage the network
       url: "/online-help-96-97/concept_managing_network.html"
+      entries:
+      - title: Network window
+        url: "/online-help-96-97/reference_network_window.html"
     - title: IPspaces
       url: "/online-help-96-97/concept_ipspaces.html"
     - title: Broadcast domains
@@ -547,7 +547,7 @@ entries:
         url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
       - title: What NVMe is
         url: "/online-help-96-97/concept_what_nvme_is.html"
-      - title: Manage NVMe subsystems
+      - title: What an NVMe subsystem is
         url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
       - title: NVMe namespaces
         url: "/online-help-96-97/concept_nvme_namespaces.html"
