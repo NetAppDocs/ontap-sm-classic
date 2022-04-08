@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, service, definition, online, help, performance, factor
 summary: "ONTAP includes predefined storage services that are mapped to corresponding minimum performance factors."
 ---
-= Storage service definitions for System Manager classic - ONTAP 9.7 and earlier
+= Storage service definitions for System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

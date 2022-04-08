@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager
 summary: "You can manually create an aggregate that consists of only HDDs or only SSDs by using System Manager."
 ---
-= Manually create an aggregate to provision storage by using System Manager classic - ONTAP 9.7 and earlier
+= Manually create an aggregate to provision storage with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

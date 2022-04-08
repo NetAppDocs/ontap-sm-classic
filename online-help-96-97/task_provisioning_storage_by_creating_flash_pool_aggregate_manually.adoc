@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, system, manager, storage, create, flash, pool, aggregate, manually, online, help, hdd
 summary: "You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate."
 ---
-= Provision storage and create a Flash Pool aggregate manually using System Manager classic - ONTAP 9.7 and earlier
+= Provision storage and create a Flash Pool aggregate manually with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

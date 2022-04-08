@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: zero, spare, disks, system, manager, erase, data, online, help
 summary: "You can use System Manager to erase all the data and to format the spare disks by writing zeros to the disk. These disks can then be used in new aggregates."
 ---
-= Zero spare disks by using System Manager classic - ONTAP 9.7 and earlier
+= Zero spare disks with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: application, provisioning, setting, microsoft, sql, database, applications, san, mongodb, oracle, host, access, initiator, sap, hana, smb
 summary: "When setting up a basic or enhanced template for a database, server, or virtual desktop, you must provide details to System Manager. After an application is provisioned, you can edit the details and specify a resizing (increased size only). This section describes the fields in each template. Only the fields that are required for provisioning or editing the settings of the specific application are displayed."
 ---
-= Application provisioning settings in System Manager classic - ONTAP 9.7 and earlier
+= Application provisioning settings in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

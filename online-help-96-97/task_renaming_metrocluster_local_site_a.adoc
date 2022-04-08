@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, metrocluster, rename, local, site, cluster, online, help
 summary: "You can use System Manager to rename the MetroCluster local site (Site A) in a cluster."
 ---
-= Rename the MetroCluster local site (Site A) by using System Manger classic - ONTAP 9.7 and earlier
+= Rename the MetroCluster local site (Site A) with System Manger - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

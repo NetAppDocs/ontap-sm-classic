@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, set, up, network, ipspace, broadcast, domain, subnet, system, manager, cluster, range
 summary: "Setting up the network consists of creating IPspaces, a broadcast domain, and subnets."
 ---
-= Set up the network by using System Manager classic - ONTAP 9.7 and earlier
+= Set up the network with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

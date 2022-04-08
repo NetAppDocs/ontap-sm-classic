@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, assign, disk, node, online, help
 summary: "You can use System Manager to assign ownership of an unassigned disk to a specific node to increase the capacity of an aggregate or storage pool."
 ---
-= Assign disks to nodes by using System Manager classic - ONTAP 9.7 and earlier
+= Assign disks to nodes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

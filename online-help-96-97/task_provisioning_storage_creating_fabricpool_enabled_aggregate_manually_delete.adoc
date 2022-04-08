@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, storage, create, fabricpool, aggregate, manually, system, manager, online, help, ssd
 summary: "You can use System Manager to create a FabricPool-enabled aggregate manually or to convert an existing SSD aggregate to a FabricPool-enabled aggregate by attaching a cloud tier to the SSD aggregate."
 ---
-= Provision storage by creating a FabricPool-enabled aggregate manually using System Manager classic - ONTAP 9.7 and earlier
+= Provision storage by creating a FabricPool-enabled aggregate manually with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, dashboard, window, multiple, panel, online, help
 summary: "The Dashboard window contains multiple panels that provide cumulative at-a-glance information about your system and its performance."
 ---
-= Dashboard window for System Manager classic - ONTAP 9.7 and earlier
+= Dashboard window for System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sap, hana, provisioning, basic, template, online, help, system, manager
 summary: "You can use System Manager to quickly provision basic templates for SAP HANA."
 ---
-= Provision a basic template by using System Manager classic - ONTAP 9.7 and earlier
+= Provision a basic template with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
