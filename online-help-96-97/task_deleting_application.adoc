@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: delete, application, provisioned
 summary: "You can delete a provisioned application when it is no longer required."
 ---
-= Deleting an application
+= Delete an application with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can delete a provisioned application when it is no longer required.
+You can use ONTAP System Manager classic (available in 9.7 and earlier) to delete a provisioned application when it is no longer required.
 
 .About this task
 
