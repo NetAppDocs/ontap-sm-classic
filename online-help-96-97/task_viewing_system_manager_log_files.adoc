@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, ontap, system, manager, log, file, online, help
 summary: "If you encounter any issues when using System Manager, you can send the log files to technical support to help troubleshoot the issues. The System Manager log files are located in the mlog directory along with the ONTAP log files."
 ---
-= View System Manager log files - ONTAP 9.7 and earlier
+= View System Manager classic log files - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
