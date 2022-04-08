@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: provision, storage, aggregates, snaplock, fabricpool, online, help, flash, pool
 summary: "You can create an aggregate based on storage recommendations or manually depending on your requirement. You can create Flash Pool aggregates, SnapLock aggregates, and a FabricPool-enabled aggregates to provide storage for one or more volumes by using System Manager."
 ---
-= Provisioning storage through aggregates
+= Provision storage through aggregates by using System Manager classic - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can create an aggregate based on storage recommendations or manually depending on your requirement. You can create Flash Pool aggregates, SnapLock aggregates, and a FabricPool-enabled aggregates to provide storage for one or more volumes by using System Manager.
+You can create an aggregate based on storage recommendations or manually depending on your requirement by using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can create Flash Pool aggregates, SnapLock aggregates, and a FabricPool-enabled aggregates to provide storage for one or more volumes by using System Manager.
 
 .Before you begin
 

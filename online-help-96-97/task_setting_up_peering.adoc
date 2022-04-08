@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: set, up, peering, intercluster, logical, interfaces, lif, node, online, help, svm, prerequisites, cluster, connectivity, requirements, passphrases
 summary: "Setting up peering involves creating intercluster logical interfaces (LIFs) on each node, creating cluster peering, and creating SVM peering."
 ---
-= Set up peering
+= Set up peering by using System Manager classic - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Setting up peering involves creating intercluster logical interfaces (LIFs) on each node, creating cluster peering, and creating SVM peering.
+You can use System Manager classic (available in ONTAP 9.7 and earlier) to set up peering. Setting up peering involves creating intercluster logical interfaces (LIFs) on each node, creating cluster peering, and creating SVM peering.
 
 image::../media/peering_workflow.gif[]
 

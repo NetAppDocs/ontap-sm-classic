@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: access, clister, ontap, system, manager, graphic, interface, lif, node, management, online, help
 summary: "If you prefer to use a graphic interface instead of the command-line interface for accessing and managing a cluster, you can do so by using ONTAP System Manager, which is included with ONTAP as a web service, is enabled by default, and is accessible by using a browser."
 ---
-= Accessing a cluster by using the ONTAP System Manager browser-based graphic interface
+= Access a cluster by using browser-based graphic interface in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-If you prefer to use a graphic interface instead of the command-line interface for accessing and managing a cluster, you can do so by using ONTAP System Manager, which is included with ONTAP as a web service, is enabled by default, and is accessible by using a browser.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) if you prefer to use a graphic interface instead of the command-line interface for accessing and managing a cluster. ONTAP System Manager is included with ONTAP as a web service, is enabled by default, and is accessible by using a browser.
 
 .Before you begin
 

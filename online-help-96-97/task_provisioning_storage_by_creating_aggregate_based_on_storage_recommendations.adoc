@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: provision, storage, create, aggregate, recommendation, system, manager, online, help
 summary: "You can use System Manager to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks."
 ---
-= Provisioning storage by creating an aggregate based on storage recommendations
+= Create an aggregate based on storage recommendations using System Manager classic - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks.
 
 .About this task
 

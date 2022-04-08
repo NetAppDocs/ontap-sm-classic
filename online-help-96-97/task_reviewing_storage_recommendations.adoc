@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: review, storage, recommendation, window, online, help, create, aggregate
 summary: "Using the Storage window, you can review the storage recommendations that are provided for creating aggregates."
 ---
-= Reviewing storage recommendations
+= Review storage recommendations by using System Manager classic - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Using the Storage window, you can review the storage recommendations that are provided for creating aggregates.
+You can review the storage recommendations that are provided for creating aggregates by using the storage window in ONTAP System Manager classic (available in ONTAP 9.7 and earlier).
 
 .Before you begin
 

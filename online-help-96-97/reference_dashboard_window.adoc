@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, dashboard, window, multiple, panel, online, help
 summary: "The Dashboard window contains multiple panels that provide cumulative at-a-glance information about your system and its performance."
 ---
-= Dashboard window
+= Dashboard window for System Manager classic - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The Dashboard window contains multiple panels that provide cumulative at-a-glance information about your system and its performance.
+The Dashboard window in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) contains multiple panels that provide cumulative at-a-glance information about your system and its performance.
 
 You can use the Dashboard window to view information about important alerts and notifications, the efficiency and capacity of aggregates and volumes, the nodes that are available in a cluster, the status of the nodes in a high-availability (HA) pair, the most active applications and objects, and the performance metrics of a cluster or a node.
 
@@ -77,3 +77,13 @@ Displays the average performance metrics, read performance metrics, and write pe
 If the information about cluster performance cannot be retrieved from ONTAP, you cannot view the respective graph. In such cases, System Manager displays the specific error message.
 +
 The refresh interval for the charts in the Performance panel is 15 seconds.
+
+== Monitoring a cluster using the dashboard
+
+The dashboard in System Manager enables you to monitor the health and performance of a cluster. You can also identify hardware problems and storage configuration issues by using the dashboard.
+
+.Steps
+
+. Click the *Dashboard* tab to view the health and performance dashboard panels.
+
+// sm-classic rework, 07-04-2022
