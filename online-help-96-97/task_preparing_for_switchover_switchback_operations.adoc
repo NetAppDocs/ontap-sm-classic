@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: prepare, switchover, switchback, operation, system, manager, online, help
 summary: "Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site."
 ---
-= Preparing for switchover and switchback operations
+= Prepare for switchover and switchback operations by using System Manager classic - ONTAP 9.6 and later
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site.
+Before you perform switchover operations using ONTAP System Manager classic 9.6, you should verify that the necessary steps have been performed on the affected site.
 
 .Steps
 

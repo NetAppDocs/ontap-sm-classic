@@ -4,9 +4,9 @@ sidebar: sidebar
 keywords: online, help, set, up, logical, storage, svm, volume
 summary: "Setting up the logical storage consists of creating storage virtual machines (SVMs) and volumes."
 ---
-= Setting up logical storage
+= Set up logical storage by using System Manager classic - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Setting up the logical storage consists of creating storage virtual machines (SVMs) and volumes.
+You can set up logical storage by using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). Setting up the logical storage consists of creating storage virtual machines (SVMs) and volumes.

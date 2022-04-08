@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: date, time, settings, cluster, system, manager, online, help
 summary: "You can use System Manager to manage the date and time settings of a cluster."
 ---
-= Date and time settings of a cluster
+= Manage the date and time settings of a cluster with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to manage the date and time settings of a cluster.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage the date and time settings of a cluster.
 
 == Date and Time window
 

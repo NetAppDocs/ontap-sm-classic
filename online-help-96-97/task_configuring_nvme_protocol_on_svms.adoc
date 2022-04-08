@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: configure, nvme, protocol, svm, system, manager, namespaces, online, help
 summary: "You can configure the NVMe protocol on a storage virtual machine (SVM) using System Manager. You can then create namespaces and assign them to an NVMe subsystem and host."
 ---
-= Configure NVMe protocol on SVMs
+= Configure NVMe protocol on SVMs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can configure the NVMe protocol on a storage virtual machine (SVM) using System Manager. You can then create namespaces and assign them to an NVMe subsystem and host.
+You can configure the NVMe protocol on a storage virtual machine (SVM) using System Manager classic (available in ONTAP 9.7 and earlier). You can then create namespaces and assign them to an NVMe subsystem and host.
 
 .About this task
 
