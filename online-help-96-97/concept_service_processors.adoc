@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: service, processors, monitor, manage, storage, system, manager, temperature, voltage, current, fan, speed, online, help, isolate, management, network, traffic, sp, bmc, e0m, interface, subnet, performance, routing, ip, address, edit
 summary: "You can use a Services Processor to monitor and manage your storage system parameters such as temperature, voltage, current, and fan speeds through System Manager."
 ---
-= Service Processors with System Manager - ONTAP 9.7 and earlier
+= Use a Service Processor with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

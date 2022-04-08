@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, view, manage, delete, software, licenses, cluster, node, types, entitlement, risk,
 summary: "You can use System Manager to view, manage, or delete any software licenses installed on a cluster or node."
 ---
-= Licenses with System Manager - ONTAP 9.7 and earlier
+= Manage licenses with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
