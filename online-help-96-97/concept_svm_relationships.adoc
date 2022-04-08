@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, machine, help, create, data, transfer
 summary: "Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration."
 ---
-= SVM Relationships
+= SVM Relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration.
 
-You can use System Manager to create and manage mirror relationships and mirror and vault relationships between SVMs.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage mirror relationships and mirror and vault relationships between SVMs.
 
 == Create SVM relationships
 
