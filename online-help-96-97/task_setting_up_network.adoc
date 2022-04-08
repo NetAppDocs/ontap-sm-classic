@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help
 summary: "By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window."
 ---
-= Setting up a network
+= Set up a network with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window.
+You can manage your cluster, nodes, and Service Processors by setting up a network using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can also set up DNS and NTP details by using the network window.
 
 .Before you begin
 
