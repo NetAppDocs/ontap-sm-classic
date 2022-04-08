@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, cluster, update, window, tab, update, command, button, history, tab
 summary: "You can use the Cluster Update window to perform an automated cluster update nondisruptively or you can update single-node clusters disruptively."
 ---
-= Cluster Update window
+= Cluster Update window with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Cluster Update window to perform an automated cluster update nondisruptively or you can update single-node clusters disruptively.
+You can use the Cluster Update window to perform an automated cluster update nondisruptively or you can update single-node clusters disruptively with ONTAP System Manager classic (available in ONTAP 9.7 and earlier).
 
 == Tabs
 

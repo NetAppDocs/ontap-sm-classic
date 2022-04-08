@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: ldap, system, manager, configure, server, online, help, user, information
 summary: "You can use System Manager to configure an LDAP server that centrally maintains user information."
 ---
-= LDAP
+= Configure an LDAP server with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to configure an LDAP server that centrally maintains user information.
+You can use ONTAP System Manager classic (available 9.7 and earlier) to configure an LDAP server that centrally maintains user information.
 
 == View the LDAP client configuration
 

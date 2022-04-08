@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set, up, support, page, cluster, setup, online, help
 summary: "Setting up the support page completes the cluster setup, and involves setting up event notifications, and for single-node clusters, configuring system backup."
 ---
-= Set up a support page by using System Manager - ONTAP 9.7 and earlier
+= Set up a support page with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
