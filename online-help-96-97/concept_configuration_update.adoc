@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: configuration, update, system, manager, administration, detail, storage, virtual, machine, svm, online, help, window, tab, node, command, button
 summary: "You can use System Manager to configure the administration details of storage virtual machines (SVMs)."
 ---
-= Configuration update
+= Configuration update with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to configure the administration details of storage virtual machines (SVMs).
+You can use ONTAP System Manager classic (available in 9.7 and earlier) to configure the administration details of storage virtual machines (SVMs).
 
 == Configure the adminstration details of an SVM
 You can use System Manager to quickly configure the administration details of astorage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators.
