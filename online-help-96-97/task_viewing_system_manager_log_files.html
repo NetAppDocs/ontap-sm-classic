@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Viewing ONTAP System Manager log files</title>
+  <title>View System Manager log files - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Viewing ONTAP System Manager log files" />
+  <meta property="og:title" content="View System Manager log files - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_system_manager_log_files.html" />
 	<meta property="og:description" content="If you encounter any issues when using System Manager, you can send the log files to technical support to help troubleshoot the issues. The System Manager lo..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Viewing ONTAP System Manager log files](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_system_manager_log_files.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_viewing_system_manager_log_files.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[View System Manager log files - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_system_manager_log_files.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_viewing_system_manager_log_files.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -5328,14 +5328,14 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Viewing ONTAP System Manager log files</h1>
+  <h1 class="n-doc__component-detail-heading">View System Manager log files - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-03-23 11:25:38 +0000">03/23/2022</time>
+    <time datetime="2022-04-08 12:29:04 +0000">04/08/2022</time>
     
   
 
@@ -5364,7 +5364,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>If you encounter any issues when using System Manager, you can send the log files to technical support to help troubleshoot the issues. The System Manager log files are located in the <code>mlog</code> directory along with the ONTAP log files.</p>
+<p>If you encounter any issues when using ONTAP System Manager classic (available in ONTAP 9.7 and earlier), you can send the log files to technical support to help troubleshoot the issues. The System Manager log files are located in the <code>mlog</code> directory along with the ONTAP log files.</p>
 </div>
 <div class="olist arabic">
 <div class="title">Steps</div>
@@ -5419,15 +5419,11 @@
 <div class="sect1">
 <h2 id="how-system-logging-works">How system logging works</h2>
 <div class="sectionbody">
-<div class="literalblock">
-<div class="content">
-<pre>System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.</pre>
+<div class="paragraph">
+<p>System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.</p>
 </div>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>Log output can be voluminous and therefore can become difficult to manage. System Manager enables you to refine the logging output by selecting which type of log statements are output. By default, system logging is set to INFO. You can choose one of the following log levels:</pre>
-</div>
+<div class="paragraph">
+<p>Log output can be voluminous and therefore can become difficult to manage. System Manager enables you to refine the logging output by selecting which type of log statements are output. By default, system logging is set to INFO. You can choose one of the following log levels:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -5445,13 +5441,11 @@
 </li>
 <li>
 <p>DEBUG</p>
-<div class="literalblock">
-<div class="content">
-<pre>These levels function hierarchically. A log level set to OFF indicates no logging of messages.</pre>
-</div>
-</div>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>These levels function hierarchically. A log level set to OFF indicates no logging of messages.</p>
 </div>
 </div>
 </div>
