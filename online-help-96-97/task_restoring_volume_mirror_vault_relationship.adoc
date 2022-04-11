@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: restore, volume, mirror, vault, relationship, online, help, snapshot, copy, system, manager
 summary: "You can use System Manager to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume."
 ---
-= Restoring a volume in a mirror and vault relationship
+= Restoring a volume in a mirror and vault relationship with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume.
 
 .Before you begin
 

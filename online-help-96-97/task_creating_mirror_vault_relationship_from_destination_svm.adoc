@@ -4,12 +4,13 @@ sidebar: sidebar
 keywords: system, manager, create, mirror, vault, relationship, destination, svm, online, help
 summary: "You can use System Manager to create a mirror and vault relationship from the destination storage virtual machine (SVM). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume."
 ---
-= Create a mirror and vault relationship from a destination SVM
+= Create a mirror and vault relationship from a destination SVM with System Manager - ONTAP 9.7 and earlier
+
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create a mirror and vault relationship from the destination storage virtual machine (SVM). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a mirror and vault relationship from the destination storage virtual machine (SVM). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume.
 
 .Before you begin
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: edit, vault, relationships, system, manager, online, help, cluster, schedule
 summary: "You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule."
 ---
-= Editing vault relationships
+= Editing vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.
 
 .Before you begin
 

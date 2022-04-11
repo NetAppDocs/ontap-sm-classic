@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: break, mirror, vault, relationship, system, manger, online, help, client, applications
 summary: "You can use System Manager to break a mirror and vault relationship if a source volume becomes unavailable and you want client applications to access the data from the destination volume. You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems."
 ---
-= Breaking mirror and vault relationships
+= Breaking mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to break a mirror and vault relationship if a source volume becomes unavailable and you want client applications to access the data from the destination volume. You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to break a mirror and vault relationship if a source volume becomes unavailable and you want client applications to access the data from the destination volume. You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems.
 
 .Before you begin
 

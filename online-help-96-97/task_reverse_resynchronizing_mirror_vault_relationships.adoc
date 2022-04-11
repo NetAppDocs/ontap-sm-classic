@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, online, help
 summary: "You can use System Manager to reestablish a mirror and vault relationship that was previously broken. In a reverse resynchronization operation, the functions of the source and destination volumes are reversed. You can use the destination volume to serve data while you repair or replace the source, update the source, and reestablish the original configuration of the systems."
 ---
-= Reverse resynchronizing mirror and vault relationships
+= Reverse resynchronizing mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to reestablish a mirror and vault relationship that was previously broken. In a reverse resynchronization operation, the functions of the source and destination volumes are reversed. You can use the destination volume to serve data while you repair or replace the source, update the source, and reestablish the original configuration of the systems.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to reestablish a mirror and vault relationship that was previously broken. In a reverse resynchronization operation, the functions of the source and destination volumes are reversed. You can use the destination volume to serve data while you repair or replace the source, update the source, and reestablish the original configuration of the systems.
 
 .Before you begin
 

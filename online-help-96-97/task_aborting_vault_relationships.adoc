@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: abort, snapshot, copy, transfer, online, help, system, manager
 summary: "You can use System Manager to abort or stop a data transfer that is currently in progress."
 ---
-= Aborting a Snapshot copy transfer
+= Aborting a Snapshot copy transfer with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to abort or stop a data transfer that is currently in progress.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to abort or stop a data transfer that is currently in progress.
 
 .Steps
 
