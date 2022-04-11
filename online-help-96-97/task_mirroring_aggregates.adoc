@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: mirror, aggregate, system, manager, data, lun, array, online, help
 summary: "You can use System Manager to protect data and to provide increased resiliency by mirroring data in real-time, within a single aggregate. Mirroring aggregates removes single points of failure in connecting to disks and array LUNs."
 ---
-= Mirroring aggregates
+= Mirror aggregates with System Manager - ONTAP 9.7 and earlier
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to protect data and to provide increased resiliency by mirroring data in real-time, within a single aggregate. Mirroring aggregates removes single points of failure in connecting to disks and array LUNs.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to protect data and to provide increased resiliency by mirroring data in real-time, within a single aggregate. Mirroring aggregates removes single points of failure in connecting to disks and array LUNs.
 
 .Before you begin
 

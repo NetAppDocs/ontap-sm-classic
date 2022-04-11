@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: install, ca, certificate, storagegrid, fabricpool, aggregate, online, help
 summary: "For ONTAP to authenticate with StorageGRID as the object store for a FabricPool-enabled aggregate, you can install a StorageGRID CA certificate on the cluster."
 ---
-= Install a CA certificate if you use StorageGRID
+= Install a CA certificate if you use StorageGRID with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For ONTAP to authenticate with StorageGRID as the object store for a FabricPool-enabled aggregate, you can install a StorageGRID CA certificate on the cluster.
+For ONTAP to authenticate with StorageGRID as the object store for a FabricPool-enabled aggregate, you can install a StorageGRID CA certificate on the cluster with System Manager classic (available in ONTAP 9.7 and earlier).
 
 .Steps
 
