@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, commnd, button, trace, file, access, window, online, help, cif, entry, list
 summary: "Beginning with System Manager 9.6, you can use the Trace File Access window to diagnose issues when you have problems accessing files and shares on an SVM using the CIFS or NFS protocol."
 ---
-= Trace File Access window
+= Trace File Access window in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Beginning with System Manager 9.6, you can use the Trace File Access window to diagnose issues when you have problems accessing files and shares on an SVM using the CIFS or NFS protocol.
+Beginning with ONTAP System Manager 9.6, you can use the Trace File Access window to diagnose issues when you have problems accessing files and shares on an SVM using the CIFS or NFS protocol.
 
 == Command buttons
 
