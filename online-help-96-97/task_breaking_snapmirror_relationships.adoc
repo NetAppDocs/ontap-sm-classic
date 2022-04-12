@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: snapmirror, break, relationship, dp, rw, online, help
 summary: "You must break a SnapMirror relationship if a SnapMirror source becomes unavailable and you want client applications to be able to access the data from the mirror destination."
 ---
-= Breaking SnapMirror relationships
+= Breaking SnapMirror relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You must break a SnapMirror relationship if a SnapMirror source becomes unavailable and you want client applications to be able to access the data from the mirror destination. After the SnapMirror relationship is broken, the destination volume type changes from "data protection" (DP) to "read/write" (RW).
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to break a SnapMirror relationship. You must break a SnapMirror relationship if a SnapMirror source becomes unavailable and you want client applications to be able to access the data from the mirror destination. After the SnapMirror relationship is broken, the destination volume type changes from "data protection" (DP) to "read/write" (RW).
 
 .Before you begin
 
