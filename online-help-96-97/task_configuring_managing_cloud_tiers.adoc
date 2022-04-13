@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, manage, cloud, tier, online, help, fabricpool, aggregate, storage, system, add, ssd, provision, storage, fabricpool, aggregate, manually, tiering, policy
 summary: "Storing data in tiers can enhance the efficiency of your storage system. You manage storage tiers by using FabricPool-enabled aggregates. Cloud tiers store data in a tier based on whether the data is frequently accessed."
 ---
-= Configure and manage cloud tiers with System Manager classic - ONTAP 9.7 and earlier
+= Configure and manage cloud tiers with System Manager - ONTAP 9.7 and earlier
 
 You can use ONTAP System Manger classic (available in ONTAP 9.7 and earlier) to configure and manage cloud tiers. Storing data in tiers can enhance the efficiency of your storage system. You manage storage tiers by using FabricPool-enabled aggregates. Cloud tiers store data in a tier based on whether the data is frequently accessed.
 

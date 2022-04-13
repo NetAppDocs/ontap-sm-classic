@@ -17,12 +17,10 @@ You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to
 +
 [NOTE]
 ====
-+
-....
--   For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and the Data Protection Optimization \(DPO\) license enabled.
--   After the DPO license is enabled on the destination cluster, you must refresh the browser of the source cluster to enable the `Protect` option.
-....
-+
+
+* For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and the Data Protection Optimization \(DPO\) license enabled.
+* After the DPO license is enabled on the destination cluster, you must refresh the browser of the source cluster to enable the `Protect` option.
+
 ====
 
 * The source cluster and destination cluster and the source SVM and destination SVM must be in a healthy peer relationship.
@@ -97,3 +95,5 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 *Related information*
 
 xref:reference_protection_window.adoc[Protection window]
+
+// sm-classic rework, 2022-04-13
