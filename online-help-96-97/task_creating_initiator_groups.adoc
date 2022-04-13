@@ -48,7 +48,7 @@ You can use System Manager to add initiators to an initiator group. An initiator
 . Specify the initiator name and click *OK*.
 . Click *Save and Close*.
 
-== Deleting initiators from an initiator group
+== Delete initiators from an initiator group
 
 You can use the Initiator Groups tab in System Manager to delete an initiator. To delete an initiator from an initiator group, you must disassociate the initiator from the initiator group.
 
