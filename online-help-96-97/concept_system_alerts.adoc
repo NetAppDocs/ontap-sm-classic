@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, monitor, cluster, health, alerts, delete,
 summary: "You can use System Manager to monitor different parts of a cluster."
 ---
-= System alerts
+= Manage system alerts with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to monitor different parts of a cluster.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to monitor different parts of a cluster.
 
 == Acknowledge system health alerts
 

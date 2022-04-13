@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: junction, path, window, system, manager, mount, unmount, flexvol, volume, svm, namespace, online, help, policies, export
 summary: "You can use the Junction Path window in System Manager to mount or unmount FlexVol volumes to a junction in the SVM namespace."
 ---
-= Junction Path
+= Junction Path window in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Junction Path window in System Manager to mount or unmount FlexVol volumes to a junction in the SVM namespace.
+You can use the Junction Path window in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to mount or unmount FlexVol volumes to a junction in the SVM namespace.
 
 == Mount volumes
 
