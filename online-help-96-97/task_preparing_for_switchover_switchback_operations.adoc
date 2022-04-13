@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: prepare, switchover, switchback, operation, system, manager, online, help
 summary: "Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site."
 ---
-= Prepare for switchover and switchback operations by using System Manager classic
+= Prepare for switchover and switchback operations
 :icons: font
 :imagesdir: ../media/
 
