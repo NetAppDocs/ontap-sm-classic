@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Provision storage and create a Flash Pool aggregate manually with System Manager - ONTAP 9.7 and earlier</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Provision storage and create a Flash Pool aggregate manually with System Manager - ONTAP 9.7 and earlier" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html" />
-	<meta property="og:description" content="You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When ..." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/us-en/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When ...">
-  <meta name="keywords" content=" provision, system, manager, storage, create, flash, pool, aggregate, manually, online, help, hdd"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/us-en/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -53,6 +53,9 @@
   <link rel="stylesheet" href="/us-en/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
   <!-- Canonical url -->
   <link rel='stylesheet' href='/us-en/ontap-sm-classic/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    pageRedirect("https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_through_aggregates.html");
+    function pageRedirect(url) { location.href = url; }
+  </script><script>
     if (document.location.hostname === "docs.netapp.com") {
       var head = document.getElementsByTagName('head')[0];
       var onetrustConsent = document.createElement("script");
@@ -169,7 +172,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Provision storage and create a Flash Pool aggregate manually with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -5328,14 +5331,14 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Provision storage and create a Flash Pool aggregate manually with System Manager - ONTAP 9.7 and earlier</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-08 12:29:04 +0000">04/08/2022</time>
+    <time datetime="2022-04-12 17:02:58 +0000">04/12/2022</time>
     
   
 
@@ -5369,155 +5372,7 @@
 
 </p>
 
-<div class="paragraph lead">
-<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate.</p>
-</div>
-<div class="ulist">
-<div class="title">Before you begin</div>
-<ul>
-<li>
-<p>You must be aware of the platform-specific best practices and workload-specific best practices for the Flash Pool aggregate SSD tier size and configuration.</p>
-</li>
-<li>
-<p>All of the HDDs must be in the zeroed state.</p>
-</li>
-<li>
-<p>If you want to add SSDs to the aggregate, all of the existing SSDs and dedicated SSDs must be of the same size.</p>
-</li>
-</ul>
-</div>
-<div class="ulist">
-<div class="title">About this task</div>
-<ul>
-<li>
-<p>You cannot use partitioned SSDs while creating a Flash Pool aggregate.</p>
-</li>
-<li>
-<p>You cannot mirror the aggregates if the cache source is storage pools.</p>
-</li>
-<li>
-<p>Beginning with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.</p>
-</li>
-<li>
-<p>If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">Steps</div>
-<ol class="arabic">
-<li>
-<p>Create an aggregate by using one of the following methods:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Click <strong>Applications &amp; Tiers</strong> &gt; <strong>Storage Tiers</strong> &gt; <strong>Add Aggregate</strong>.</p>
-</li>
-<li>
-<p>Click <strong>Storage</strong> &gt; <strong>Aggregate &amp; Disks</strong> &gt; <strong>Aggregates</strong> &gt; <strong>Create</strong>.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Enable the <strong>Manually Create Aggregate</strong> option to create an aggregate.</p>
-</li>
-<li>
-<p>In the <strong>Create Aggregate</strong> window, specify the name of the aggregate, the disk type, and the number of disks or partitions to include for the HDDs in the aggregate.</p>
-</li>
-<li>
-<p>If you want to mirror the aggregate, select the <strong>Mirror this aggregate</strong> check box.</p>
-<div class="paragraph">
-<p>For MetroCluster configurations, creating unmirrored aggregates is restricted. Therefore, the mirroring option is enabled by default for MetroCluster configurations.</p>
-</div>
-</li>
-<li>
-<p>Click <strong>Use Flash Pool Cache with this aggregate</strong>.</p>
-</li>
-<li>
-<p>Specify the cache source:</p>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">If you want to select the cache source as&#8230;&#8203;</th>
-<th class="tableblock halign-left valign-top">Then&#8230;&#8203;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Storage pools</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Select <strong>Storage pools</strong> as the Cache Source.</p>
-</li>
-<li>
-<p>Select the storage pool from which the cache can be obtained, and then specify the cache size.</p>
-</li>
-<li>
-<p>Modify the RAID type, if required.</p>
-</li>
-</ol>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Dedicated SSDs</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Select <strong>Dedicated SSDs</strong> as the Cache Source.</p>
-</li>
-<li>
-<p>Select the SSD size and the number of SSDs to include in the aggregate.</p>
-</li>
-<li>
-<p>Modify the RAID configuration, if required:</p>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Click <strong>Change</strong>.</p>
-</li>
-<li>
-<p>In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.</p>
-</li>
-<li>
-<p>Click <strong>Save</strong>.</p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Click <strong>Create</strong>.</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<div class="title">Results</div>
-<p>The Flash Pool aggregate is created with the specified configuration, and is added to the list of aggregates in the Aggregates window.</p>
-</div>
-<div class="paragraph">
-<p><strong>Related information</strong></p>
-</div>
-<div class="paragraph">
-<p><a href="concept_how_storage_pool_works.html">How storage pool works</a></p>
-</div>
-<div class="paragraph">
-<p><a href="http://www.netapp.com/us/media/tr-4070.pdf" target="_blank" rel="noopener">NetApp Technical Report 4070: Flash Pool Design and Implementation</a></p>
-</div>
+
 
     </article>
     <!-- Page Container -->

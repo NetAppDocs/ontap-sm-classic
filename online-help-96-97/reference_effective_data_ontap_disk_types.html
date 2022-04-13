@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>How you can use effective ONTAP disk type for mixing HDDs</title>
+  <title>Use effective ONTAP disk type for mixing HDDs with System Manger - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="How you can use effective ONTAP disk type for mixing HDDs" />
+  <meta property="og:title" content="Use effective ONTAP disk type for mixing HDDs with System Manger - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html" />
 	<meta property="og:description" content="Beginning with Data ONTAP 8.1, certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and managing spares...." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[How you can use effective ONTAP disk type for mixing HDDs](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_effective_data_ontap_disk_types.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Use effective ONTAP disk type for mixing HDDs with System Manger - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/reference_effective_data_ontap_disk_types.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -5328,18 +5328,26 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">How you can use effective ONTAP disk type for mixing HDDs</h1>
+  <h1 class="n-doc__component-detail-heading">Use effective ONTAP disk type for mixing HDDs with System Manger - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-01-31 22:33:35 +0000">01/31/2022</time>
+    <time datetime="2022-04-11 14:58:51 +0000">04/11/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-thomi">
     <img  class="avatar avatar-small"
           alt="netapp-thomi"
@@ -5362,7 +5370,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>Beginning with Data ONTAP 8.1, certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and managing spares. ONTAP assigns an effective disk type for each disk type. You can mix HDDs that have the same effective disk type.</p>
+<p>Beginning with Data ONTAP 8.1, certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and managing spares. ONTAP assigns an effective disk type for each disk type. You can use ONTAP System Manager classic (available in 9.7 and earlier) to mix HDDs that have the same effective disk type.</p>
 </div>
 <div class="paragraph">
 <p>When the <code>raid.disktype.enable</code> option is set to <code>off</code>, you can mix certain types of HDDs within the same aggregate. When the <code>raid.disktype.enable</code> option is set to <code>on</code>, the effective disk type is the same as the ONTAP disk type. Aggregates can be created using only one disk type. The default value for the <code>raid.disktype.enable</code> option is <code>off</code>.</p>

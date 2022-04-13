@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>How volume guarantees work for FlexVol volumes</title>
+  <title>About volume guarantees for FlexVol volumes with System Manager - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="How volume guarantees work for FlexVol volumes" />
+  <meta property="og:title" content="About volume guarantees for FlexVol volumes with System Manager - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html" />
 	<meta property="og:description" content="Volume guarantees (sometimes called space guarantees) determine how space for a volume is allocated from its containing aggregate—whether or not the space is..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[How volume guarantees work for FlexVol volumes](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[About volume guarantees for FlexVol volumes with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -5328,18 +5328,26 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">How volume guarantees work for FlexVol volumes</h1>
+  <h1 class="n-doc__component-detail-heading">About volume guarantees for FlexVol volumes with System Manager - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-25 16:18:03 +0000">10/25/2021</time>
+    <time datetime="2022-04-13 12:21:46 +0000">04/13/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5354,7 +5362,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>Volume guarantees (sometimes called <em>space guarantees</em>) determine how space for a volume is allocated from its containing aggregate&#8212;&#8203;whether or not the space is preallocated for the volume.</p>
+<p>You can set volume guarantees for FlexVol volumes with System Manager classic (available in ONTAP 9.7 and earlier). Volume guarantees (sometimes called <em>space guarantees</em>) determine how space for a volume is allocated from its containing aggregate&#8212;&#8203;whether or not the space is preallocated for the volume.</p>
 </div>
 <div class="paragraph">
 <p>The guarantee is an attribute of the volume.</p>

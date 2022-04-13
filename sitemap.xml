@@ -71,7 +71,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_aggregates.html</loc>
       
-      <lastmod>2021-12-21T17:34:59+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -85,14 +85,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_array_luns.html</loc>
       
-      <lastmod>2021-12-15T18:00:30+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_autosupport.html</loc>
       
-      <lastmod>2021-12-15T18:00:30+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -267,7 +267,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_disks.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -288,14 +288,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_ethernet_ports.html</loc>
       
-      <lastmod>2021-12-22T15:47:29+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_events.html</loc>
       
-      <lastmod>2021-12-15T18:00:30+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -330,7 +330,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_fc_fcoe_nvme_adapters.html</loc>
       
-      <lastmod>2021-12-22T15:47:29+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -351,7 +351,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_flash_pool_statistics.html</loc>
       
-      <lastmod>2021-12-15T18:00:30+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -372,7 +372,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_hardware_cache.html</loc>
       
-      <lastmod>2021-12-21T12:51:47+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -393,7 +393,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html</loc>
       
-      <lastmod>2021-08-12T02:45:58+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -428,7 +428,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_ontap_reports_drive_types.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -463,21 +463,21 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html</loc>
       
-      <lastmod>2021-08-17T01:49:35+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html</loc>
       
-      <lastmod>2021-10-23T20:37:10+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -575,7 +575,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_jobs.html</loc>
       
-      <lastmod>2021-12-15T18:00:30+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -659,7 +659,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_luns.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -715,7 +715,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html</loc>
       
-      <lastmod>2022-04-08T09:00:09+00:00</lastmod>
+      <lastmod>2022-04-13T12:27:00+00:00</lastmod>
       
     </url>
   
@@ -757,14 +757,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_namespace.html</loc>
       
-      <lastmod>2021-12-15T18:00:30+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_network_interfaces.html</loc>
       
-      <lastmod>2021-12-21T17:34:59+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -785,7 +785,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_nodes.html</loc>
       
-      <lastmod>2021-12-21T12:51:47+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -806,7 +806,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_options_for_resizing_volumes.html</loc>
       
-      <lastmod>2021-08-17T01:49:35+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -904,7 +904,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_rules_for_mixing_disk_types_disk_rpms.html</loc>
       
-      <lastmod>2021-08-17T01:49:35+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -981,7 +981,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_shares.html</loc>
       
-      <lastmod>2021-12-17T17:53:41+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -1051,14 +1051,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_storage_pools.html</loc>
       
-      <lastmod>2021-12-22T15:47:29+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -1072,14 +1072,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_storage_virtual_machines.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_subnets.html</loc>
       
-      <lastmod>2021-12-21T17:34:59+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -1100,7 +1100,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_system_alerts.html</loc>
       
-      <lastmod>2021-12-21T12:51:47+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -1219,7 +1219,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_with_flexvol_volumes.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -1254,7 +1254,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_volumes.html</loc>
       
-      <lastmod>2021-10-25T16:18:03+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
@@ -1275,7 +1275,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_what_compatible_spare_disks_are.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -1345,7 +1345,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_why_you_use_svms.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -1681,7 +1681,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_application_specific_lun_settings.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -2080,7 +2080,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_disks_window.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -2094,7 +2094,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_effective_data_ontap_disk_types.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -2234,7 +2234,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_managing_svms.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -2423,14 +2423,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_storage_tiers_window.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_svm_dashboard_window.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -2444,7 +2444,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_svm_window.html</loc>
       
-      <lastmod>2021-09-01T20:16:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -2458,7 +2458,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_trace_file_access_window.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -2619,7 +2619,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/reference_volumes_window.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -2738,7 +2738,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic//search.html</loc>
       
-      <lastmod>2022-04-09T01:30:40+00:00</lastmod>
+      <lastmod>2022-04-13T22:58:27+00:00</lastmod>
       
     </url>
   
@@ -2815,7 +2815,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_adding_capacity_disks.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -3060,7 +3060,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_assigning_volumes_to_storage_qos.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3116,7 +3116,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_changing_deduplication_schedule.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3179,14 +3179,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_changing_raid_configuration_when_creating_aggregate.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_changing_raid_group_when_adding_capacity_disks.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -3200,14 +3200,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_changing_status_flexgroup_volume.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_changing_status_volume.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3221,7 +3221,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_changing_tiering_policy_volume_destination_topic_delete.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3438,7 +3438,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_configuring_managing_cloud_tiers.html</loc>
       
-      <lastmod>2021-12-22T15:47:29+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -3690,7 +3690,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_fc_san_optimized_luns.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -3704,21 +3704,21 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_flexclone_files.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_flexclone_volumes.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_flexgroup_volumes.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -3739,7 +3739,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_initiator_groups.html</loc>
       
-      <lastmod>2022-02-08T15:47:47+00:00</lastmod>
+      <lastmod>2022-04-13T17:16:50+00:00</lastmod>
       
     </url>
   
@@ -3837,7 +3837,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_luns.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -3851,7 +3851,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_mirror_relationship_from_source_volume.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3865,7 +3865,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_mirror_vault_relationship_from_source_svm.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3907,7 +3907,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_nfs_datastore_for_vmware.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -3935,7 +3935,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_portsets.html</loc>
       
-      <lastmod>2022-02-08T15:47:47+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -4033,7 +4033,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_snapshot_copies_outside_defined_schedule.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -4152,7 +4152,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_vault_relationship_from_source_svm.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -4250,7 +4250,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_aggregates.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -4320,7 +4320,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_flexgroup_volumes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -4334,14 +4334,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_initiator_groups.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_initiators_from_initiator_group.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -4390,7 +4390,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_luns.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -4425,7 +4425,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_portsets.html</loc>
       
-      <lastmod>2022-02-08T15:47:47+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -4474,7 +4474,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_snapshot_copies.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -4502,7 +4502,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_svms.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -4530,7 +4530,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_deleting_volumes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
@@ -4586,7 +4586,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_aggregates.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -4635,7 +4635,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_data_protection_volumes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
@@ -4838,7 +4838,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_port_sets.html</loc>
       
-      <lastmod>2022-02-08T15:47:47+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -4936,7 +4936,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_svm_settings.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -4957,7 +4957,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_volume_properties.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -5034,7 +5034,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_enabling_storage_efficiency_on_volume.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5048,7 +5048,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_extending_expiry_date_snapshot_copies.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5090,7 +5090,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_hiding_snapshot_copy_directory.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5153,7 +5153,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html</loc>
       
-      <lastmod>2021-10-19T22:01:21+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -5258,7 +5258,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_manually_triggering_cutover_phase.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5293,7 +5293,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_mirroring_aggregates.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -5356,7 +5356,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_monitoring_svm_using_dashboard.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -5377,14 +5377,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5482,7 +5482,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_preparing_for_switchover_switchback_operations.html</loc>
       
-      <lastmod>2022-04-08T09:00:09+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -5503,7 +5503,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_cache_by_adding_disks.html</loc>
       
-      <lastmod>2021-12-15T14:56:37+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -5531,14 +5531,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5552,28 +5552,28 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_provisioning_storage_through_aggregates.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5615,7 +5615,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_reassigning_disks_to_nodes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -5678,14 +5678,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_renaming_metrocluster_local_site_a.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_renaming_snapshot_copies.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5706,7 +5706,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_resizing_flexgroup_volumes.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -5720,7 +5720,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_resizing_volumes.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5734,7 +5734,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_restoring_volume_from_snapshot_copy.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5832,14 +5832,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_running_deduplication_operations.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_scheduling_automatic_creation_snapshot_copies.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5860,7 +5860,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_setting_snapshot_copy_reserve.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5923,21 +5923,21 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_setting_up_network.html</loc>
       
-      <lastmod>2022-04-08T12:29:04+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   
@@ -5972,14 +5972,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_specifying_advanced_options_for_flexgroup_volume.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T17:09:29+00:00</lastmod>
       
     </url>
   
@@ -6028,7 +6028,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_starting_svms.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -6042,7 +6042,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_stopping_svms.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T16:02:44+00:00</lastmod>
       
     </url>
   
@@ -6098,7 +6098,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html</loc>
       
-      <lastmod>2022-01-31T22:33:35+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
@@ -6476,7 +6476,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_aggregate_information.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -6497,7 +6497,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_disk_information.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-11T14:58:51+00:00</lastmod>
       
     </url>
   
@@ -6511,14 +6511,14 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_flexclone_volumes_hierarchy.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T17:01:15+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_flexgroup_volume_information.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-13T12:21:46+00:00</lastmod>
       
     </url>
   
@@ -6546,7 +6546,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_viewing_list_saved_snapshot_copies.html</loc>
       
-      <lastmod>2021-10-11T19:08:52+00:00</lastmod>
+      <lastmod>2022-04-12T17:02:58+00:00</lastmod>
       
     </url>
   

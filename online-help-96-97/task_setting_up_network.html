@@ -5335,7 +5335,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-08 12:29:04 +0000">04/08/2022</time>
+    <time datetime="2022-04-12 17:02:58 +0000">04/12/2022</time>
     
   
 
@@ -5361,8 +5361,10 @@
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>You can manage your cluster, nodes, and Service Processors by setting up a network using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can also set up DNS and NTP details by using the network window.</p>
+<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage your cluster, nodes, and Service Processors by setting up a network. You can also set up DNS and NTP details by using the network window.</p>
 </div>
 <div class="paragraph">
 <div class="title">Before you begin</div>
@@ -5381,6 +5383,234 @@
 <p>You can disable IP address range and enter individual IP addresses for cluster management, node management, and Service Processor management networks.</p>
 </li>
 </ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="setting-up-a-network-when-an-ip-address-range-is-enabled">Setting up a network when an IP address range is enabled</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Enter a range of IP addresses in the <strong>IP Address Range</strong> field, and then click <strong>Apply</strong>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Option</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>You have a range of IP addresses in the same netmask</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enter the IP address range, and then click <strong>Apply</strong>.     IP addresses are applied to cluster management, node management, and Service Processor management networks sequentially.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>You have a range of IP addresses in different netmasks</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enter each IP address range on a separate line, and then click <strong>Apply</strong>.     The first IP address applied to cluster management and other IP addresses are applied to node management and Service Processor management networks sequentially.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>After entering the IP address range for cluster management, node management, and Service Processor management, you must not manually modify the IP address values in these fields. You must ensure that all the IP addresses are IPv4 addresses.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Enter the netmask and gateway details.</p>
+</li>
+<li>
+<p>Select the port for cluster management in the <strong>Port</strong> field.</p>
+</li>
+<li>
+<p>If the <strong>Port</strong> field in the node management is not populated with <strong>e0M</strong>, enter the port details.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>By default, the Port field displays e0M.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>For Service Processor management, if you are overriding the default values, ensure that you have entered the mandatory gateway details.</p>
+</li>
+<li>
+<p>If you have enabled the <strong>DNS Details</strong> field, enter the DNS server details.</p>
+</li>
+<li>
+<p>If you have enabled the <strong>NTP Details</strong> field, enter the NTP server details.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Providing alternative NTP server details is optional.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <strong>Submit</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="what-to-do-next">What to do next</h3>
+<div class="paragraph">
+<p>Enter event notifications in the Support page to continue with the cluster setup.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="setting-up-a-network-when-an-ip-address-range-is-disabled">Setting up a network when an IP address range is disabled</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can set up a network by disabling an IP address range and entering individual IP addresses for cluster management, node management, and service provider networks.</p>
+</div>
+<div class="paragraph">
+<div class="title">About this task</div>
+<p>In the Networks page, if the <strong>IP Address Range</strong> is disabled, enter individual IP addresses for cluster management, node management, and service processor networks.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Enter the cluster management IP address in the <strong>Cluster Management IP Address</strong> field.</p>
+</li>
+<li>
+<p>Enter the netmask details for cluster management.</p>
+</li>
+<li>
+<p>Enter the gateway details for cluster management.</p>
+</li>
+<li>
+<p>Select the port for cluster management in the <strong>Port</strong> field.</p>
+</li>
+<li>
+<p>If you want to provide netmask and gateway details to manage your nodes, clear the <strong>Retain Netmask and Gateway configuration of the Cluster Management</strong> check box, and then enter the netmask and gateway details.</p>
+</li>
+<li>
+<p>Enter the node management IP addresses in the <strong>Node Management</strong> field.</p>
+</li>
+<li>
+<p>If the <strong>Port</strong> field in the node management is not populated with <strong>e0M</strong>, enter the port details.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>By default, the Port field displays e0M.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Enter the Service Processor management netmask and gateway details.</p>
+</li>
+<li>
+<p>Enter the Service Processor IP management addresses in the <strong>Service Processor Management</strong> field.</p>
+</li>
+<li>
+<p>If you have enabled the <strong>DNS Details</strong> field, enter the DNS server details.</p>
+</li>
+<li>
+<p>If you have enabled the <strong>NTP Details</strong> field, enter the NTP server details.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Providing alternative NTP server details is optional.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Click <strong>Submit</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="what-to-do-next-2">What to do next</h3>
+<div class="paragraph">
+<p>Enter event notifications in the Support page to continue with the cluster setup.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F">What is a Service Processor and how do I use it?</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI">How to configure and troubleshoot NTP on clustered Data ONTAP 8.2 and later using CLI</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/ontap-9/index.jsp">ONTAP 9 Documentation Center</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_network_window.html">Network window</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_configuration_updates_window.html">Configuration Updates window</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_date_time_window.html">Date and Time window</a></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_service_processors_window.html">Service Processors window</a></p>
+</div>
+</div>
+</div>
 </div>
 
     </article>
