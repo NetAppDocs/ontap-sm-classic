@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: delete, snapshot, copy, online, help, system, manager
 summary: "You can delete a Snapshot copy to conserve disk space or to free disk space by using System Manager. You can also delete a Snapshot copy if the Snapshot copy is no longer required."
 ---
-= Deleting Snapshot copies
+= Delete Snapshot copies with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can delete a Snapshot copy to conserve disk space or to free disk space by using System Manager. You can also delete a Snapshot copy if the Snapshot copy is no longer required.
+You can delete a Snapshot copy to conserve disk space or to free disk space by using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can also delete a Snapshot copy if the Snapshot copy is no longer required.
 
 .Before you begin
 

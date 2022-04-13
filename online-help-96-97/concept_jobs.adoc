@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: jobs, system, manager, job, task, display, information, progress, asynchronous, volume, operation, copy, move, mirror, data, queue, cluster, administrator, online, help
 summary: "You can use System Manager to manage job tasks such as displaying job information and monitoring the progress of a job."
 ---
-= Jobs
+= Manage jobs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to manage job tasks such as displaying job information and monitoring the progress of a job.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage job tasks such as displaying job information and monitoring the progress of a job.
 
 == Jobs
 

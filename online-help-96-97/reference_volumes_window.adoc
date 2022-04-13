@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: system, manager, volume, window, flexgroup, volume, online, help
 summary: "You can use the Volumes window to manage your FlexVol volumes and FlexGroup volumes. Beginning with System Manager 9.6, you can also manage FlexCache volumes."
 ---
-= Volumes window
+= Volumes window in System Manager - ONTAP 9.7 and earlier
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Volumes window to manage your FlexVol volumes and FlexGroup volumes. Beginning with System Manager 9.6, you can also manage FlexCache volumes.
+You can use the Volumes window in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage your FlexVol volumes and FlexGroup volumes. Beginning with System Manager 9.6, you can also manage FlexCache volumes.
 
 You cannot view or manage volumes that are in storage virtual machines (SVMs) that are configured for disaster recovery by using System Manager. You must use the CLI instead.
 

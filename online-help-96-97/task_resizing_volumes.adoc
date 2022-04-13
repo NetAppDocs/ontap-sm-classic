@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: resize, volume, capacity, snapshot, copy, online, help
 summary: "When a volume reaches nearly full capacity, you can increase the size of the volume, delete some Snapshot copies, or adjust the Snapshot reserve. You can use the Volume Resize wizard in System Manager to provide more free space."
 ---
-= Resizing volumes
+= Resize volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-When a volume reaches nearly full capacity, you can increase the size of the volume, delete some Snapshot copies, or adjust the Snapshot reserve. You can use the Volume Resize wizard in System Manager to provide more free space.
+When a volume reaches nearly full capacity, you use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to increase the size of the volume, delete some Snapshot copies, or adjust the Snapshot reserve. You can use the Volume Resize wizard in System Manager to provide more free space.
 
 .About this task
 

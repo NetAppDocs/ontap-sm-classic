@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: volume, guarantee, work, flexvol, volume, space, preallocated, aggregate, online, help
 summary: "Volume guarantees (sometimes called space guarantees) determine how space for a volume is allocated from its containing aggregate—whether or not the space is preallocated for the volume."
 ---
-= How volume guarantees work for FlexVol volumes
+= About volume guarantees for FlexVol volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Volume guarantees (sometimes called _space guarantees_) determine how space for a volume is allocated from its containing aggregate--whether or not the space is preallocated for the volume.
+You can set volume guarantees for FlexVol volumes with System Manager classic (available in ONTAP 9.7 and earlier). Volume guarantees (sometimes called _space guarantees_) determine how space for a volume is allocated from its containing aggregate--whether or not the space is preallocated for the volume.
 
 The guarantee is an attribute of the volume.
 

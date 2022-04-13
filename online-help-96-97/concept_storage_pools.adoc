@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, storage, pools, ssd, flash, pool, aggregates, online, help, create,
 summary: "You can use System Manager to create storage pools to enable SSDs to be shared by multiple Flash Pool aggregates."
 ---
-= Storage pools
+= Manage storage pools with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create storage pools to enable SSDs to be shared by multiple Flash Pool aggregates.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create storage pools to enable SSDs to be shared by multiple Flash Pool aggregates.
 
 == Create a storage pool
 
