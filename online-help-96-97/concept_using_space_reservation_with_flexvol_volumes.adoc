@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: space, reservation, flexvol, volume, online, help
 summary: "Using space reservation, you can provision FlexVol volumes. Thin provisioning appears to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used."
 ---
-= Using space reservations with FlexVol volumes
+= Use space reservations with FlexVol volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Using space reservation, you can provision FlexVol volumes. Thin provisioning appears to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used.
+In ONTAP System Manager classic (available in ONTAP 9.7 and earlier), you can use space reservation to provision FlexVol volumes. Thin provisioning appears to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used.
 
 Thick provisioning sets aside enough storage from the aggregate to ensure that any block in the volume can be written to at any time.
 
