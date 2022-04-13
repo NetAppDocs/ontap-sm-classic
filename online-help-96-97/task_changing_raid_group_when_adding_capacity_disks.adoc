@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: change, raid, group, add, capacity, disk, online, help, hdd
 summary: "While adding capacity disks (HDDs) to an aggregate, you can change the RAID group to which you want to add the disks by using System Manager."
 ---
-= Changing the RAID group when adding capacity disks
+= Change the RAID group when adding capacity disks with System Manager - ONTAP 9.7 and earlier
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-While adding capacity disks (HDDs) to an aggregate, you can change the RAID group to which you want to add the disks by using System Manager.
+While adding capacity disks (HDDs) to an aggregate, you can use ONTAP System Manager classic (avaiable in ONTAP 9.7 and earlier) to change the RAID group to which you want to add the disks.
 
 .About this task
 

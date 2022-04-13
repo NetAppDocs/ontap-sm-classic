@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: change, deduplication, schedule, online, help, system, manager
 summary: "You can use System Manager to change the deduplication schedule by choosing to run deduplication manually, automatically, or on a schedule that you specify."
 ---
-= Changing the deduplication schedule
+= Change the deduplication schedule with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to change the deduplication schedule by choosing to run deduplication manually, automatically, or on a schedule that you specify.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to change the deduplication schedule by choosing to run deduplication manually, automatically, or on a schedule that you specify.
 
 .Steps
 

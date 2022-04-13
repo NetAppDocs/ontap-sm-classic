@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: flexgroup, volume, graphical, online, help, system, manager
 summary: "You can use System Manager to view information about a FlexGroup volume. You can view a graphical representation of the space allocated, the protection status, and the performance of a FlexGroup volume."
 ---
-= Viewing FlexGroup volume information
+= View FlexGroup volume information with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to view information about a FlexGroup volume. You can view a graphical representation of the space allocated, the protection status, and the performance of a FlexGroup volume.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to view information about a FlexGroup volume. You can view a graphical representation of the space allocated, the protection status, and the performance of a FlexGroup volume.
 
 .About this task
 

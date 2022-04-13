@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, switchover, switchback, workflow, online, help, offline, maintenance
 summary: "Beginning with System Manager 9.6, you can use MetroCluster switchover and switchback operations after a disaster that renders all the nodes in the source cluster unreachable and powered off. You can also use the switchover workflow for a negotiated (planned) switchover in cases such as disaster recovery testing or a site going offline for maintenance."
 ---
-= About MetroCluster switchover and switchback using System Manager classic - ONTAP 9.7 and earlier
+= About MetroCluster switchover and switchback 
 :icons: font
 :imagesdir: ../media/
 

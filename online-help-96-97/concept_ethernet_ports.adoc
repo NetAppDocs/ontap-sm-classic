@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, manager, ethernet, port, create, online, help, create, interface, group, lacp, vlan, settings, duplex, mode, speed, mtu, size,  port, nodes, fcp,
 summary: "You can use System Manager to create and manage Ethernet ports."
 ---
-= Ethernet ports
+= Manage ethernet ports with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create and manage Ethernet ports.
+You can use ONTAP System classic (avaiable in ONTAP 9.7 and earlier) to create and manage Ethernet ports.
 
 == Create interface groups
 
