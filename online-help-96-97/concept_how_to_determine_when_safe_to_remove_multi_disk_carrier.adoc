@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: remove, multidisk, carrier, system, manager, storage, disruption, raid
 summary: "Removing a multi-disk carrier before it is safe to do so can result in one or more RAID groups becoming degraded, or possibly even a storage disruption. System Manager enables you to determine when it is safe to remove a multi-disk carrier."
 ---
-= Determine when it is safe to remove a multi-disk carrier
+= Determine when it is safe to remove a multi-disk carrier with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Removing a multi-disk carrier before it is safe to do so can result in one or more RAID groups becoming degraded, or possibly even a storage disruption. System Manager enables you to determine when it is safe to remove a multi-disk carrier.
+Removing a multi-disk carrier before it is safe to do so can result in one or more RAID groups becoming degraded, or possibly even a storage disruption. ONTAP System Manager classic (available in ONTAP 9.7 and earlier) enables you to determine when it is safe to remove a multi-disk carrier.
 
 When a multi-disk carrier has to be replaced, the following events must have occurred before you can remove the carrier safely:
 

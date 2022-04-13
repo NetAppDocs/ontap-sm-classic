@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, health, performance, monitor, svms, online, help
 summary: "The dashboard in System Manager enables you to monitor the health and performance of a storage virtual machine (SVM)."
 ---
-= Monitoring SVMs
+= Monitor SVMs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The dashboard in System Manager enables you to monitor the health and performance of a storage virtual machine (SVM).
+The dashboard in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) enables you to monitor the health and performance of a storage virtual machine (SVM).
 
 .Steps
 

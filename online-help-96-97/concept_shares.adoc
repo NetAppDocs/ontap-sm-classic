@@ -4,9 +4,9 @@ sidebar: sidebar
 keywords: online, help, share, system, manager, qtress, cifs, create, edit, manage, share, access, stop, home, directory, configure, smb
 summary: "You can use System Manager to create, edit, and manage shares."
 ---
-= Shares
+= Manage shares with System Manager - ONTAP 9.7 and earlier
 
-You can use System Manager to create, edit, and manage shares.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create, edit, and manage shares.
 
 == Create a CIFS share
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: set, up, snapshot, copy, reserve, system, manager, online, help
 summary: "You can use System Manager to reserve space (measured as a percentage) for the Snapshot copies in a volume. By setting the Snapshot copy reserve, you can allocate enough disk space for the Snapshot copies so that they do not consume the active file system space."
 ---
-= Setting the Snapshot copy reserve
+= Set the Snapshot copy reserve with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to reserve space (measured as a percentage) for the Snapshot copies in a volume. By setting the Snapshot copy reserve, you can allocate enough disk space for the Snapshot copies so that they do not consume the active file system space.
+You can use ONTAP System Manager classic (avaiable in ONTAP 9.7 and earlier) to reserve space (measured as a percentage) for the Snapshot copies in a volume. By setting the Snapshot copy reserve, you can allocate enough disk space for the Snapshot copies so that they do not consume the active file system space.
 
 .About this task
 

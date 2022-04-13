@@ -1,20 +1,4 @@
 ---
 permalink: online-help-96-97/task_deleting_portsets.html
-sidebar: sidebar
-keywords: delete, port, sets, system, manager, online, help
-summary: "You can use System Manager to delete a portset when it is no longer required."
+redirect: ontap-sm-classic/online-help-96-97/task_creating_portsets.html
 ---
-= Deleting portsets
-:icons: font
-:imagesdir: ../media/
-
-[.lead]
-You can use System Manager to delete a portset when it is no longer required.
-
-.Steps
-
-. Click *Storage* > *LUNs*.
-. In the *Portsets* tab, select one or more portsets and click *Delete*.
-. Confirm the deletion by clicking *Delete*.
-
-// 8 feb 2022, BURT 1456161

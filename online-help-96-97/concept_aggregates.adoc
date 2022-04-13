@@ -4,9 +4,9 @@ sidebar: sidebar
 keywords: aggregates, system, manager, security, backup, performance, data, sharing, classic, online, help, window
 summary: "You can use System Manager to create aggregates to support the differing security, backup, performance, and data sharing requirements of your users."
 ---
-= Aggregates
+= Manage aggregates with System Manager - ONTAP 9.7 and earlier
 
-You can use System Manager to create aggregates to support the differing security, backup, performance, and data sharing requirements of your users.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create aggregates to support the differing security, backup, performance, and data sharing requirements of your users.
 
 == Aggregates window
 

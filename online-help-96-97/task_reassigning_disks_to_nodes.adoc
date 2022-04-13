@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, reassign, disks, node, online, help, node, aggregate, storage, pool
 summary: "You can use System Manager to reassign the ownership of spare disks from one node to another node to increase the capacity of an aggregate or storage pool."
 ---
-= Reassigning disks to nodes
+= Reassign disks to nodes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to reassign the ownership of spare disks from one node to another node to increase the capacity of an aggregate or storage pool.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to reassign the ownership of spare disks from one node to another node to increase the capacity of an aggregate or storage pool.
 
 .About this task
 

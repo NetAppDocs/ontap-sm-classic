@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, administrator, system, manager, online, help
 summary: "A storage virtual machine (SVM) administrator can administer SVMs and their resources, such as volumes, protocols, and services, depending on the capabilities assigned by the cluster administrator. An SVM administrator cannot create, modify, or delete SVMs."
 ---
-= Managing SVMs
+= Manage SVMs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-A storage virtual machine (SVM) administrator can administer SVMs and their resources, such as volumes, protocols, and services, depending on the capabilities assigned by the cluster administrator. An SVM administrator cannot create, modify, or delete SVMs.
+In ONTAP System Manger classic (available in ONTAP 9.7 and earlier), a storage virtual machine (SVM) administrator can administer SVMs and their resources, such as volumes, protocols, and services, depending on the capabilities assigned by the cluster administrator. An SVM administrator cannot create, modify, or delete SVMs.
 
 [NOTE]
 ====
