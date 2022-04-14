@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Understanding space reservations for LUNs</title>
+  <title>Understanding space reservations for LUNs in System Manager - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Understanding space reservations for LUNs" />
+  <meta property="og:title" content="Understanding space reservations for LUNs in System Manager - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html" />
 	<meta property="og:description" content="Understanding how the space reservation setting (combined with the volume guarantee) affects how space is set aside for LUNs helps you to understand the rami..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Understanding space reservations for LUNs](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_using_space_reservation_for_luns.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Understanding space reservations for LUNs in System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_using_space_reservation_for_luns.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_using_space_reservation_for_luns.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -5328,18 +5328,26 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Understanding space reservations for LUNs</h1>
+  <h1 class="n-doc__component-detail-heading">Understanding space reservations for LUNs in System Manager - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-09-01 20:16:52 +0000">09/01/2021</time>
+    <time datetime="2022-04-14 12:42:56 +0000">04/14/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5354,7 +5362,7 @@
 </p>
 
 <div class="paragraph lead">
-<p>Understanding how the space reservation setting (combined with the volume guarantee) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations, and why certain combinations of LUN and volume settings are not useful.</p>
+<p>Understanding how the space reservation setting (combined with the volume guarantee) in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations. It also helps you to understand why certain combinations of LUN and volume settings are not useful.</p>
 </div>
 <div class="paragraph">
 <p>When a LUN has space reservations enabled (a space-reserved LUN), and its containing volume has a volume guarantee, free space from the volume is set aside for the LUN at creation time; the size of this reserved space is governed by the size of the LUN. Other storage objects in the volume (other LUNs, files, Snapshot copies, and so on) are prevented from using this space.</p>
