@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, system, manager, nis, services, add, edit, manage, network, information, service, domain, svm, modify, command
 summary: "You can use System Manager to add, edit, and manage Network Information Service (NIS) domains."
 ---
-= NIS services
+= Manage NIS services with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

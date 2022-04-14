@@ -4,12 +4,16 @@ sidebar: sidebar
 keywords: update, cifs, group, policy, configuration, online, help, enable, disable, modify, reload, set, up
 summary: "You have to update the group policy after the policy configuration is changed through the command-line interface (CLI). You can use the CIFS window in System Manager to update the group policy."
 ---
-= Update the CIFS group policy configuration
+= Manage the CIFS group policy configuration with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You have to update the group policy after the policy configuration is changed through the command-line interface (CLI). You can use the CIFS window in System Manager to update the group policy.
+You can use the CIFS window in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to update and manage the group policy.
+
+== Update the CIFS group policy configuration
+
+You have to update the group policy after the policy configuration is changed through the command-line interface (CLI).
 
 .Steps
 

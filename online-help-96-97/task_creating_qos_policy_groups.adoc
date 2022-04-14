@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, create, qos, policy, groups, system, manager, quality, service
 summary: "You can use System Manager to create storage Quality of Service (QoS) policy groups to limit the throughput of workloads and to monitor workload performance."
 ---
-= Create QoS policy groups
+= Create QoS policy groups with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create storage Quality of Service (QoS) policy groups to limit the throughput of workloads and to monitor workload performance.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create storage Quality of Service (QoS) policy groups to limit the throughput of workloads and to monitor workload performance.
 
 .Steps
 

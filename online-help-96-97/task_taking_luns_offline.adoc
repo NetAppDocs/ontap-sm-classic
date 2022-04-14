@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: take, lun, offline, online, help, management, system, manager
 summary: "You can use the LUN Management tab in System Manager to take selected LUNs offline and make them unavailable for block protocol access."
 ---
-= Taking LUNs offline
+= Take LUNs offline with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the *LUN Management* tab in System Manager to take selected LUNs offline and make them unavailable for block protocol access.
+You can use the *LUN Management* tab in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to take selected LUNs offline and make them unavailable for block protocol access.
 
 .Before you begin
 
