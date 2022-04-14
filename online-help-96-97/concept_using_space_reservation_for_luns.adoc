@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: understand, space, reservation, lun, volume, guarantee, online, help
 summary: "Understanding how the space reservation setting (combined with the volume guarantee) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations, and why certain combinations of LUN and volume settings are not useful."
 ---
-= Understanding space reservations for LUNs
+= Understanding space reservations for LUNs in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Understanding how the space reservation setting (combined with the volume guarantee) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations, and why certain combinations of LUN and volume settings are not useful.
+Understanding how the space reservation setting (combined with the volume guarantee) in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations. It also helps you to understand why certain combinations of LUN and volume settings are not useful.
 
 When a LUN has space reservations enabled (a space-reserved LUN), and its containing volume has a volume guarantee, free space from the volume is set aside for the LUN at creation time; the size of this reserved space is governed by the size of the LUN. Other storage objects in the volume (other LUNs, files, Snapshot copies, and so on) are prevented from using this space.
 
