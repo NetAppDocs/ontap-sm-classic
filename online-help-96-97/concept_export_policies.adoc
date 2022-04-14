@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, create, edit, manage, export, policy, online, help, volume, rules, svm, qtree, rename
 summary: "You can use System Manager to create, edit, and manage export policies."
 ---
-= Export policies
+= Manage export policies with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create, edit, and manage export policies.
+You can use ONTAP System Manager classic (available in 9.7 and earlier) to create, edit, and manage export policies.
 
 == Create an export policy
 
