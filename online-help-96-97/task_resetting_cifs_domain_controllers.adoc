@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: reset, cifs, domain, controller, system, manager, online, help
 summary: "You can use System Manager to reset the CIFS connection to domain controllers for the specified domain. Failure to reset the domain controller information can cause a connection failure."
 ---
-= Resetting CIFS domain controllers
+= Reset CIFS domain controllers with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to reset the CIFS connection to domain controllers for the specified domain. Failure to reset the domain controller information can cause a connection failure.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to reset the CIFS connection to domain controllers for the specified domain. Failure to reset the domain controller information can cause a connection failure.
 
 .About this task
 

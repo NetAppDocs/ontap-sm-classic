@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help, initiate, disable, enable, dialog, box, security, authentication, default
 summary: "You can use System Manager to configure the iSCSI protocol that enables you to transfer block data to hosts using SCSI protocol over TCP/IP."
 ---
-= iSCSI protocol
+= Configure the iSCSI protocol with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to configure the iSCSI protocol that enables you to transfer block data to hosts using SCSI protocol over TCP/IP.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure the iSCSI protocol that enables you to transfer block data to hosts using SCSI protocol over TCP/IP.
 
 == Create iSCSI aliases
 
