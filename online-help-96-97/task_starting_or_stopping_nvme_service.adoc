@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: start, stop, nvme, service, online, help, adaptor, namespace
 summary: "The NVMe service enables you to manage NVMe adapters for use with namespaces. You can use System Manager to start the NVMe service to bring the adapters online. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces."
 ---
-= Starting and stopping the NVMe service
+= Start and stop the NVMe service with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The NVMe service enables you to manage NVMe adapters for use with namespaces. You can use System Manager to start the NVMe service to bring the adapters online. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces.
+You can use ONTAP System Manager classic (available in 9.7 and earlier) to start the NVMe service to bring the adapters online. The NVMe service enables you to manage NVMe adapters for use with namespaces. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces.
 
 .Before you begin
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, configure, fc, fcoe, protocol, online, help, change, node, name, fibre, channel, san, start, stop
 summary: "You can use System Manager to configure FC/FCoE protocols."
 ---
-= FC/FCoE protocol
+= Configure the FC/FCoE protocol with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to configure FC/FCoE protocols.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure FC/FCoE protocols.
 
 == Start or stop the FC or FCoE service
 

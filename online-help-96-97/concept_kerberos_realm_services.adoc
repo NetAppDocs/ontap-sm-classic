@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, kerberos, realm, service, system, manager, svm, edit, security, strong, nfs, authentication, microsoft, ntlm, ntlm v2, client
 summary: "You can use System Manager to create and manage Kerberos realm services."
 ---
-= Kerberos realm services
+= Manage Kerberos realm services with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create and manage Kerberos realm services.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage Kerberos realm services.
 
 == Create a Kerberos realm configuration
 

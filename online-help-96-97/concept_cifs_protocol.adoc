@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: cif, protocol, system, manager, enable, configure, server, client, file, cluster, online, help, set up, general, properties, edit
 summary: "You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access files on the cluster."
 ---
-= CIFS protocol
+= Configure the CIFS protocol with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access files on the cluster.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to enable and configure CIFS servers to allow CIFS clients to access files on the cluster.
 
 == Set up CIFS
 

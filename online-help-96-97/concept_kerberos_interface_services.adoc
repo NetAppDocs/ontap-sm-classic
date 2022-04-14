@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: kerberos, interface, service, system, manager, manage, online, help, edit, configuration, buttons, command, window
 summary: "You can use System Manager to manage Kerberos interface services."
 ---
-= Kerberos interface services
+= Manage Kerberos interface services with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to manage Kerberos interface services.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage Kerberos interface services.
 
 == Edit Kerberos configuration
 
