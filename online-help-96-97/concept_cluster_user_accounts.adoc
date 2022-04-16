@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, system, manager, add, edit, manage, account, login, online, help, cluster, administration, online, help, modify, lock, delete, unlock, create
 summary: "You can use System Manager to add, edit, and manage a cluster user account, and specify a login user method to access the storage system."
 ---
-= Manage cluster user accounts with System Manager - ONTAP 9.7 and earlier
+= Manage user accounts with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
