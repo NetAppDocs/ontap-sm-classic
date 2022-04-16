@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: hardware, cache, system, manager, manage, online, help, flash,
 summary: "You can use System Manager to manage Hardware Cache modules."
 ---
-= Manage Hardware Cache with System Manager - ONTAP 9.7 and earlier
+= Manage hardware cache with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
