@@ -23,7 +23,7 @@ You can use System Manager to modify the name of a cluster when required.
 . In the *Cluster Details* pane, click *Update Cluster Name*.
 . In the *Update Cluster Name* dialog box, specify a new name for the cluster, and then click *Submit*.
 
-= Change the cluster password
+== Change the cluster password
 
 You can use System Manager to reset the password of a cluster.
 
@@ -33,7 +33,7 @@ You can use System Manager to reset the password of a cluster.
 . In the *Cluster Details* pane, click *Change Password*.
 . In the *Change Password* dialog box, specify a new password, confirm the new password, and then click *Change*.
 
-= Edit DNS configurations
+== Edit DNS configurations
 
 You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses.
 
@@ -45,7 +45,7 @@ You can use System Manager to add host information to centrally manage DNS confi
 . In the *Name Servers* area, add or modify the IP addresses.
 . Click *OK*.
 
-= Create a cluster management logical interface
+== Create a cluster management logical interface
 
 You can use System Manager to create a cluster management logical interface (LIF) to provide a single management interface for a cluster. You can use this LIF to manage all of the activities of the cluster.
 
@@ -95,7 +95,7 @@ If a route does not exist, a new route is automatically created based on the gat
 . Select the required ports from the *Port details* area.
 . Click *Create*.
 
-= Edit the node name
+== Edit the node name
 
 You can use System Manager to modify the name of a node when required.
 
@@ -105,7 +105,7 @@ You can use System Manager to modify the name of a node when required.
 . In the *Nodes* tab, select the node that you want to rename, and then click *Edit Node Name*.
 . In the *Edit Node Name* dialog box, type the new name for the node, and then click *Submit*.
 
-= Create a node management logical interface
+== Create a node management logical interface
 
 You can use System Manager to create a dedicated node management logical interface (LIF) for managing a particular node in a cluster. You can use this LIF to manage the system maintenance activities of the node.
 
@@ -159,7 +159,7 @@ If a route does not exist, a new route is automatically created based on the gat
 
 If you want to delete an existing node management LIF, you must use the command-line interface (CLI).
 
-= Edit AutoSupport settings
+== Edit AutoSupport settings
 
 You can use System Manager to modify your AutoSupport settings to specify an email address from which email notifications are sent and to add multiple email host names.
 
