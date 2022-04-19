@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, mirror, transfer, online, help, volume, replication
 summary: "You can abort a volume replication operation before the data transfer is complete. You can abort a scheduled update, a manual update, or an initial data transfer."
 ---
-= Aborting a mirror transfer with System Manager - ONTAP 9.7 and earlier
+= Abort a mirror transfer with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

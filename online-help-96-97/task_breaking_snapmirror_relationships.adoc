@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapmirror, break, relationship, dp, rw, online, help
 summary: "You must break a SnapMirror relationship if a SnapMirror source becomes unavailable and you want client applications to be able to access the data from the mirror destination."
 ---
-= Breaking SnapMirror relationships with System Manager - ONTAP 9.7 and earlier
+= Break SnapMirror relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

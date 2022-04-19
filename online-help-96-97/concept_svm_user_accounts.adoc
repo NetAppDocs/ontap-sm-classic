@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, create, manage, online, help, storage, virtual, machine, svm, user, account, password, change, lock, unlock , command, button
 summary: "You can use System Manager to create and manage storage virtual machine (SVM) user accounts."
 ---
-= Creating and managing storage virtual machine (SVM) user accounts with System Manager - ONTAP 9.7 and earlier
+= Create and manage storage virtual machine (SVM) user accounts with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
