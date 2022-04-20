@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Updating the cluster name</title>
+  <title>Set up the cluster with System Manager - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Updating the cluster name" />
+  <meta property="og:title" content="Set up the cluster with System Manager - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html" />
 	<meta property="og:description" content="You can use System Manager to modify the name of a cluster when required." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Updating the cluster name](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_updating_cluster_name.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Set up the cluster with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_updating_cluster_name.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_updating_cluster_name.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -5328,18 +5328,26 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Updating the cluster name</h1>
+  <h1 class="n-doc__component-detail-heading">Set up the cluster with System Manager - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2021-10-11 19:08:52 +0000">10/11/2021</time>
+    <time datetime="2022-04-19 17:58:28 +0000">04/19/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-aoife">
+    <img  class="avatar avatar-small"
+          alt="netapp-aoife"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/92876203?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-ivanad">
     <img  class="avatar avatar-small"
           alt="netapp-ivanad"
@@ -5353,7 +5361,20 @@
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
+<p>You can use ONTAP System Manger classic (available in ONTAP 9.7 and earlier) to set up the cluster.</p>
+</div>
+<div class="paragraph">
+<p>Setting up the cluster involves gathering the configuration information, creating cluster-management and node-management interfaces, adding licenses, setting up the cluster time, and monitoring HA pairs.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="update-the-cluster-name">Update the cluster name</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>You can use System Manager to modify the name of a cluster when required.</p>
 </div>
 <div class="olist arabic">
@@ -5369,6 +5390,335 @@
 <p>In the <strong>Update Cluster Name</strong> dialog box, specify a new name for the cluster, and then click <strong>Submit</strong>.</p>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="change-the-cluster-password">Change the cluster password</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can use System Manager to reset the password of a cluster.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Configuration</strong> &gt; <strong>Cluster</strong> &gt; <strong>Configuration Updates</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Cluster Details</strong> pane, click <strong>Change Password</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Change Password</strong> dialog box, specify a new password, confirm the new password, and then click <strong>Change</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="edit-dns-configurations">Edit DNS configurations</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Configuration</strong> &gt; <strong>Cluster</strong> &gt; <strong>Configuration Updates</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Cluster Details</strong> pane, click <strong>Edit DNS Configuration</strong>.</p>
+</li>
+<li>
+<p>In the <strong>DNS Domains</strong> area, add or modify the DNS domain names.</p>
+</li>
+<li>
+<p>In the <strong>Name Servers</strong> area, add or modify the IP addresses.</p>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-a-cluster-management-logical-interface">Create a cluster management logical interface</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can use System Manager to create a cluster management logical interface (LIF) to provide a single management interface for a cluster. You can use this LIF to manage all of the activities of the cluster.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Configuration</strong> &gt; <strong>Cluster</strong> &gt; <strong>Configuration Updates</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Cluster Details</strong> pane, click <strong>Create Cluster-management LIF</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Create Cluster-Management LIF</strong> dialog box, specify a name for the cluster management LIF.</p>
+</li>
+<li>
+<p>Assign an IP address to the cluster management LIF:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">If you want to&#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">Then&#8230;&#8203;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Specify the IP address by using a subnet</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Select <strong>Using a subnet</strong>.</p>
+</li>
+<li>
+<p>In the Add Details dialog box, select the subnet from which the IP address should be assigned.</p>
+<div class="paragraph">
+<p>For an intercluster LIF, only the subnets that are associated with the selected IPspace are displayed.</p>
+</div>
+</li>
+<li>
+<p>If you want to assign a specific IP address to the LIF, select <strong>Use a specific IP address</strong>, and then type the IP address.</p>
+<div class="paragraph">
+<p>The IP address that you specify is added to the subnet if the IP address is not already present in the subnet range.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Specify the IP address manually without using a subnet</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Select <strong>Without a subnet</strong>.</p>
+</li>
+<li>
+<p>In the Add Details dialog box, perform the following steps:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Specify the IP address and the network mask or prefix.</p>
+</li>
+<li>
+<p>Optional: Specify the gateway.</p>
+</li>
+<li>
+<p>If you do not want to use the default value for the Destination field, specify a new destination value.</p>
+<div class="paragraph">
+<p>If you do not specify a value, the Destination field is populated with the default value based on the family of the IP address.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>If a route does not exist, a new route is automatically created based on the gateway and destination.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Select the required ports from the <strong>Port details</strong> area.</p>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="edit-the-node-name">Edit the node name</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can use System Manager to modify the name of a node when required.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Configuration</strong> &gt; <strong>Cluster</strong> &gt; <strong>Configuration Updates</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Nodes</strong> tab, select the node that you want to rename, and then click <strong>Edit Node Name</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Edit Node Name</strong> dialog box, type the new name for the node, and then click <strong>Submit</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-a-node-management-logical-interface">Create a node management logical interface</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can use System Manager to create a dedicated node management logical interface (LIF) for managing a particular node in a cluster. You can use this LIF to manage the system maintenance activities of the node.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Configuration</strong> &gt; <strong>Cluster</strong> &gt; <strong>Configuration Updates</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Nodes</strong> tab, select the node for which you want to create a node management LIF, and then click <strong>Create Node-Management LIF</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Create Node-Management LIF</strong> dialog box, specify a name for the node management LIF.</p>
+</li>
+<li>
+<p>Assign the IP address to the node management LIF:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">If you want to&#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">Then&#8230;&#8203;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Specify the IP address by using a subnet</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Select <strong>Using a subnet</strong>.</p>
+</li>
+<li>
+<p>In the Add Details dialog box, select the subnet from which the IP address should be assigned.</p>
+<div class="paragraph">
+<p>For an intercluster LIF, only the subnets that are associated with the selected IPspace are displayed.</p>
+</div>
+</li>
+<li>
+<p>If you want to assign a specific IP address to the LIF, select <strong>Use a specific IP address</strong>, and then type the IP address.</p>
+<div class="paragraph">
+<p>The IP address that you specify is added to the subnet if the IP address is not already present in the subnet range.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Specify the IP address manually without using a subnet</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Select <strong>Without a subnet</strong>.</p>
+</li>
+<li>
+<p>In the Add Details dialog box, perform the following steps:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Specify the IP address and the network mask or prefix.</p>
+</li>
+<li>
+<p>Optional: Specify the gateway.</p>
+</li>
+<li>
+<p>If you do not want to use the default value for the Destination field, specify a new destination value.</p>
+<div class="paragraph">
+<p>If you do not specify a value, the Destination field is populated with the default value based on the family of the IP address.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>If a route does not exist, a new route is automatically created based on the gateway and destination.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Select the required ports from the <strong>Ports details</strong> area.</p>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="what-to-do-next">What to do next</h3>
+<div class="paragraph">
+<p>If you want to delete an existing node management LIF, you must use the command-line interface (CLI).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="edit-autosupport-settings">Edit AutoSupport settings</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can use System Manager to modify your AutoSupport settings to specify an email address from which email notifications are sent and to add multiple email host names.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong><span class="image"><img src="../media/nas_bridge_202_icon_settings_olh_96_97.gif" alt="nas bridge 202 icon settings olh 96 97"></span></strong> &gt; <strong>AutoSupport</strong>.</p>
+</li>
+<li>
+<p>Select the node for which you want to modify AutoSupport settings, and then click <strong>Edit</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Email Recipient</strong> tab, type the email address from which email notifications are sent, specify the email recipients and the message content for each email recipient, and then add the mail hosts.</p>
+<div class="paragraph">
+<p>You can add up to five email addresses for each host.</p>
+</div>
+</li>
+<li>
+<p>In the <strong>Others</strong> tab, select a transport protocol for delivering the email messages, and then specify the HTTP or HTTPS proxy server details.</p>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+</ol>
+</div>
+</div>
 </div>
 
     </article>
