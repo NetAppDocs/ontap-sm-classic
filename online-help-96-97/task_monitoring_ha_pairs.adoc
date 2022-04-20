@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, ha, availability, monitor, ha, pair
 summary: "You can use System Manager to monitor the node status and interconnect status of all of the high-availability (HA) pairs in a cluster. You can also verify whether takeover or giveback is enabled or has occurred, and view the reasons why takeover or giveback is not currently possible."
 ---
-= Monitoring HA pairs
+= Monitor HA pairs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to monitor the node status and interconnect status of all of the high-availability (HA) pairs in a cluster. You can also verify whether takeover or giveback is enabled or has occurred, and view the reasons why takeover or giveback is not currently possible.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to monitor the node status and interconnect status of all of the high-availability (HA) pairs in a cluster. You can also verify whether takeover or giveback is enabled or has occurred, and view the reasons why takeover or giveback is not currently possible.
 
 .Steps
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: update, vault, relationship, online, help, system, manager
 summary: "You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration."
 ---
-= Updating a vault relationship
+= Update a vault relationship with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.
 
 .Before you begin
 

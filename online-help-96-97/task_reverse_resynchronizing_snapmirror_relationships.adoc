@@ -4,12 +4,13 @@ sidebar: sidebar
 keywords: reverse, resync, mirror, relationship, system, manager, online, help
 summary: "You can use System Manager to reestablish a mirror relationship that was previously broken. In a reverse resynchronization operation, you reverse the functions of the source volume and destination volume."
 ---
-= Reverse resynchronizing mirror relationships
+= Reverse resynchronizing mirror relationships with System Manager - ONTAP 9.7 and earlier
+
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to reestablish a mirror relationship that was previously broken. In a reverse resynchronization operation, you reverse the functions of the source volume and destination volume.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to reestablish a mirror relationship that was previously broken. In a reverse resynchronization operation, you reverse the functions of the source volume and destination volume.
 
 .Before you begin
 
