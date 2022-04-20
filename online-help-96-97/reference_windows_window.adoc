@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, command, buttons, group
 summary: "You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine (SVM) on the cluster. You can use the local Windows users and groups for authentication and name mappings."
 ---
-= Windows window
+= The Windows window with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine (SVM) on the cluster. You can use the local Windows users and groups for authentication and name mappings.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to use the Windows window. The Windows window helps you to maintain a list of local Windows users and groups for each storage virtual machine (SVM) on the cluster. You can use local Windows users and groups for authentication and name mappings.
 
 == Users tab
 
