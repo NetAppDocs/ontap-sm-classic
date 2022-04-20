@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, volume, mirror, relationship, snapmirror, online, help, system, manager
 summary: "For a version-independent mirror relationship, you can use System Manager to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume."
 ---
-= Restoring a volume in a mirror relationship with System Manager - ONTAP 9.7 and earlier
+= Restore a volume in a mirror relationship with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

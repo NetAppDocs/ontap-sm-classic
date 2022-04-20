@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, mirror, vault, relationships, system, manager, online, help
 summary: "You can use System Manager to reestablish a mirror and vault relationship that was broken earlier. You can perform a resynchronization operation to recover from a disaster that disabled the source volume."
 ---
-= Resynchronizing mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
+= Resynchronize mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

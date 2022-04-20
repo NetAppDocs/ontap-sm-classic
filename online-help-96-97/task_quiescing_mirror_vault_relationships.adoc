@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiescing, mirror, vault, relationship, system, manager, snapshot, online, help
 summary: "You can use System Manager to quiesce a destination volume to stabilize the destination before creating a Snapshot copy. The quiesce operation enables active data transfers to finish and disables future transfers for the mirror and vault relationship."
 ---
-= Quiescing mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
+= Quiesce mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

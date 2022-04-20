@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, mirror, vault, relationship, source, destination, delete, online, help
 summary: "You can use System Manager to end a mirror and vault relationship between a source and destination volume, and release the Snapshot copies from the source volume."
 ---
-= Deleting mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
+= Delete mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 
 :icons: font
 :imagesdir: ../media/

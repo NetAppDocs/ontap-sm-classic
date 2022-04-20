@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, mirror, vault, relationship, system, manager, online, help
 summary: "You can use System Manager to edit a mirror and vault relationship by modifying the selected policy or schedule. However, you cannot edit the parameters of an existing policy or schedule."
 ---
-= Editing mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
+= Edit mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 
 :icons: font
 :imagesdir: ../media/

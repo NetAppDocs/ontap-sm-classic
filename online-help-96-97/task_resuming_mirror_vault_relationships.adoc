@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume, mirror, vault, relationship, online, help, system, manager
 summary: "If you have a quiesced mirror and vault relationship, you can resume the relationship by using System Manager. When you resume the relationship, normal data transfer to the destination volume is resumed and all the protection activities are restarted."
 ---
-= Resuming mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
+= Resume mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

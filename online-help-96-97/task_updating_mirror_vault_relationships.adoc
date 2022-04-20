@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, update, mirror, vault, relationship, online, help
 summary: "You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration."
 ---
-= Updating mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
+= Update mirror and vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 

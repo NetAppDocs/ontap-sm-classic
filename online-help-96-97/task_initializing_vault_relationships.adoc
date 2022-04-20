@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, vault, relationship, system, manager, flexvol, online, help
 summary: "You can use System Manager to initialize a vault relationship if you have not already initialized it while creating the relationship. A baseline transfer of data is initiated from the source FlexVol volume to the destination FlexVol volume."
 ---
-= Initializing a vault relationship with System Manager - ONTAP 9.7 and earlier
+= Initialize a vault relationship with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
