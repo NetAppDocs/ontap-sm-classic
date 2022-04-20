@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, set, up, time, zone, cluster, modify, server, ntp
 summary: "You can manually set or modify the time zone for a cluster by using the Edit Date and Time dialog box in System Manager. You can also add time servers to the cluster."
 ---
-= Setting the time zone for a cluster
+= Set the time zone for a cluster with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can manually set or modify the time zone for a cluster by using the Edit Date and Time dialog box in System Manager. You can also add time servers to the cluster.
+You can manually set or modify the time zone for a cluster by using the Edit Date and Time dialog box in ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can also add time servers to the cluster.
 
 .About this task
 
