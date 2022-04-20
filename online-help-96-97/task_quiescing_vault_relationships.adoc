@@ -4,12 +4,13 @@ sidebar: sidebar
 keywords: system, manager, online, help, quiescing, vault, relationship, data, transfer, flexvol
 summary: "You can use System Manager to disable data transfers to the destination FlexVol volume by quiescing the vault relationship."
 ---
-= Quiescing a vault relationship
+= Quiesce a vault relationship with System Manager - ONTAP 9.7 and earlier
+
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to disable data transfers to the destination FlexVol volume by quiescing the vault relationship.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to disable data transfers to the destination FlexVol volume by quiescing the vault relationship.
 
 .Steps
 

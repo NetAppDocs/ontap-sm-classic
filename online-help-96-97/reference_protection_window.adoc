@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: command, buttons, protection, window, relationship, vault, mirror, online, help, ls
 summary: "You can use the Protection window to create and manage mirror relationships, vault relationships, and mirror and vault relationships and to display details about these relationships. The Protection window does not display load-sharing (LS) relationships and transition data protection (TDP) relationships."
 ---
-= Protection window
+= Protection window with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Protection window to create and manage mirror relationships, vault relationships, and mirror and vault relationships and to display details about these relationships. The Protection window does not display load-sharing (LS) relationships and transition data protection (TDP) relationships.
+You can use the Protection window with ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage mirror relationships, vault relationships, and mirror and vault relationships and to display details about these relationships. The Protection window does not display load-sharing (LS) relationships and transition data protection (TDP) relationships.
 
 == Command buttons
 

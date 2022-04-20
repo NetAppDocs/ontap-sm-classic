@@ -23,7 +23,7 @@ You can create LIFs for those nodes.
 
 * You can disable IP address range and enter individual IP addresses for cluster management, node management, and Service Processor management networks.
 
-== Setting up a network when an IP address range is enabled
+== Set up a network when an IP address range is enabled
 
 You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range.
 
@@ -74,7 +74,7 @@ Providing alternative NTP server details is optional.
 
 Enter event notifications in the Support page to continue with the cluster setup.
 
-== Setting up a network when an IP address range is disabled
+== Set up a network when an IP address range is disabled
 
 You can set up a network by disabling an IP address range and entering individual IP addresses for cluster management, node management, and service provider networks.
 

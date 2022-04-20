@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: delete, vault, relationship, system, manager, online, help, snapshot, copy
 summary: "You can use System Manager to end a vault relationship between a source and destination volume, and release the Snapshot copies from the source."
 ---
-= Deleting vault relationships
+= Delete vault relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to end a vault relationship between a source and destination volume, and release the Snapshot copies from the source.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to end a vault relationship between a source and destination volume, and release the Snapshot copies from the source.
 
 .About this task
 
