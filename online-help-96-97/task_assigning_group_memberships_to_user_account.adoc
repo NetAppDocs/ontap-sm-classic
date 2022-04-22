@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, assign, group, membership, user, account, online, help, system, manager
 summary: "You can use System Manager to assign group membership to a user account if you want a user to have the privileges that are associated with a particular group."
 ---
-= Assigning group memberships to a user account
+= Assign group memberships to a user account with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to assign group membership to a user account if you want a user to have the privileges that are associated with a particular group.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to assign group membership to a user account if you want a user to have the privileges that are associated with a particular group.
 
 .Before you begin
 

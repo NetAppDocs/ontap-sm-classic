@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: rename, local, windows, user, system, manager, online, help
 summary: "You can use System Manager to rename a local Windows user account to identify the local user more easily."
 ---
-= Renaming a local Windows user
+= Rename a local Windows user with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to rename a local Windows user account to identify the local user more easily.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to rename a local Windows user account to identify the local user more easily.
 
 .About this task
 
