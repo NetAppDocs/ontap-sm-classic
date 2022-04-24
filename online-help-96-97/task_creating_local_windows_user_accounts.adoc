@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: create, local, windows, user, account, online, help, system, manager, svm, cifs
 summary: "You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session."
 ---
-= Create a local Windows user account
+= Create a local Windows user account with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session.
 
 .Before you begin
 

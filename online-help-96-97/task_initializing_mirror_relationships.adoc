@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: initialize, mirror, relationship, baseline, transfer, online, help
 summary: "When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it."
 ---
-= Initializing mirror relationships
+= Initialize mirror relationships with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it.
+When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier)  to initialize a mirror relationship if you have not already initialized the relationship while creating it.
 
 .About this task
 
