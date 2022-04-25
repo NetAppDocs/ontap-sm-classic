@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, edit, local, windows, group, properties, active, directory
 summary: "You can manage local group memberships by adding and removing a local user, an Active Directory user, or an Active Directory group by using System Manager. You can modify the privileges that are assigned to a group and the description of a group to easily identify the group."
 ---
-= Editing local Windows group properties
+= Edit local Windows group properties with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can manage local group memberships by adding and removing a local user,an Active Directory user, or an Active Directory group by using System Manager. You can modify the privileges that are assigned to a group and the description of a group to easily identify the group.
+You can manage local group memberships by adding and removing a local user, an Active Directory user, or an Active Directory group by using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can modify the privileges that are assigned to a group and the description of a group to easily identify the group.
 
 .About this task
 
