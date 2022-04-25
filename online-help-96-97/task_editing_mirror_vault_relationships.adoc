@@ -305,7 +305,7 @@ If you have quiesced a broken mirror and vault relationship from the command-lin
 
 Normal data transfers are resumed. If there is a scheduled transfer for the relationship, the transfer is started from the next schedule.
 
-= Delete relationships
+== Delete relationships
 
 :icons: font
 :imagesdir: ../media/
@@ -332,7 +332,7 @@ If the relationship is not released, then you must use the CLI to run the releas
 
 The relationship is deleted and the base Snapshot copies on the source volume are permanently deleted.
 
-= Quiesce relationships
+== Quiesce relationships
 :icons: font
 :imagesdir: ../media/
 
