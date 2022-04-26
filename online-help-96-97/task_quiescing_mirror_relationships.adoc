@@ -1,27 +1,4 @@
 ---
 permalink: online-help-96-97/task_quiescing_mirror_relationships.html
-sidebar: sidebar
-keywords: quiesce, mirror, relationship, system, manager, online, help
-summary: "You can use System Manager to quiesce a mirror destination to stabilize it before creating a Snapshot copy. The quiesce operation enables active mirror transfers to finish and disables future transfers for the mirroring relationship."
+redirect: ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html
 ---
-= Quiesce mirror relationships with System Manager - ONTAP 9.7 and earlier
-:icons: font
-:imagesdir: ../media/
-
-[.lead]
-You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to quiesce a mirror destination to stabilize it before creating a Snapshot copy. The quiesce operation enables active mirror transfers to finish and disables future transfers for the mirroring relationship.
-
-.About this task
-
-You can quiesce only mirror relationships that are in the Snapmirrored state.
-
-.Steps
-
-. Click *Protection* > *Volume Relationships*.
-. Select the mirror relationship that you want to quiesce.
-. Click *Operations* > *Quiesce*.
-. Select the confirmation check box and click *Quiesce*.
-
-*Related information*
-
-xref:reference_protection_window.adoc[Protection window]
