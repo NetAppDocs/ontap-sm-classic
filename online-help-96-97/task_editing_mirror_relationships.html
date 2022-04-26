@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Edit mirror relationships with System Manager - ONTAP 9.7 and earlier</title>
+  <title>Manage mirror relationships with System Manager - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Edit mirror relationships with System Manager - ONTAP 9.7 and earlier" />
+  <meta property="og:title" content="Manage mirror relationships with System Manager - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html" />
 	<meta property="og:description" content="You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Edit mirror relationships with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_mirror_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Manage mirror relationships with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_mirror_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -296,9 +296,9 @@
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_mirror_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -5328,14 +5328,14 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Edit mirror relationships with System Manager - ONTAP 9.7 and earlier</h1>
+  <h1 class="n-doc__component-detail-heading">Manage mirror relationships with System Manager - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-22 15:15:55 +0000">04/22/2022</time>
+    <time datetime="2022-04-25 16:25:53 +0000">04/25/2022</time>
     
   
 
@@ -5361,8 +5361,287 @@
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule.</p>
+<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage mirror relationships. You can update, quiesce, initialize, reestablish, delete and edit mirror relationships in addition to resuming quiesced mirror relationships.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="delete-relationships">Delete relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to delete a mirror relationship and permanently end the mirror relationship between the source and destination volumes. When a mirror relationship is deleted, the base Snapshot copy on the source volume is deleted.</p>
+</div>
+<div class="paragraph">
+<div class="title">About this task</div>
+<p>It is a best practice to break the mirror relationship before deleting the relationship.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the mirror relationship that you want to delete and click <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Select the confirmation check boxes to delete the mirror relationship and to release the base Snapshot copies, and then click <strong>Delete</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>The relationship is deleted, and the base Snapshot copy on the source volume is deleted.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="resynchronize-relationships">Resynchronize relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to reestablish a mirror relationship that was broken earlier. You can perform a resynchronization operation to recover from a disaster that disabled the source volume.</p>
+</div>
+<div class="paragraph">
+<div class="title">Before you begin</div>
+<p>The source cluster and destination cluster and the source SVM and destination SVM must be in peer relationships.</p>
+</div>
+<div class="ulist">
+<div class="title">About this task</div>
+<ul>
+<li>
+<p>When you perform a resynchronization operation, the contents on the mirror destination are overwritten by the contents on the source volume.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>For SnapLock compliance volumes, all data changes in the active file system with reference to the common Snapshot copy are preserved in a locked Snapshot copy until the expiry time that is set for the current volume.</p>
+<div class="paragraph">
+<p>If the volume expiry time is in the past or has not been set, then the Snapshot copy and the common Snapshot copy are locked for a duration of 30 days. All of the intermediate Snapshot copies between the common Snapshot copy and the latest locked Snapshot copy are deleted.</p>
+</div>
+</li>
+<li>
+<p>For all volumes other than SnapLock compliance volumes, the resynchronization operation might cause loss of newer data that is written to the destination volume after the base Snapshot copy was created.</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>If the Last Transfer Error field in the Protection window recommends a resynchronization operation, you must first break the relationship, and then perform the resynchronization operation.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the mirror relationship that you want to resynchronize.</p>
+</li>
+<li>
+<p>Click <strong>Operations</strong> &gt; <strong>Resync</strong>.</p>
+</li>
+<li>
+<p>Select the confirmation checkbox, and then click <strong>Resync</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="resume-quiesced-relationships">Resume quiesced relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to resume a quiesced mirror relationship. When you resume the relationship, normal data transfer to the mirror destination is resumed and all the mirror activities are restarted.</p>
+</div>
+<div class="paragraph">
+<div class="title">About this task</div>
+<p>If you have quiesced a broken mirror relationship from the command-line interface (CLI), you cannot resume the relationship from System Manager. You must use the CLI to resume the relationship.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the mirror relationship that you want to resume.</p>
+</li>
+<li>
+<p>Click <strong>Operations</strong> &gt; <strong>Resume</strong>.</p>
+</li>
+<li>
+<p>Select the confirmation check box and click <strong>Resume</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>Data transfer to the mirror destination resumes for the selected mirror relationship.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="update-relationships">Update relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to initiate an unscheduled mirror update of the destination. You might have to perform a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.</p>
+</div>
+<div class="paragraph">
+<div class="title">Before you begin</div>
+<p>The mirror relationship must be in a Snapmirrored state.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the mirror relationship for which you want to update the data, and click <strong>Operations</strong> &gt; <strong>Update</strong>.</p>
+</li>
+<li>
+<p>Choose one of the following options:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Select <strong>On demand</strong> to perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.</p>
+</li>
+<li>
+<p>Select <strong>Select Snapshot copy</strong> and specify the Snapshot copy that you want to transfer.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Select <strong>Limit transfer bandwidth to</strong> to limit the network bandwidth used for transfers and specify the maximum transfer speed.</p>
+</li>
+<li>
+<p>Click <strong>Update</strong>.</p>
+</li>
+<li>
+<p>Verify the transfer status in the <strong>Details</strong> tab.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="quiesce-relationships">Quiesce relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to quiesce a mirror destination to stabilize it before creating a Snapshot copy. The quiesce operation enables active mirror transfers to finish and disables future transfers for the mirroring relationship.</p>
+</div>
+<div class="paragraph">
+<div class="title">About this task</div>
+<p>You can quiesce only mirror relationships that are in the Snapmirrored state.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the mirror relationship that you want to quiesce.</p>
+</li>
+<li>
+<p>Click <strong>Operations</strong> &gt; <strong>Quiesce</strong>.</p>
+</li>
+<li>
+<p>Select the confirmation check box and click <strong>Quiesce</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="initialize-relationships">Initialize relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the mirror relationship that you want to initialize.</p>
+</li>
+<li>
+<p>Click <strong>Operations</strong> &gt; <strong>Initialize</strong>.</p>
+</li>
+<li>
+<p>Select the confirmation check box and click <strong>Initialize</strong>.</p>
+</li>
+<li>
+<p>Verify the status of the mirror relationship in the <strong>Protection</strong> window.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>A Snapshot copy is created and transferred to the destination. This Snapshot copy is used as a baseline for subsequent incremental Snapshot copies.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="edit-relationships">Edit relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule.</p>
 </div>
 <div class="ulist">
 <div class="title">About this task</div>
@@ -5516,6 +5795,8 @@
 </div>
 <div class="paragraph">
 <p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
 </div>
 
     </article>

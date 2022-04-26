@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Edit vault relationships with System Manager - ONTAP 9.7 and earlier</title>
+  <title>Manage vault relationships with System Manager - ONTAP 9.7 and earlier</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Edit vault relationships with System Manager - ONTAP 9.7 and earlier" />
+  <meta property="og:title" content="Manage vault relationships with System Manager - ONTAP 9.7 and earlier" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" />
 	<meta property="og:description" content="You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or sch..." />
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Edit vault relationships with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_vault_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Manage vault relationships with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/task_editing_vault_relationships.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -296,9 +296,9 @@
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_editing_vault_relationships.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -5328,14 +5328,14 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Edit vault relationships with System Manager - ONTAP 9.7 and earlier</h1>
+  <h1 class="n-doc__component-detail-heading">Manage vault relationships with System Manager - ONTAP 9.7 and earlier</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-20 18:14:24 +0000">04/20/2022</time>
+    <time datetime="2022-04-25 16:25:53 +0000">04/25/2022</time>
     
   
 
@@ -5361,8 +5361,18 @@
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.</p>
+<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to update, resume, quiesce, initialize and delete vault relationships in addition to creating vault relationships from a destination SVM.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="edit-relationships">Edit relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.</p>
 </div>
 <div class="paragraph">
 <div class="title">Before you begin</div>
@@ -5515,6 +5525,374 @@
 </div>
 <div class="paragraph">
 <p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="initialize-relationships">Initialize relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to initialize a vault relationship if you have not already initialized it while creating the relationship. A baseline transfer of data is initiated from the source FlexVol volume to the destination FlexVol volume.</p>
+</div>
+<div class="paragraph">
+<div class="title">Before you begin</div>
+<p>The source and destination clusters must be in a healthy peer relationship.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the relationship you want to initialize, and click <strong>Operations</strong> &gt; <strong>Initialize</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Initialize</strong> window, click <strong>Initialize</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>A Snapshot copy is created and transferred to the destination.</p>
+</div>
+<div class="paragraph">
+<p>This Snapshot copy is used as a baseline for subsequent incremental Snapshot copies.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-relationships-from-a-destination-svm">Create relationships from a destination SVM</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to create a vault relationship from the destination storage virtual machine (SVM), and to assign a vault policy to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination.</p>
+</div>
+<div class="ulist">
+<div class="title">Before you begin</div>
+<ul>
+<li>
+<p>The source cluster must be running ONTAP 8.2.2 or later.</p>
+</li>
+<li>
+<p>SnapVault license or SnapMirror license must be enabled on both the source cluster and the destination cluster.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/ontap-sm-classic/images/note.svg" alt="Note">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and DPO license enabled.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>The source cluster and destination cluster must be in a healthy peer relationship.</p>
+</li>
+<li>
+<p>The destination SVM must have space available.</p>
+</li>
+<li>
+<p>The source aggregate and the destination aggregate must be 64-bit aggregates.</p>
+</li>
+<li>
+<p>A source volume of type read/write (rw) must exist.</p>
+</li>
+<li>
+<p>A vault (XDP) policy must exist.</p>
+<div class="paragraph">
+<p>If a vault policy does not exist, you must create a vault policy or accept the default vault policy (XDPDefault) that is automatically assigned.</p>
+</div>
+</li>
+<li>
+<p>FlexVol volumes must be online and read/write.</p>
+</li>
+<li>
+<p>The SnapLock aggregate type must be the same.</p>
+</li>
+<li>
+<p>If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which SAML authentication is enabled, password-based authentication must be enabled on the remote cluster.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">About this task</div>
+<ul>
+<li>
+<p>System Manager does not support a cascade relationship.</p>
+<div class="paragraph">
+<p>For example, a destination volume in a relationship cannot be the source volume in another relationship.</p>
+</div>
+</li>
+<li>
+<p>You cannot create a vault relationship between a sync-source SVM and a sync-destination SVM in a MetroCluster configuration.</p>
+</li>
+<li>
+<p>You can create a vault relationship between sync-source SVMs in a MetroCluster configuration.</p>
+</li>
+<li>
+<p>You can create a vault relationship from a volume on a sync-source SVM to a volume on a data-serving SVM.</p>
+</li>
+<li>
+<p>You can create a vault relationship from a volume on a data-serving SVM to a data protection (DP) volume on a sync-source SVM.</p>
+</li>
+<li>
+<p>You can create a vault relationship only between a non-SnapLock (primary) volume and a SnapLock destination (secondary) volume.</p>
+</li>
+<li>
+<p>A maximum of 25 volumes can be protected in one selection.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Relationships</strong> window, click <strong>Create</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Browse SVM</strong> dialog box, select an SVM for the destination volume.</p>
+</li>
+<li>
+<p>In the <strong>Create Protection Relationship</strong> dialog box, select <strong>Vault</strong> from the <strong>Relationship Type</strong> drop-down list.</p>
+</li>
+<li>
+<p>Specify the cluster, the SVM, and the source volume.</p>
+<div class="paragraph">
+<p>If the specified cluster is running a version of ONTAP software earlier than ONTAP 9.3, then only peered SVMs are listed. If the specified cluster is running ONTAP 9.3 or later, peered SVMs and permitted SVMs are listed.</p>
+</div>
+</li>
+<li>
+<p>Enter a volume name suffix.</p>
+<div class="paragraph">
+<p>The volume name suffix is appended to the source volume names to generate the destination volume names.</p>
+</div>
+</li>
+<li>
+<p>If you are creating a SnapLock volume, specify the default retention period.</p>
+<div class="paragraph">
+<p>The default retention period can be set to any value between 1 day through 70 years or Infinite.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>Browse</strong>, and then change the vault policy.</p>
+</li>
+<li>
+<p>Select a schedule for the relationship from the list of existing schedules.</p>
+</li>
+<li>
+<p>Select <strong>Initialize Relationship</strong> to initialize the vault relationship.</p>
+</li>
+<li>
+<p>Enable SnapLock aggregates, and then select a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate.</p>
+</li>
+<li>
+<p>Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.</p>
+</li>
+<li>
+<p>Click <strong>Validate</strong> to verify whether the selected volumes have matching labels.</p>
+</li>
+<li>
+<p>Click <strong>Create</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>If you chose to create a destination volume, a volume of type <em>dp</em> is created with the following default settings:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Autogrow is enabled.</p>
+</li>
+<li>
+<p>Deduplication is enabled or disabled according to the user preference or the source volume deduplication setting.</p>
+</li>
+<li>
+<p>Compression is disabled.</p>
+</li>
+<li>
+<p>The language attribute is set to match the language attribute of the source volume.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>A vault relationship is created between the destination volume and the source volume. The base Snapshot copy is transferred to the destination volume if you have opted to initialize the relationship.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="update-relationships">Update relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.</p>
+</div>
+<div class="paragraph">
+<div class="title">Before you begin</div>
+<p>The vault relationship must be initialized.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the relationship for which you want to update the data, and click <strong>Operations</strong> &gt; <strong>Update</strong>.</p>
+</li>
+<li>
+<p>Choose one of the following options:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Select <strong>As Per Policy</strong> to perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.</p>
+</li>
+<li>
+<p>Select <strong>Select Snapshot copy</strong> and specify the Snapshot copy that you want to transfer.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Select <strong>Limit transfer bandwidth to</strong> to limit the network bandwidth that is used for transfers and specify the maximum transfer speed.</p>
+</li>
+<li>
+<p>Click <strong>Update</strong>.</p>
+</li>
+<li>
+<p>Verify the transfer status in the <strong>Details</strong> tab.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="delete-relationships">Delete relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to end a vault relationship between a source and destination volume, and release the Snapshot copies from the source.</p>
+</div>
+<div class="paragraph">
+<div class="title">About this task</div>
+<p>Releasing the relationship permanently removes the base Snapshot copies used by the vault relationship on the source volume. To re-create the vault relationship, you must run the resynchronization operation from the source volume by using the command-line interface (CLI).</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the volume for which you want to delete the vault relationship, and click <strong>Delete</strong>.</p>
+</li>
+<li>
+<p>Select the confirmation check box, and then click <strong>Delete</strong>.</p>
+<div class="paragraph">
+<p>You can also select the release base Snapshot copies check box to delete the base Snapshot copies used by the vault relationship on the source volume.</p>
+</div>
+<div class="paragraph">
+<p>If the relationship is not released, then you must use the CLI to run the release operation on the source cluster to delete the base Snapshot copies that were created for the vault relationship from the source volume.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="resume-relationships">Resume relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can resume a quiesced vault relationship by using System Manager. When you resume the relationship, normal data transfer to the destination FlexVol volume is resumed and all vault activities are restarted.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the relationship for which you want to resume the data transfer, and click <strong>Operations</strong> &gt; <strong>Resume</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Resume</strong> window, click <strong>Resume</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>Normal data transfers are resumed. If there is a scheduled transfer for the relationship, the transfer is started from the next schedule.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="quiesce-relationships">Quiesce relationships</h2>
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>You can use System Manager to disable data transfers to the destination FlexVol volume by quiescing the vault relationship.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Steps</div>
+<ol class="arabic">
+<li>
+<p>Click <strong>Protection</strong> &gt; <strong>Volume Relationships</strong>.</p>
+</li>
+<li>
+<p>Select the relationship for which you want to stop the scheduled data transfers, and click <strong>Operations</strong> &gt; <strong>Quiesce</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Quiesce</strong> window, click <strong>Quiesce</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Results</div>
+<p>If there is no transfer in progress, the transfer status is displayed as Quiesced. If a transfer is in progress, the transfer is not affected, and the transfer status is displayed as Quiescing until the transfer is complete.</p>
+</div>
+<div class="paragraph">
+<p><strong>Related information</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="reference_protection_window.html">Protection window</a></p>
+</div>
+</div>
 </div>
 
     </article>
