@@ -40,28 +40,10 @@ entries:
       url: "/online-help-96-97/task_configuring_system_manager_options.html"
     - title: View ONTAP System Manager log files
       url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
-    - title: Configure a cluster by using System Manager
-      url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
-      entries:
-      - title: Access a cluster by using the ONTAP System Manager browser-based graphic
-          interface
-        url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
     - title: Set up the cluster
       entries:
-      - title: Update the cluster name
+      - title: Set up the cluster
         url: "/online-help-96-97/task_updating_cluster_name.html"
-      - title: Change the cluster password
-        url: "/online-help-96-97/task_changing_password.html"
-      - title: Edit DNS configurations
-        url: "/online-help-96-97/task_editing_dns_configurations.html"
-      - title: Create a cluster management logical interface
-        url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-      - title: Edit the node name
-        url: "/online-help-96-97/task_editing_node_name.html"
-      - title: Create a node management logical interface
-        url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-      - title: Edit AutoSupport settings
-        url: "/online-help-96-97/task_editing_autosupport_settings.html"
       - title: Add licenses
         url: "/online-help-96-97/task_adding_licenses.html"
       - title: Setting the time zone for a cluster
@@ -78,17 +60,6 @@ entries:
         url: "/online-help-96-97/task_zeroing_disks.html"
       - title: Provisioning storage through aggregates
         url: "/online-help-96-97/task_provisioning_storage_through_aggregates.html"
-        entries:
-        - title: Provisioning storage by creating an aggregate based on storage recommendations
-          url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html"
-        - title: Provisioning storage by creating an aggregate manually
-          url: "/online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html"
-        - title: Provisioning storage by creating a Flash Pool aggregate manually
-          url: "/online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html"
-        - title: Provisioning storage by creating a SnapLock aggregate manually
-          url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
-        - title: Provisioning storage by creating a FabricPool-enabled aggregate manually
-          url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
     - title: Create SVMs
       url: "/online-help-96-97/task_creating_svms.html"
       entries:
@@ -111,24 +82,10 @@ entries:
     - title: Set up peering
       url: "/online-help-96-97/task_setting_up_peering.html"
     - title: Manage clusters
-      url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
       entries:
-      - title: Understand quorum and epsilon
-        url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
       - title: Dashboard window
         url: "/online-help-96-97/reference_dashboard_window.html"
-        entries:
-        - title: Monitor a cluster using the dashboard
-          url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
-      - title: Configuration update
-        url: "/online-help-96-97/concept_configuration_update.html"
-        entries:
-        - title: Configure the administration details of an SVM
-          url: "/online-help-96-97/task_configuring_administration_details_svm.html"
-        - title: Configuration Updates window
-          url: "/online-help-96-97/reference_configuration_updates_window.html"
       - title: MetroCluster switchover and switchback
-        url: "/online-help-96-97/concept_metrocluster_switchover_switchback.html"
         entries:
         - title: MetroCluster switchover and switchback workflow
           url: "/online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html"
@@ -222,7 +179,6 @@ entries:
     - title: FC/FCoE and NVMe adapters
       url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
     - title: Storage tiers
-      url: "/online-help-96-97/task_editing_aggregates.html"
       entries:
       - title: Edit aggregates
         url: "/online-help-96-97/task_editing_aggregates.html"
@@ -594,8 +550,7 @@ entries:
       url: "/online-help-96-97/concept_roles_delete.html"
     - title: UNIX
       url: "/online-help-96-97/concept_unix.html"
-    - title: Create a local Windows group
-      url: "/online-help-96-97/task_creating_local_user_group.html"
+    - title: Windows
       entries:
       - title: Create a local Windows group
         url: "/online-help-96-97/task_creating_local_user_group.html"
@@ -633,16 +588,8 @@ entries:
           url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
         - title: Delete mirror relationships
           url: "/online-help-96-97/task_deleting_mirror_relationships.html"
-        - title: Edit mirror relationships
+        - title: Manage mirror relationships
           url: "/online-help-96-97/task_editing_mirror_relationships.html"
-        - title: Initialize mirror relationships
-          url: "/online-help-96-97/task_initializing_mirror_relationships.html"
-        - title: Update mirror relationships
-          url: "/online-help-96-97/task_updating_mirror_relationships.html"
-        - title: Quiescing mirror relationships
-          url: "/online-help-96-97/task_quiescing_mirror_relationships.html"
-        - title: Resume mirror relationships
-          url: "/online-help-96-97/task_resuming_mirror_relationships.html"
         - title: Break SnapMirror relationships
           url: "/online-help-96-97/task_breaking_snapmirror_relationships.html"
         - title: Resynchronize mirror relationships
