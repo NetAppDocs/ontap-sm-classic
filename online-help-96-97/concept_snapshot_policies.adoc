@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: snapshot, manager, system, create, manage, policy, storage, online, help
 summary: "You can use System Manager to create and manage Snapshot policies in your storage system."
 ---
-= Snapshot policies
+= Manage Snapshot policies with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create and manage Snapshot policies in your storage system.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage Snapshot policies in your storage system.
 
 == Create Snapshot policies
 
