@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, protection, policy, system, manager, create, edit, delete
 summary: "You can use System Manager to create, edit, and delete protection policies."
 ---
-= Protection policies
+= Manage protection policies with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create, edit, and delete protection policies.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create, edit, and delete protection policies.
 
 == Create protection policies
 
