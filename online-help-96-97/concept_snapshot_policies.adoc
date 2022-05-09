@@ -11,6 +11,12 @@ summary: "You can use System Manager to create and manage Snapshot policies in y
 [.lead]
 You can use System Manager to create and manage Snapshot policies in your storage system.
 
+== About Snapshot policies
+
+When applied to a volume, a Snapshot policy specifies a schedule or schedules according to which Snapshot copies are created and specifies the maximum number of Snapshot copies that each schedule can create. A Snapshot policy can include up to five schedules.
+
+For vault relationships, the SnapMirror Label attribute is used to select Snapshot copies on the source volumes. Only Snapshot copies with the labels configured in the vault policy rules are replicated in backup vault operations. The Snapshot policy assigned to the source volume must include the SnapMirror Label attribute.
+
 == Create Snapshot policies
 
 You can create a Snapshot policy in System Manager to specify the maximum number of Snapshot copies that can be automatically created and the frequency of creating them.
@@ -52,12 +58,6 @@ You must have dissociated the Snapshot policy from each volume that uses it.
 . Click *Protection* > *Snapshot Policies*.
 . Select the Snapshot policy and click *Delete*.
 . Select the confirmation check box, and then click *Delete*.
-
-== About Snapshot policies
-
-When applied to a volume, a Snapshot policy specifies a schedule or schedules according to which Snapshot copies are created and specifies the maximum number of Snapshot copies that each schedule can create. A Snapshot policy can include up to five schedules.
-
-For vault relationships, the SnapMirror Label attribute is used to select Snapshot copies on the source volumes. Only Snapshot copies with the labels configured in the vault policy rules are replicated in backup vault operations. The Snapshot policy assigned to the source volume must include the SnapMirror Label attribute.
 
 == Snapshot Policies window
 
