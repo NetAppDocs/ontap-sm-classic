@@ -144,8 +144,6 @@ entries:
         url: "/online-help-96-97/task_updating_single_node_clusters.html"
       - title: Update a cluster nondisruptively
         url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-      - title: Update a cluster nondisruptively
-        url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
       - title: Cluster Update window
         url: "/online-help-96-97/reference_cluster_update_window.html"
     - title: Date and time settings of a cluster
@@ -200,8 +198,6 @@ entries:
         url: "/online-help-96-97/task_viewing_aggregate_information.html"
       - title: Installing a CA certificate if you use StorageGRID
         url: "/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html"
-      - title: How moving a FlexVol volume works
-        url: "/online-help-96-97/concept_how_moving_volume_works.html"
       - title: How you can use effective ONTAP disk type for mixing HDDs
         url: "/online-help-96-97/reference_effective_data_ontap_disk_types.html"
       - title: What compatible spare disks are
@@ -210,10 +206,6 @@ entries:
         url: "/online-help-96-97/concept_how_system_manager_calculates_hot_spares.html"
       - title: Rules for displaying disk types and disk RPM
         url: "/online-help-96-97/concept_rules_for_mixing_disk_types_disk_rpms.html"
-      - title: How mirrored aggregates work
-        url: "/online-help-96-97/concept_how_mirrored_aggregates_work.html"
-      - title: What a FabricPool is
-        url: "/online-help-96-97/concept_what_fabricpool_is.html"
       - title: Storage recommendations for creating aggregates
         url: "/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html"
       - title: Storage Tiers window
@@ -226,21 +218,14 @@ entries:
       url: "/online-help-96-97/concept_storage_pools.html"
     - title: Reassigning disks to nodes
       url: "/online-help-96-97/task_reassigning_disks_to_nodes.html"
+    - title: Disks
       entries:
       - title: View disk information
         url: "/online-help-96-97/task_viewing_disk_information.html"
       - title: How ONTAP reports disk types
         url: "/online-help-96-97/concept_how_ontap_reports_drive_types.html"
-      - title: Minimum number of hot spares required for disks
-        url: "/online-help-96-97/concept_minimum_number_hot_spares_you_should_have.html"
-      - title: Spare requirements for multi-disk carrier disks
-        url: "/online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html"
-      - title: Shelf configuration requirements for multi-disk carrier storage shelves
-        url: "/online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html"
       - title: Determine when it is safe to remove a multi-disk carrier
         url: "/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html"
-      - title: Considerations for sizing RAID groups
-        url: "/online-help-96-97/concept_considerations_for_sizing_raid_groups.html"
       - title: Disks window
         url: "/online-help-96-97/reference_disks_window.html"
     - title: Array LUNs
@@ -259,8 +244,6 @@ entries:
       url: "/online-help-96-97/concept_jobs.html"
     - title: Flash Pool statistics
       url: "/online-help-96-97/concept_flash_pool_statistics.html"
-    - title: Manage logical storage
-      url: "/online-help-96-97/concept_managing_logical_storage.html"
     - title: SVM Dashboard window
       url: "/online-help-96-97/reference_svm_dashboard_window.html"
       entries:
@@ -278,8 +261,6 @@ entries:
         url: "/online-help-96-97/reference_managing_svms.html"
       - title: Tracing file access to diagnose access errors on SVMs
         url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-      - title: Types of SVMs
-        url: "/online-help-96-97/concept_types_svms.html"
       - title: Why you use SVMs
         url: "/online-help-96-97/concept_why_you_use_svms.html"
       - title: How ONTAP name service switch configuration works
@@ -333,9 +314,6 @@ entries:
         url: "/online-help-96-97/task_running_deduplication_operations.html"
       - title: Moving FlexVol volumes between aggregates or nodes
         url: "/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html"
-        entries:
-        - title: Manually triggering the cutover for volume move
-          url: "/online-help-96-97/task_manually_triggering_cutover_phase.html"
       - title: Assigning volumes to Storage QoS
         url: "/online-help-96-97/task_assigning_volumes_to_storage_qos.html"
       - title: Create a mirror relationship from a source SVM
@@ -376,28 +354,12 @@ entries:
         url: "/online-help-96-97/task_changing_status_flexcache_volume.html"
       - title: Delete FlexCache volumes
         url: "/online-help-96-97/task_deleting_flexcache_volumes.html"
-      - title: What NetApp Volume Encryption is
-        url: "/online-help-96-97/concept_what_netapp_volume_encryption_is.html"
-      - title: Snapshot configuration
-        url: "/online-help-96-97/concept_snapshot_configuration.html"
       - title: How volume guarantees work for FlexVol volumes
         url: "/online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html"
-      - title: FlexClone volumes and space guarantees
-        url: "/online-help-96-97/concept_flexclone_volumes_space_guarantees.html"
-      - title: Thin provisioning for greater efficiencies using FlexVol volumes
-        url: "/online-help-96-97/concept_thin_provisioning_for_greater_efficiencies_using_flexvol_volumes.html"
       - title: Using space reservations with FlexVol volumes
         url: "/online-help-96-97/concept_using_space_reservation_with_flexvol_volumes.html"
-      - title: Benefits of storage efficiency
-        url: "/online-help-96-97/concept_benefits_storage_efficiency.html"
-      - title: Data compression and deduplication
-        url: "/online-help-96-97/concept_data_compression_deduplication.html"
-      - title: Guidelines for using deduplication
-        url: "/online-help-96-97/reference_guidelines_for_using_deduplication.html"
       - title: Options for resizing volumes
         url: "/online-help-96-97/concept_options_for_resizing_volumes.html"
-      - title: Considerations when moving volumes
-        url: "/online-help-96-97/concept_considerations_when_moving_volumes.html"
       - title: Volumes window
         url: "/online-help-96-97/reference_volumes_window.html"
     - title: Junction Path
