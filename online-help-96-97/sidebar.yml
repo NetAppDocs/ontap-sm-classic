@@ -154,16 +154,10 @@ entries:
       url: "/online-help-96-97/concept_ldap.html"
     - title: Users
       url: "/online-help-96-97/concept_cluster_user_accounts.html"
-      entries:
-      - title: Roles
-        url: "/online-help-96-97/concept_roles_conceptual.html"
     - title: Roles
       url: "/online-help-96-97/concept_roles.html"
     - title: Manage the network
       url: "/online-help-96-97/concept_managing_network.html"
-      entries:
-      - title: Network window
-        url: "/online-help-96-97/reference_network_window.html"
     - title: IPspaces
       url: "/online-help-96-97/concept_ipspaces.html"
     - title: Broadcast domains
@@ -261,9 +255,9 @@ entries:
         url: "/online-help-96-97/reference_managing_svms.html"
       - title: Tracing file access to diagnose access errors on SVMs
         url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-      - title: Why you use SVMs
+      - title: About SVMs
         url: "/online-help-96-97/concept_why_you_use_svms.html"
-      - title: How ONTAP name service switch configuration works
+      - title: About ONTAP name service switch configuration
         url: "/online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html"
       - title: Storage Virtual Machines window
         url: "/online-help-96-97/reference_svm_window.html"
@@ -416,11 +410,11 @@ entries:
     - title: CIFS protocol
       url: "/online-help-96-97/concept_cifs_protocol.html"
       entries:
-      - title: Add home directory paths
+      - title: Manage home directory paths
         url: "/online-help-96-97/task_adding_home_directory_paths.html"
       - title: Reset CIFS domain controllers
         url: "/online-help-96-97/task_resetting_cifs_domain_controllers.html"
-      - title: Update the CIFS group policy configuration
+      - title: Manage the CIFS group policy configuration
         url: "/online-help-96-97/task_updating_cifs_group_policy_configuration.html"
       - title: Set up BranchCache
         url: "/online-help-96-97/task_setting_up_branchcache.html"
@@ -453,13 +447,9 @@ entries:
       url: "/online-help-96-97/concept_export_policies.html"
     - title: Efficiency policies
       url: "/online-help-96-97/concept_efficiency_policies.html"
-    - title: Create QoS policy groups
+    - title: Manage QoS policy groups
       url: "/online-help-96-97/task_creating_qos_policy_groups.html"
       entries:
-      - title: Delete QoS policy groups
-        url: "/online-help-96-97/task_deleting_qos_policy_groups.html"
-      - title: Edit QoS policy groups
-        url: "/online-help-96-97/task_editing_qos_policy_groups.html"
       - title: Rules for assigning storage objects to policy groups
         url: "/online-help-96-97/concept_rules_for_assigning_storage_objects_to_policy_groups.html"
     - title: NIS services
@@ -478,38 +468,12 @@ entries:
       url: "/online-help-96-97/concept_roles_delete.html"
     - title: UNIX
       url: "/online-help-96-97/concept_unix.html"
-    - title: Windows
-      entries:
-      - title: Create a local Windows group
-        url: "/online-help-96-97/task_creating_local_user_group.html"
-      - title: Edit local Windows group properties
-        url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
-      - title: Add user accounts to a Windows local group
-        url: "/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html"
-      - title: Rename a local Windows group
-        url: "/online-help-96-97/task_renaming_local_windows_group.html"
-      - title: Delete a local Windows group
-        url: "/online-help-96-97/task_deleting_local_windows_group.html"
-      - title: Create a local Windows user account
-        url: "/online-help-96-97/task_creating_local_windows_user_accounts.html"
-      - title: Edit the local Windows user properties
-        url: "/online-help-96-97/task_editing_local_windows_user_properties.html"
-      - title: Assigning group memberships to a user account
-        url: "/online-help-96-97/task_assigning_group_memberships_to_user_account.html"
-      - title: Rename a local Windows user
-        url: "/online-help-96-97/task_renaming_local_windows_user.html"
-      - title: Reset the password of a Windows local user
-        url: "/online-help-96-97/task_changing_password_for_windows_local_users.html"
-      - title: Delete a local Windows user account
-        url: "/online-help-96-97/task_deleting_local_windows_user_account.html"
-      - title: Windows window
-        url: "/online-help-96-97/reference_windows_window.html"
+    - title: Local Windows groups
+      url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
     - title: Name mapping
       url: "/online-help-96-97/concept_name_mapping.html"
     - title: Mirror relationships
       entries:
-      - title: Create a mirror relationship from a destination SVM
-        url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
       - title: Manage mirror relationships
         url: "/online-help-96-97/task_editing_mirror_relationships.html"
       - title: Break SnapMirror relationships
@@ -522,16 +486,12 @@ entries:
         url: "/online-help-96-97/task_restoring_volume_mirror_relationship.html"
     - title: Vault relationships
       entries:
-      - title: Create a vault relationship from a destination SVM
-        url: "/online-help-96-97/task_creating_vault_relationship_from_destination_svm.html"
-      - title: Manage mirror relationships
+      - title: Manage vault relationships
         url: "/online-help-96-97/task_editing_vault_relationships.html"
       - title: Abort a Snapshot copy transfer
         url: "/online-help-96-97/task_aborting_vault_relationships.html"
       - title: Restore a volume in a vault relationship
         url: "/online-help-96-97/task_restoring_volume_vault_relationship.html"
-      - title: What a SnapVault backup is
-        url: "/online-help-96-97/concept_what_snapvault_backup_is.html"
     - title: Mirror and vault relationships
       entries:
       - title: Manage mirror and vault relationships
