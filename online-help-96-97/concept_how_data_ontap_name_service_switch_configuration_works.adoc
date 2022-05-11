@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: ontap, name, service, switch, configuration, works, unix, system, online, help
 summary: "ONTAP stores name service configuration information in a table that is the equivalent of the /etc/nsswitch.conf file on UNIX systems. You must understand the function of the table and how ONTAP uses it so that you can configure it appropriately for your environment."
 ---
-= How ONTAP name service switch configuration works in System Manager - ONTAP 9.7 and earlier
+= About ONTAP name service switch configuration in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-ONTAP stores name service configuration information in a table that is the equivalent of the `/etc/nsswitch.conf` file on UNIX systems. You must understand the function of the table and how ONTAP uses it so that you can configure it appropriately for your environment.
+ONTAP System Manager classic (available in ONTAP 9.7 and earlier) stores name service configuration information in a table that is the equivalent of the `/etc/nsswitch.conf` file on UNIX systems. You must understand the function of the table and how ONTAP uses it so that you can configure it appropriately for your environment.
 
 The ONTAP name service switch table determines which name service sources ONTAP consults in which order to retrieve information for a certain type of name service information. ONTAP maintains a separate name service switch table for each SVM.
 
