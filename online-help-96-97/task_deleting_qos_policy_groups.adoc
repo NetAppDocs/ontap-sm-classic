@@ -1,24 +1,4 @@
 ---
 permalink: online-help-96-97/task_deleting_qos_policy_groups.html
-sidebar: sidebar
-keywords: online, help, delete, qos, policy, groups, system, manager
-summary: "You can use System Manager to delete a Storage Quality of Service (QoS) policy group that is no longer required."
+redirect: ontap-sm-classic/online-help-96-97/task_creating_qos_policy_groups.html
 ---
-= Delete QoS policy groups with System Manager - ONTAP 9.7 and earlier
-:icons: font
-:imagesdir: ../media/
-
-[.lead]
-You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to delete a Storage Quality of Service (QoS) policy group that is no longer required.
-
-.Before you begin
-
-You must have unassigned all of the storage objects that are assigned to the policy group.
-
-.Steps
-
-. Click *Storage* > *SVMs*.
-. Select the SVM, and then click *SVM Settings*.
-. In the *Policies* pane, click *QoS Policy Groups*.
-. In the *QoS Policy Groups* window, select the policy group that you want to delete, and then click *Delete*.
-. In the confirmation dialog box, click *Delete*.
