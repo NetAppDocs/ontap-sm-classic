@@ -9,7 +9,7 @@ summary: "You can use System Manager to view, manage, or delete any software lic
 :imagesdir: ../media/
 
 [.lead]
-You can use ONTAP System Manager classic (available in 9.7 and earlier) to view, manage, or delete any software licenses installed on a cluster or node.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to view, manage, or delete any software licenses installed on a cluster or node.
 
 == Delete licenses
 
