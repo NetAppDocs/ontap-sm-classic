@@ -27,7 +27,7 @@ You can initially create an aggregate with disks of the same size and then add d
 +
 You can initially create an aggregate with a single checksum type and add storage of a different checksum type later.
 
-== Create an aggregate based on storage recommendations with System Manager - ONTAP 9.7 and earlier
+== Create an aggregate based on storage recommendations
 
 You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks.
 
@@ -50,7 +50,7 @@ The Information dialog box displays the status of the aggregates.
 . Click *Run in Background* to navigate to the *Aggregates* window.
 . Click *Refresh* to view the aggregates that are created.
 
-== Manually create an aggregate with System Manager - ONTAP 9.7 and earlier
+== Manually create an aggregate
 
 You can manually create an aggregate that consists of only HDDs or only SSDs by using ONTAP System Manager classic (available in ONTAP 9.7 and earlier).
 
@@ -91,7 +91,7 @@ For MetroCluster configurations, creating unmirrored aggregates is restricted. T
 
 The aggregate is created with the specified configuration, and is added to the list of aggregates in the Aggregates window.
 
-== Create a Flash Pool aggregate manually with System Manager - ONTAP 9.7 and earlier
+== Create a Flash Pool aggregate manually
 
 You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate.
 
@@ -152,7 +152,7 @@ a|
 
 The Flash Pool aggregate is created with the specified configuration, and is added to the list of aggregates in the Aggregates window.
 
-== Create a SnapLock aggregate manually with System Manager - ONTAP 9.7 and earlier
+== Create a SnapLock aggregate manually
 
 You can use System Manager classic (available in ONTAP 9.7 and earlier) to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide "`write once, read many`" (WORM) capabilities.
 
@@ -205,7 +205,7 @@ For MetroCluster configurations, creating unmirrored aggregates is restricted. T
 By default, the mirroring option is disabled for SnapLock Compliance aggregates.
 . Click *Create*.
 
-== Create a FabricPool-enabled aggregate manually with System Manager - ONTAP 9.7 and earlier
+== Create a FabricPool-enabled aggregate manually
 
 You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a FabricPool-enabled aggregate manually or to convert an existing SSD aggregate to a FabricPool-enabled aggregate by attaching a cloud tier to the SSD aggregate.
 
@@ -263,6 +263,6 @@ Shared disks support two RAID types: RAID-DP and RAID-TEC.
 
 *Related information*
 
-xref:concept_how_storage_pool_works.adoc[How storage pool works]
-
 http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation^]
+
+// sm-classic rework, 2022-05-12
