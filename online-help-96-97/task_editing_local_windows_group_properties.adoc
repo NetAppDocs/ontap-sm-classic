@@ -16,7 +16,7 @@ You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to
 :imagesdir: ../media/
 
 [.lead]
-You can manage local group memberships by adding and removing a local user, an Active Directory user, or an Active Directory group by using ONTAP System Manager classic (available in ONTAP 9.7 and earlier). You can modify the privileges that are assigned to a group and the description of a group to easily identify the group.
+You can manage local group memberships by adding and removing a local user, an Active Directory user, or an Active Directory group by using System Manager. You can modify the privileges that are assigned to a group and the description of a group to easily identify the group.
 
 .About this task
 
@@ -189,7 +189,7 @@ The local group name is changed, and the group is listed with the new name in th
 
 xref:reference_windows_window.adoc[Windows window]
 
-= Delete a local Windows group
+== Delete a local Windows group
 :icons: font
 :imagesdir: ../media/
 
@@ -302,7 +302,7 @@ The attributes of the local Windows user account are modified and are displayed 
 
 xref:reference_windows_window.adoc[Windows window]
 
-= Assign group memberships to a user account
+== Assign group memberships to a user account
 :icons: font
 :imagesdir: ../media/
 
@@ -335,7 +335,7 @@ The user account is assigned membership to all of the selected groups, and the u
 
 xref:reference_windows_window.adoc[Windows window]
 
-= Rename a local Windows user
+== Rename a local Windows user
 :icons: font
 :imagesdir: ../media/
 
@@ -369,7 +369,7 @@ The user name is changed, and the new name is listed in the *Users* tab.
 
 xref:reference_windows_window.adoc[Windows window]
 
-= Reset the password of a Windows local user
+== Reset the password of a Windows local user
 :icons: font
 :imagesdir: ../media/
 
@@ -401,7 +401,7 @@ The password that you set must meet the following criteria:
 
 xref:reference_windows_window.adoc[Windows window]
 
-= Delete a local Windows user account
+== Delete a local Windows user account
 :icons: font
 :imagesdir: ../media/
 
