@@ -13,7 +13,7 @@ You can use ONTAP System Manager Classic (available in ONTAP 9.7 and earlier) to
 
 .About this task
 
-You can only modify the NVMe subsystem settings in this window, you cannot edit the other namespace details.
+You can only modify the NVMe subsystem settings in this window; you cannot edit the other namespace details.
 
 .Steps
 
