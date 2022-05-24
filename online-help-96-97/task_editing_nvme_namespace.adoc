@@ -4,11 +4,14 @@ sidebar: sidebar
 keywords: edit, nvme, namespace, online, help, system, manager
 summary: "You can use System Manager to edit the namespace by changing the subsystem that the namespace is mapped to."
 ---
+
 = Edit an NVMe namespace with System Manager - ONTAP 9.7 and earlier
+
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+
 You can use ONTAP System Manager Classic (available in ONTAP 9.7 and earlier) to edit the namespace by changing the subsystem that the namespace is mapped to.
 
 .About this task

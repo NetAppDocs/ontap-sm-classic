@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, obtain, ontap, software, image, netapp, support, site, online, help
 summary: "For ONTAP 9.4 and later, you can copy the ONTAP software image from the NetApp Support Site to a local folder. For upgrades from ONTAP 9.3 or earlier, you must copy the ONTAP software image to an HTTP server or FTP server on your network."
 ---
-= Obtaining ONTAP software images
+= Obtain ONTAP software images with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For ONTAP 9.4 and later, you can copy the ONTAP software image from the NetApp Support Site to a local folder. For upgrades from ONTAP 9.3 or earlier, you must copy the ONTAP software image to an HTTP server or FTP server on your network.
+You can obtain ONTAP software images with ONTAP System Manager classic (available in ONTAP 9.7 and earlier). For ONTAP 9.4 and later, you can copy the ONTAP software image from the NetApp Support Site to a local folder. For upgrades from ONTAP 9.3 or earlier, you must copy the ONTAP software image to an HTTP server or FTP server on your network.
 
 .About this task
 

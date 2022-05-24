@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: ldap, configuration, service, system, manager, online, help, storage, virtual, machine, ldap, client, window
 summary: "You can use System Manager to manage LDAP configurations."
 ---
-= LDAP configuration services
+= Manage LDAP configurations with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to manage LDAP configurations.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage LDAP configurations.
 
 == Edit active LDAP clients
 

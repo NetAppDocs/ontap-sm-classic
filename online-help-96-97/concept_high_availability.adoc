@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: high, availability, system, manager, hardware, redundancy, nondisruptive, operations, fault, tolerance
 summary: "You can use System Manager to create high availability (HA) pairs that provide hardware redundancy that is required for nondisruptive operations and fault tolerance."
 ---
-= High availability
+= Create high availability pairs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create high availability (HA) pairs that provide hardware redundancy that is required for nondisruptive operations and fault tolerance.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create high availability (HA) pairs that provide hardware redundancy that is required for nondisruptive operations and fault tolerance.
 
 == High Availability window
 

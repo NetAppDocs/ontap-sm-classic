@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: rule, online, help, create, aggregate, add, capacity, disk, rpm
 summary: "When you are creating an aggregate and adding capacity disks to an aggregate, you should understand the rules that apply when disk types and disk RPM are displayed."
 ---
-= Rules for displaying disk types and disk RPM
+= Rules for displaying disk types and disk RPM in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-When you are creating an aggregate and adding capacity disks to an aggregate, you should understand the rules that apply when disk types and disk RPM are displayed.
+When you are creating an aggregate and adding capacity disks to an aggregate, you should understand the rules that apply when disk types and disk RPM are displayed in ONTAP System Manager classic (available in ONTAP 9.7 and earlier).
 
 When the disk type mixing and the disk RPM mixing options are not enabled, the actual disk type and actual disk RPM are displayed.
 

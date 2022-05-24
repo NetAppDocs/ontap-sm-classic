@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: event, log, notification, system, manager, online, help, view
 summary: "You can use System Manager to view the event log and event notifications."
 ---
-= Events
+= Manage events with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to view the event log and event notifications.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to view the event log and event notifications.
 
 == Events window
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: dns, ddns, service, system, manager, manage, online, help, edit, settings, command, button
 summary: "You can use System Manager to manage DNS/DDNS services."
 ---
-= DNS/DDNS Services
+= Manage DNS/DDNS services with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to manage DNS/DDNS services.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage DNS/DDNS services.
 
 == Enable or disable DDNS
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, network, interface, create, manage, online, help, create, lif, intercluster, svm, migrate, data
 summary: "You can use System Manager to create and manage network interfaces."
 ---
-= Network interfaces
+= Manage network interfaces with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create and manage network interfaces.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage network interfaces.
 
 == Create network interfaces
 

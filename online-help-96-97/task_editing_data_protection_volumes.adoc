@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: edit, data, protection, system, manager, online, help, dp, volume
 summary: "You can use System Manager to modify the volume name for a data protection (DP) volume. If the source volume does not have storage efficiency enabled, you might want to enable storage efficiency only on the destination volume."
 ---
-= Editing data protection volumes
+= Edit data protection volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to modify the volume name for a data protection (DP) volume. If the source volume does not have storage efficiency enabled, you might want to enable storage efficiency only on the destination volume.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to modify the volume name for a data protection (DP) volume. If the source volume does not have storage efficiency enabled, you might want to enable storage efficiency only on the destination volume.
 
 .About this task
 

@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: ldap, client, service, system, manager, add, edit, delete, client, configuration, online, help, cluster, level, storage, virtual, machine,
 summary: "You can use System Manager to add, edit, and delete LDAP client configurations."
 ---
-= LDAP client services
+= Configure LDAP client services with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to add, edit, and delete LDAP client configurations.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to add, edit, and delete LDAP client configurations.
 
 == Add an LDAP client configuration
 

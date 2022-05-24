@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, configure, fc, protocol, fcoe, svm, online, help, system, manager
 summary: "You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager."
 ---
-= Configure FC protocol and FCoE protocol on SVMs
+= Configure FC protocol and FCoE protocol on SVMs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.
+You can use System Manager classic (available in ONTAP 9.7 and earlier) to configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.
 
 .Before you begin
 

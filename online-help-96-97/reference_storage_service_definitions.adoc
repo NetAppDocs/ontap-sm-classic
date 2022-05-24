@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: storage, service, definition, online, help, performance, factor
 summary: "ONTAP includes predefined storage services that are mapped to corresponding minimum performance factors."
 ---
-= Storage service definitions
+= Storage service definitions for System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-ONTAP includes predefined storage services that are mapped to corresponding minimum performance factors.
+ONTAP System Manager classic (available in ONTAP 9.7 and earlier) includes predefined storage services that are mapped to corresponding minimum performance factors.
 
 The actual set of storage services available in a cluster or SVM is determined by the type of storage that makes up an aggregate in the SVM.
 

@@ -33,3 +33,36 @@ System Manager enables you to perform many common tasks such as the following:
 * Create and configure SVMs, manage storage objects associated with SVMs, and manage SVM services.
 * Monitor and manage HA configurations in a cluster.
 * Configure Service Processors to remotely log in, manage, monitor, and administer the node, regardless of the state of the node.
+
+== Dashboard window icons
+
+You might see the following icons when viewing the dashboard for the storage system:
+
+[options="header"]
+|===
+| Icon| Name| Description
+a|
+image:../media/statuswarning.gif[image for warning in the System Manager dashboard]
+a|
+Warning
+a|
+There are minor issues, but none that require immediate attention.
+a|
+image:../media/statuserror.gif[image for error in the System Manager dashboard]
+a|
+Error
+a|
+Problems that might eventually result in downtime and therefore require attention.
+a|
+image:../media/statuscritical.gif[image for critical in the System Manager dashboard]
+a|
+Critical
+a|
+The storage system is not serving data or cannot be contacted. Immediate attention is required.
+a|
+image:../media/arrowright.gif[image for navigation in the System Manager dashboard]
+a|
+Link arrow
+a|
+If this is displayed next to a line item in a dashboard pane, clicking it links to another page from which you can get more information about the line item or make changes to the line item.
+|===

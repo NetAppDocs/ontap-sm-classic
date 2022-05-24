@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, quota, online, help, view, activate, deactivate, information, types, targets, default, limits, space, files, manage, tree, group
 summary: "You can use System Manager to create, edit, and delete quotas."
 ---
-= Quotas
+= Manage Quotas with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create, edit, and delete quotas.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create, edit, and delete quotas.
 
 == Create quotas
 

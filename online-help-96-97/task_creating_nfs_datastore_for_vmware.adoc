@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: create, nfs, datastore, vmware, online, help, system, manager
 summary: "You can use the Create NFS Datastore for VMware wizard in System Manager to create an NFS datastore for VMware. You can create a volume for the NFS datastore and specify the ESX servers that can access the NFS datastore."
 ---
-= Create an NFS datastore for VMware
+= Create an NFS datastore for VMware with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Create NFS Datastore for VMware wizard in System Manager to create an NFS datastore for VMware. You can create a volume for the NFS datastore and specify the ESX servers that can access the NFS datastore.
+You can use the Create NFS Datastore for VMware wizard in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create an NFS datastore for VMware. You can create a volume for the NFS datastore and specify the ESX servers that can access the NFS datastore.
 
 .Before you begin
 

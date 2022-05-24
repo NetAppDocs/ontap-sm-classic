@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: qos, quality, service, assign, lun, storage, system, manager, lun, online, help, policy, group
 summary: "You can use System Manager to limit the throughput of LUNs by assigning them to storage Quality of Service (QoS) policy groups. You can assign storage QoS for new LUNs or modify storage QoS details for LUNs that are already assigned to a policy group."
 ---
-= Assigning LUNs to storage QoS
+= Assign LUNs to storage QoS with System Manager - ONTAP  9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to limit the throughput of LUNs by assigning them to storage Quality of Service (QoS) policy groups. You can assign storage QoS for new LUNs or modify storage QoS details for LUNs that are already assigned to a policy group.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to limit the throughput of LUNs by assigning them to storage Quality of Service (QoS) policy groups. You can assign storage QoS for new LUNs or modify storage QoS details for LUNs that are already assigned to a policy group.
 
 .About this task
 

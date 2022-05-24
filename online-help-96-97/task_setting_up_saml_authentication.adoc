@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: set, up, saml, authentication, security, assertion, markup, idp, online, help, system, manager,  language, secure, identity, provide,
 summary: "You can set up Security Assertion Markup Language (SAML) authentication so that remote users are authenticated through a secure identity provider (IdP) before they log in to System Manager."
 ---
-= Set up SAML authentication
+= Set up SAML authentication with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can set up Security Assertion Markup Language (SAML) authentication so that remote users are authenticated through a secure identity provider (IdP) before they log in to System Manager.
+You can use using ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to set up Security Assertion Markup Language (SAML) authentication. Remote users are authenticated through a secure identity provider (IdP) before they log in to System Manager.
 
 image::../media/mfa_workflow.gif[]
 

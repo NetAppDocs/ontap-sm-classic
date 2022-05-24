@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online, help
 summary: "You can use the CIFS window to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache."
 ---
-= CIFS window
+= CIFS window in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the CIFS window to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache.
+You can use the CIFS window in System Manager (ONTAP 9.7 and earlier) to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache.
 
 == Configuration tab
 

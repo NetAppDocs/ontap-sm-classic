@@ -4,11 +4,15 @@ sidebar: sidebar
 keywords: system, manager, add, preferred, domain, controller, online, help, dns, edit, modify, delete
 summary: "System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain."
 ---
-= Add preferred domain controllers
+= Manage preferred domain controllers with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage preferred domain controllers
+
+== Add preferred domain controllers
+
 System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain.
 
 .Steps

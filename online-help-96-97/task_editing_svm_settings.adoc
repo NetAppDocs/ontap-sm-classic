@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, system, manager, edit, svm, settings
 summary: "You can use System Manager to edit the properties of storage virtual machines (SVMs), such as the name service switch, name mapping switch, and aggregate list."
 ---
-= Editing SVM settings
+= Edit SVM settings with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to edit the properties of storage virtual machines (SVMs), such as the name service switch, name mapping switch, and aggregate list.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to edit the properties of storage virtual machines (SVMs), such as the name service switch, name mapping switch, and aggregate list.
 
 .About this task
 
