@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head class="at-element-marker">
-  <title>Create and manage roles with System Manager - ONTAP 9.7 and earlier</title>
+  <title></title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="Create and manage roles with System Manager - ONTAP 9.7 and earlier" />
+  <meta property="og:title" content="" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_roles_delete.html" />
-	<meta property="og:description" content="You can use System Manager to create and manage roles." />
+	<meta property="og:description" content="" />
   <meta property="og:image" content="https://docs.netapp.com/us-en/ontap-sm-classic/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="You can use System Manager to create and manage roles.">
-  <meta name="keywords" content=" system, manager, create, manage, role, online, help, svm, edit"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/us-en/ontap-sm-classic/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -53,6 +53,9 @@
   <link rel="stylesheet" href="/us-en/ontap-sm-classic/css/tabbed-blocks.css" type="text/css">
   <!-- Canonical url -->
   <link rel='stylesheet' href='/us-en/ontap-sm-classic/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    pageRedirect("https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_roles.html");
+    function pageRedirect(url) { location.href = url; }
+  </script><script>
     if (document.location.hostname === "docs.netapp.com") {
       var head = document.getElementsByTagName('head')[0];
       var onetrustConsent = document.createElement("script");
@@ -169,7 +172,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[Create and manage roles with System Manager - ONTAP 9.7 and earlier](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_roles_delete.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_roles_delete.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/issues/new?body=Page%3A%20[](https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/concept_roles_delete.html)" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/discuss-sm.svg" class="github-icon" />Request doc changes</a><a target="_blank" href="https://github.com/NetAppDocs/ontap-sm-classic/blob/main/online-help-96-97/concept_roles_delete.adoc" class="page-nav-contribute-link" role="button"><img src="/us-en/ontap-sm-classic/images/edit-sm.svg" class="github-icon" />Edit this page</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/us-en/ontap-sm-classic/images/article-sm.svg" class="github-icon" />Learn how to contribute</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">ON THIS PAGE</div>
@@ -4862,14 +4865,14 @@
 </div>
 
       <div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">Create and manage roles with System Manager - ONTAP 9.7 and earlier</h1>
+  <h1 class="n-doc__component-detail-heading"></h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-04-19 15:49:40 +0000">04/19/2022</time>
+    <time datetime="2022-05-24 13:55:53 +0000">05/24/2022</time>
     
   
 
@@ -4903,123 +4906,7 @@
 
 </p>
 
-<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph lead">
-<p>You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage roles.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="add-roles">Add roles</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>You can use System Manager to add an access-control role and to specify the command or command directory that the users of the role can access. You can also control the level of access the role has to the command or command directory, and you can specify a query that applies to the command or command directory.</p>
-</div>
-<div class="olist arabic">
-<div class="title">Steps</div>
-<ol class="arabic">
-<li>
-<p>Click <strong>Storage</strong> &gt; <strong>SVMs</strong>.</p>
-</li>
-<li>
-<p>Select the SVM, and then click <strong>SVM Settings</strong>.</p>
-</li>
-<li>
-<p>In the <strong>SVM User Details</strong> pane, click <strong>Roles</strong>.</p>
-</li>
-<li>
-<p>Click <strong>Add</strong>.</p>
-</li>
-<li>
-<p>In the <strong>Add Role</strong> dialog box, specify the role name, and then add the role attributes.</p>
-</li>
-<li>
-<p>Click <strong>Add</strong>.</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="edit-roles">Edit roles</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>You can use System Manager to modify the access of an access-control roleto a command or command directory and to restrict a user&#8217;s access to only a specified set of commands.</p>
-</div>
-<div class="olist arabic">
-<div class="title">Steps</div>
-<ol class="arabic">
-<li>
-<p>Click <strong>Storage</strong> &gt; <strong>SVMs</strong>.</p>
-</li>
-<li>
-<p>Select the SVM, and then click <strong>SVM Settings</strong>.</p>
-</li>
-<li>
-<p>In the <strong>SVM User Details</strong> pane, click <strong>Roles</strong>.</p>
-</li>
-<li>
-<p>Select the role that you want to modify, and then click <strong>Edit</strong>.</p>
-</li>
-<li>
-<p>Modify the role attributes, and then click <strong>Modify</strong>.</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="roles-window">Roles window</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>You can use the Roles window to manage the roles that are associated with user accounts.</p>
-</div>
-<div class="sect2">
-<h3 id="command-buttons">Command buttons</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Add</strong></p>
-<div class="paragraph">
-<p>Opens the Add Role dialog box, which enables you to create an access-control role and specify the command or command directory that the role&#8217;s users can access.</p>
-</div>
-</li>
-<li>
-<p><strong>Edit</strong></p>
-<div class="paragraph">
-<p>Opens the Edit Role dialog box, which enables you to add or modify role attributes.</p>
-</div>
-</li>
-<li>
-<p><strong>Refresh</strong></p>
-<div class="paragraph">
-<p>Updates the information in the window.</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="roles-list">Roles list</h3>
-<div class="paragraph">
-<p>The roles list provides a list of roles that are available to be assigned to users.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="role-attributes-area">Role Attributes area</h3>
-<div class="paragraph">
-<p>The details area displays the role attributes, such as the command or command directory that the selected role can access, the access level, and the query that applies to the command or command directory.</p>
-</div>
-<div class="paragraph">
-<p><strong>Related information</strong></p>
-</div>
-<div class="paragraph">
-<p><a href="https://docs.netapp.com/us-en/ontap/authentication/index.html" target="_blank" rel="noopener">Administrator authentication and RBAC</a></p>
-</div>
-</div>
-</div>
-</div>
+
 
     </article>
     <!-- Page Container -->
