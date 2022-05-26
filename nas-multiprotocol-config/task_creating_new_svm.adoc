@@ -44,17 +44,17 @@ The name must either be a fully qualified domain name (FQDN) or follow another c
 If you support international character display in both NFS and SMB/CIFS clients, consider using the *UTF8MB4* language code, which is available beginning with ONTAP 9.5.
 ====
 
- .. Make sure that the security style is set to your preference.
+ .. *Optional*: Make sure that the security style is set to your preference.
 +
 Selecting the CIFS protocol sets the security style to NTFS by default.
 
- .. Select the root aggregate to contain the SVM root volume.
+ .. *Optional*: Select the root aggregate to contain the SVM root volume.
 +
 The aggregate that you select for the root volume does not determine the location of the data volume. The aggregate for the data volume is selected separately in a later step.
 +
 image::../media/svm_setup_details_page_ntfs_selected_nas_mp.gif[This graphic is explained by the surrounding text.]
 
- .. In the *DNS Configuration* area, ensure that the default DNS search domain and name servers are the ones that you want to use for this SVM.
+ .. *Optional*: In the *DNS Configuration* area, ensure that the default DNS search domain and name servers are the ones that you want to use for this SVM.
 +
 image::../media/svm_setup_details_dns_nas_mp.gif[This graphic is explained by the surrounding text.]
 
