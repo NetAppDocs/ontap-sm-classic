@@ -13,9 +13,9 @@ A datastore contains virtual machines and their VMDKs on the ESXi host. The data
 
 .Before you begin
 
-for (VSC) must be installed and registered with the vCenter Server that manages the ESXi host.
+Virtual Storage Console for VMware vSphere for (VSC) must be installed and registered with the vCenter Server that manages the ESXi host.
 
-VSC must have sufficient cluster or credentials to create the volume.
+VSC must have sufficient cluster or credentials to create the volume on the specified SVM.
 
 .About this task
 
