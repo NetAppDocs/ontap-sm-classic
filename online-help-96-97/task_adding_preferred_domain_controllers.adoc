@@ -9,7 +9,7 @@ summary: "System Manager automatically discovers domain controllers through DNS.
 :imagesdir: ../media/
 
 [.lead]
-You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage preferred domain controllers
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to manage preferred domain controllers.
 
 == Add preferred domain controllers
 
