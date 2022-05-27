@@ -55,7 +55,7 @@ The SVM is created, but protocols are not yet configured.
 . If the *Configure iSCSI protocol* page appears because you enabled iSCSI, click *Skip* and then configure iSCSI later.
 . Configure the FC service and create LIFs, and the LUN and its containing volume from the *Configure FC/FCoE protocol* page:
  .. Select the *Configure Data LIFs for FC* check box.
- .. Enter `2` in the *LIFs per node* field.
+ .. Enter `*2*` in the *LIFs per node* field.
 +
 Two LIFs are required for each node to ensure availability and data mobility.
 
