@@ -237,9 +237,9 @@ entries:
         url: "/online-help-96-97/reference_managing_svms.html"
       - title: Tracing file access to diagnose access errors on SVMs
         url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
-      - title: Why you use SVMs
+      - title: About SVMs
         url: "/online-help-96-97/concept_why_you_use_svms.html"
-      - title: How ONTAP name service switch configuration works
+      - title: About ONTAP name service switch configuration
         url: "/online-help-96-97/concept_how_data_ontap_name_service_switch_configuration_works.html"
       - title: Storage Virtual Machines window
         url: "/online-help-96-97/reference_svm_window.html"
@@ -430,7 +430,7 @@ entries:
       url: "/online-help-96-97/concept_export_policies.html"
     - title: Efficiency policies
       url: "/online-help-96-97/concept_efficiency_policies.html"
-    - title: Create QoS policy groups
+    - title: Manage QoS policy groups
       url: "/online-help-96-97/task_creating_qos_policy_groups.html"
       entries:
       - title: Rules for assigning storage objects to policy groups
