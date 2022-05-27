@@ -17,8 +17,12 @@ You must have a copy of the `rescan` script, which is in the `sg3_utils` package
 
 .Steps
 
-. Discover new SCSI devices (LUNs) and create the corresponding multipath devices for the LUNs: `/usr/bin/rescan-scsi-bus.sh`
-. Verify DM-Multipath configuration:``multipath -ll``
+. Discover new SCSI devices (LUNs) and create the corresponding multipath devices for the LUNs:
++
+`/usr/bin/rescan-scsi-bus.sh`
+. Verify DM-Multipath configuration:
++
+`multipath -ll`
 +
 This displays the following type of output, listing the recommended settings for each NetApp LUN:
 +
