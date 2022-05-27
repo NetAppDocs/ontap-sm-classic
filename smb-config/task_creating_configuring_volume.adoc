@@ -25,7 +25,7 @@ The Create Volume dialog box is displayed.
 +
 Any new volume created in System Manager is mounted by default at the root volume using the volume name as the junction name. You use the junction path and the junction name when configuring CIFS shares.
 
-. If you do not want the volume to be located at the root of the SVM, modify the place of the new volume in the existing namespace:
+. *Optional*: If you do not want the volume to be located at the root of the SVM, modify the place of the new volume in the existing namespace:
  .. Navigate to the *Namespace* window.
  .. Select the *SVM* from the drop-down menu.
  .. Click *Mount*.
