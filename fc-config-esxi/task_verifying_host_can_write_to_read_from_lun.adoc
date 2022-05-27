@@ -29,11 +29,11 @@ The contents of the datastore are displayed.
 You might need to install the Client Integration Plug-in.
 
 . Verify that you can access the file you just wrote.
-. Fail over the cluster node containing the LUN and verify that you can still write and read a file.
+. *Optional:* Fail over the cluster node containing the LUN and verify that you can still write and read a file.
 +
 If any of the tests fail, verify that the FC service is running on the storage cluster and check the FC paths to the LUN and FC switch zoning.
 
-. If you failed over the cluster node, be sure to give back the node and return all LIFs to their home ports.
+. *Optional:* If you failed over the cluster node, be sure to give back the node and return all LIFs to their home ports.
 . For an ESXi cluster, view the datastore from each ESXi host in the cluster and verify that the file you uploaded is displayed.
 
 *Related information*
