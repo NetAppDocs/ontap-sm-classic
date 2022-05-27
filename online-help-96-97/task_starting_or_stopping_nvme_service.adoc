@@ -9,7 +9,7 @@ summary: "The NVMe service enables you to manage NVMe adapters for use with name
 :imagesdir: ../media/
 
 [.lead]
-You can use ONTAP System Manager classic (available in 9.7 and earlier) to start the NVMe service to bring the adapters online. The NVMe service enables you to manage NVMe adapters for use with namespaces. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to start the NVMe service to bring the adapters online. The NVMe service enables you to manage NVMe adapters for use with namespaces. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces.
 
 .Before you begin
 
