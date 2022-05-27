@@ -19,9 +19,8 @@ If possible, separate network traffic on separate physical networks or on VLANs.
 
 image::../media/network_for_nfs_eg.gif[Network topology for client configuration]
 
-Subnet for LIFs: *__**__***__**_____
+Subnet for LIFs:
 
-[options="header"]
 [options="header"]
 |===
 | Node or LIF with port to switch| IP address| Network mask| Gateway| VLAN ID| Home port
