@@ -9,7 +9,7 @@ summary: "You can use the CIFS window to configure the CIFS server, to manage do
 :imagesdir: ../media/
 
 [.lead]
-You can use the CIFS window in System Manager (ONTAP 9.7 and earlier) to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache.
+You can use the CIFS window in ONTAP System Manager (available in ONTAP 9.7 and earlier) to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache.
 
 == Configuration tab
 
