@@ -30,7 +30,7 @@ If the iSCSI protocol is not enabled on the SVM, you can use the Edit Storage Vi
 . If you have not configured the iSCSI protocol while creating the SVM, click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Protocols* pane, click *iSCSI*.
-. In the *Network Access* section, specify an alias for the iSCSI target.
+. *Optional:* In the *Network Access* section, specify an alias for the iSCSI target.
 +
 The maximum number of characters for an alias name is 128. If you do not specify a target alias, the SVM name is used as an alias.
 
@@ -94,7 +94,7 @@ If you have ifgrps configured in your cluster, you should select *Interface Grou
 The ifgrp port must be added in the broadcast domain.
 ====
 
-. Provision a LUN for iSCSI storage when configuring the iSCSI protocol by specifying the LUN size, OS type for the LUN, and host initiator details.
+. *Optional:* Provision a LUN for iSCSI storage when configuring the iSCSI protocol by specifying the LUN size, OS type for the LUN, and host initiator details.
 . If you want to verify or modify the configuration of the automatically generated iSCSI LIFs, select *Review or Modify LIFs configuration (Advanced Settings)*.
 +
 You can modify only the LIF name and the home port. By default, the portsets are set to the minimum value. You must specify unique entries. If you specify duplicate LIF names, System Manager appends numeric values to the duplicate LIF name.

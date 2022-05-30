@@ -43,7 +43,7 @@ If the number of LIFs that you want to assign to the node is more than two, you 
 +
 You can modify only the LIF name and home port. You must ensure that you do not specify duplicate entries.
 
-. Provision a LUN for the FC storage or FCoE storage when configuring the protocol by providing the LUN size, OS type for the LUN, and host initiator details.
+. *Optional:* Provision a LUN for the FC storage or FCoE storage when configuring the protocol by providing the LUN size, OS type for the LUN, and host initiator details.
 . Click *Submit & Continue*.
 
 .Results

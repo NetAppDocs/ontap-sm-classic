@@ -9,11 +9,11 @@ summary: "Peered clusters are required for data replication using SnapMirror tec
 :imagesdir: ../media/
 
 [.lead]
-You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to peer two clusters so that the peered clusters can coordinate and share resources between them. Peered clusters are required for data replication using SnapMirror technology and SnapVault technology, and for data replication using FlexCache volumes and SyncMirror technology in MetroCluster configurations. 
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to peer two clusters so that the peered clusters can coordinate and share resources between them. Peered clusters are required for data replication using SnapMirror technology and SnapVault technology, and for data replication using FlexCache volumes and SyncMirror technology in MetroCluster configurations.
 
 == Generate a peering passphrase
 
-Starting with System Manager 9.6, you can generate a passphrase for the local cluster IPspace and use the same passphrase in the remote cluster when creating peering relationships.
+Beginning with System Manager 9.6, you can generate a passphrase for the local cluster IPspace and use the same passphrase in the remote cluster when creating peering relationships.
 
 .Steps
 
@@ -28,7 +28,7 @@ The Generate Peering Passphrase dialog window displays.
  ** *SVM Permissions*: Select one of the following:
   *** *All SVMs* to indicate all SVMs are permitted to access the cluster.
   *** *Selected SVMs* to indicate specific SVMs that are permitted to access the cluster. Highlight the SVM names in the field that you want to specify.
-. Select the checkbox if the effective cluster version of the remote cluster is earlier than ONTAP 9.6. Otherwise, the cluster peering fails to generate.
+. *Optional:* Select the checkbox if the effective cluster version of the remote cluster is earlier than ONTAP 9.6. Otherwise, the cluster peering fails to generate.
 . Click *Generate* to generate the passphrase.
 +
 For a successful generation, a message displays that identifies your passphrase.
@@ -132,7 +132,7 @@ Select one of the following:
  ** *SVM Permissions*: Select one of the following:
   *** *All SVMs* to indicate that all SVMs are permitted to access the cluster.
   *** *Selected SVMs* to indicate specific SVMs that are permitted to access the cluster. Highlight the SVM names in the field that you want to specify.
-. Select the checkbox if the effective cluster version of the remote cluster is earlier than ONTAP 9.6. Otherwise, the passphrase fails to generate.
+. *Optional:* Select the checkbox if the effective cluster version of the remote cluster is earlier than ONTAP 9.6. Otherwise, the passphrase fails to generate.
 . Click *Apply*.
 +
 The passphrase is generated for the relationship and displayed. You can either copy the passphrase or email it.
