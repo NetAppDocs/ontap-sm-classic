@@ -114,7 +114,7 @@ If a route does not exist, a new route is automatically created based on the gat
  ** For data LIFs, the Port details area displays all of the ports from the broadcast domain that is associated with the IPspace of the SVM.
  ** For intercluster LIFs, the Port details area displays all of the ports from the broadcast domain that is associated with the required IPspace.
  ** The Port details area will display only NVMe capable adapters if the NVMe protocol is selected.
-. Select the *Dynamic DNS (DDNS)* check box to enable DDNS.
+. *Optional:* Select the *Dynamic DNS (DDNS)* check box to enable DDNS.
 . Click *Create*.
 
 == Edit network interface settings
@@ -165,7 +165,7 @@ The destination node and ports must be operational and must be able to access th
 . Click *Network* > *Network Interfaces*.
 . Select the interface that you want to migrate, and then click *Migrate*.
 . In the *Migrate Interface* dialog box, select the destination port to which you want to migrate the LIF.
-. Select the *Migrate Permanently* check box if you want to set the destination port as the new home port for the LIF.
+. *Optional:* Select the *Migrate Permanently* check box if you want to set the destination port as the new home port for the LIF.
 . Click *Migrate*.
 
 
