@@ -27,7 +27,7 @@ The base Snapshot copy that is used to create a FlexClone volume of a SnapMirror
 . Select the FlexVol volume that you want to clone from the list of volumes.
 . Click *More Actions* > *Clone* > *Create* > *Volume*.
 . Type the name of the FlexClone volume that you want to create.
-. If you want to enable thin provisioning for the new FlexClone volume, select *Thin Provisioning*.
+. *Optional:* If you want to enable thin provisioning for the new FlexClone volume, select *Thin Provisioning*.
 +
 By default, this setting is the same as that of the parent volume.
 

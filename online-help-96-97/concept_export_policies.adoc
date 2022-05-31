@@ -89,9 +89,9 @@ You can specify the client in any of the following formats:
 ====
 You must not enter an IP address range, such as 10.1.12.10 through 10.1.12.70. Entries in this format are interpreted as a text string and are treated as a host name.
 ====
-+
 You can enter the IPv4 address `0.0.0.0/0` to provide access to all of the hosts.
 
++
  .. If you want to modify the rule index number, select the appropriate rule index number.
  .. Select one or more access protocols.
 +

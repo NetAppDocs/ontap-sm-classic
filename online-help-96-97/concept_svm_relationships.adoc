@@ -9,7 +9,7 @@ summary: "Storage virtual machine (SVM) disaster recovery (DR) provides disaster
 :imagesdir: ../media/
 
 [.lead]
-You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage mirror relationships and mirror and vault relationships between SVMs. Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration. 
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage mirror relationships and mirror and vault relationships between SVMs. Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration.
 
 == Create SVM relationships
 
@@ -26,10 +26,10 @@ You can use System Manager to create SVM relationships to transfer data from the
 . Click *Protection* > *SVM Relationship* > *Create*.
 . Select the SVM relationship type from the *SVM Relationship Type* list.
 . From the *Source Storage Virtual Machine* pane, select the cluster and the SVM.
-. To view SVMs that do not have the required permissions, click *Navigate to the source cluster*, and then provide the required permissions.
+. *Optional:* To view SVMs that do not have the required permissions, click *Navigate to the source cluster*, and then provide the required permissions.
 . From the *Destination Storage Virtual Machine* pane, specify the name of the SVM that will be created on the destination cluster.
 . Select the option to copy the source SVM configuration.
-. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*, update the protection policy and protection schedule, select aggregate, and then initialize the protection relationship.
+. *Optional:* Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*, update the protection policy and protection schedule, select aggregate, and then initialize the protection relationship.
 . Click *Save* to create the SVM relationship.
 +
 The SVM Relationships: Summary window is displayed.

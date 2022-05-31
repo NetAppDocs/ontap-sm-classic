@@ -121,7 +121,7 @@ The mirror relationship must be in a Snapmirrored state.
 . Choose one of the following options:
  ** Select *On demand* to perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.
  ** Select *Select Snapshot copy* and specify the Snapshot copy that you want to transfer.
-. Select *Limit transfer bandwidth to* to limit the network bandwidth used for transfers and specify the maximum transfer speed.
+. *Optional:* Select *Limit transfer bandwidth to* to limit the network bandwidth used for transfers and specify the maximum transfer speed.
 . Click *Update*.
 . Verify the transfer status in the *Details* tab.
 

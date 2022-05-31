@@ -215,12 +215,6 @@ xref:task_deleting_luns.adoc[Deleting LUNs]
 
 xref:task_creating_initiator_groups.adoc[Creating initiator groups]
 
-xref:task_deleting_initiator_groups.adoc[Deleting initiator groups]
-
-xref:task_adding_initiators.adoc[Adding initiators]
-
-xref:task_deleting_initiators_from_initiator_group.adoc[Deleting initiators from an initiator group]
-
 xref:task_editing_luns.adoc[Editing LUNs]
 
 xref:task_editing_initiator_groups.adoc[Editing initiator groups]
