@@ -449,11 +449,9 @@ entries:
       url: "/online-help-96-97/concept_svm_user_accounts.html"
     - title: UNIX
       url: "/online-help-96-97/concept_unix.html"
-    - title: Windows
+    - title: Local windows group
       entries:
-      - title: Create a local Windows group
-        url: "/online-help-96-97/task_creating_local_user_group.html"
-      - title: Edit local Windows group properties
+      - title: Manage local Windows groups
         url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
     - title: Name mapping
       url: "/online-help-96-97/concept_name_mapping.html"
