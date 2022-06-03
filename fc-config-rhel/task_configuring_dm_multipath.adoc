@@ -31,9 +31,13 @@ These are devices that are not displayed when you enter the `sanlun lun show` co
 +
   *** If there are non-NetApp SCSI devices to exclude, enter the worldwide identifier (WWID) for the devices in the blacklist section of the `multipath.conf` file.
 +
-To display the WWID of a non-NetApp SCSI device, enter the following command on the device that you want to exclude, where `SCSI_device_name` is a device that you specify: `/lib/udev/scsi_id -gud /dev/SCSI_device_name`
+To display the WWID of a non-NetApp SCSI device, enter the following command on the device that you want to exclude, where `SCSI_device_name` is a device that you specify:
 +
-For example, if `/dev/sda` is the non-NetApp SCSI device that you want to exclude, you would enter the following: `/lib/udev/scsi_id -gud /dev/sda`
+`/lib/udev/scsi_id -gud /dev/SCSI_device_name`
++
+For example, if `/dev/sda` is the non-NetApp SCSI device that you want to exclude, you would enter the following:
++
+`/lib/udev/scsi_id -gud /dev/sda`
 +
 This displays the WWID of the device, which you can copy and paste in the `multipath.conf` file.
 +
@@ -50,9 +54,15 @@ blacklist {
 
   *** If there are no devices to exclude, remove the _wwid_ line from the `multipath.conf` file.
 
- .. Enable NetApp recommended DM-Multipath settings by appending the following string to the end of the kernel line in the boot loader: `rdloaddriver=scsi_dh_alua`
-. Start the DM-Multipath daemon: `/etc/init.d/multipathd start`
-. Add the multipath service to the boot sequence so that the multipath daemon always starts during system boot: `chkconfig multipathd on`
+ .. Enable NetApp recommended DM-Multipath settings by appending the following string to the end of the kernel line in the boot loader:
++
+`rdloaddriver=scsi_dh_alua`
+. Start the DM-Multipath daemon:
++
+`/etc/init.d/multipathd start`
+. Add the multipath service to the boot sequence so that the multipath daemon always starts during system boot:
++
+`chkconfig multipathd on`
 . Reboot the Linux host.
 . Verify that the `rdloaddriver` setting appears in the output when you run `cat /proc/cmdline`.
 +

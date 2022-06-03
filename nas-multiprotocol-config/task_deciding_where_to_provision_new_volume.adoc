@@ -15,7 +15,7 @@ Before you create a new multiprotocol volume, you must decide whether to place t
 
 * If you want to provision a volume on a new SVM, create a basic SVM.
 +
-link:task_creating_new_svm.md#[Creating a basic SVM]
+link:task_creating_new_svm.html[Creating a basic SVM]
 +
 You must choose this option if CIFS and NFS are not already enabled on an existing SVM.
 

@@ -61,9 +61,9 @@ The SVM is created, but protocols are not yet configured.
 
 . If the *Configure CIFS/NFS protocol* page appears because you enabled CIFS or NFS, click *Skip* and then configure CIFS or NFS later.
 . Configure the iSCSI service and create LIFs, and the LUN and its containing volume from the *Configure iSCSI protocol* page:
- .. Enter a target alias name.
+ .. *Optional:* Enter a target alias name.
  .. Assign IP address for the LIFs either by using a subnet or without a subnet.
- .. Enter `2` in the *LIFs per node* field.
+ .. Enter `*2*` in the *LIFs per node* field.
 +
 Two LIFs are required for each node to ensure availability and data mobility.
 

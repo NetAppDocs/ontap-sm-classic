@@ -21,8 +21,12 @@ If the storage cluster node that the multipath device corresponds to can be fail
 
 .Steps
 
-. Run some I/O on the specified multipath device: `dd if=/dev/zero of=<multipath_device_name\>`
-. Verify that I/O is running on the multipath device, specifying the number of seconds to refresh statistics (for example, every two seconds, as shown): `iostat 2`
+. Run some I/O on the specified multipath device:
++
+`dd if=/dev/zero of=<multipath_device_name\>`
+. Verify that I/O is running on the multipath device, specifying the number of seconds to refresh statistics (for example, every two seconds, as shown):
++
+`iostat 2`
 +
 When I/O is running on the multipath device, you can see the various I/O counters output change dynamically, indicating that I/O is running successfully on the multipath device.
 +
@@ -47,9 +51,13 @@ sdk               0.00         0.00         0.00       1344          0
 .............
 ----
 
-. If possible, run the `takeover` command on the storage cluster node: `storage failover takeover -ofnode <node_name\>`
+. If possible, run the `takeover` command on the storage cluster node:
++
+`storage failover takeover -ofnode <node_name\>`
 . Verify that I/O is still running on the multipath device by re-running the``iostat`` command.
-. Run the `giveback` command on the storage cluster node: `storage failover giveback -ofnode <node_name\>`
+. Run the `giveback` command on the storage cluster node:
++
+`storage failover giveback -ofnode <node_name\>`
 . Check `iostat` output to verify that I/O is still running.
 
 == What to do next
