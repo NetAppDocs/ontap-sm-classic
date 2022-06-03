@@ -61,7 +61,7 @@ Shared disks can be added only to the `New RAID group` option.
 
 . Click *Add*.
 +
-For mirrored aggregates, an Add Capacity dialog box is displayed with the information that twice the number of selected disks will be added.
+For mirrored aggregates, an *Add Capacity* dialog box is displayed with the information that twice the number of selected disks will be added.
 
 . In the *Add Capacity* dialog box, click *Yes* to add the capacity disks.
 

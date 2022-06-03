@@ -25,7 +25,7 @@ You cannot modify storage efficiency on a mirror DP volume.
 +
 If storage efficiency is already enabled on the volume, then the check box is selected by default.
 
-. Click the *Advanced* tab, and perform the following steps:
+. *Optional:* Click the *Advanced* tab, and perform the following steps:
  .. Select the caching policy that you want to assign to the volume.
  .. Select the retention priority for the cached data in the volume.
 

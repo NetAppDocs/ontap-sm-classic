@@ -56,7 +56,7 @@ For a volume move operation, you can use System Manager to manually trigger the 
 . Click the *Show More Details* link to view more information about the volume.
 . In the *Overview* tab, click *Cutover*.
 . In the *Cutover* dialog box, click *Advanced Options*.
-. Specify the cutover action and the cutover window period.
+. *Optional:* Specify the cutover action and the cutover window period.
 . Click *OK*.
 
 // sm-classic rework, 2022-04-12

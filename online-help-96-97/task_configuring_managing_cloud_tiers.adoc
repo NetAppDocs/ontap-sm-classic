@@ -72,7 +72,7 @@ If you have selected AWS Commercial Cloud Service (C2S) as the type, you must sp
 . If you want to modify any of the following settings, then click the Advanced Options icon image:../media/advanced_options.gif[] to display the *Advanced Options* dialog window where you can make the changes:
  ** The port number used to access the cloud tier
  ** Enable or disable the *SSL* option that lets you transfer data securely to the cloud tier
-. If you want to add a cloud tier for StorageGRID or you want to use IBM Cloud Object Storage environment (such as Cleversafe) with FabricPool, you should specify a CA certificate. Specify the CA certificate by moving the *Object Store Certificate* toggle button and copying the contents of the certificate. Then paste the certificate contents in the signed certification.
+. *Optional:* If you want to add a cloud tier for StorageGRID or you want to use IBM Cloud Object Storage environment (such as Cleversafe) with FabricPool, you should specify a CA certificate. Specify the CA certificate by moving the *Object Store Certificate* toggle button and copying the contents of the certificate. Then paste the certificate contents in the signed certification.
 . From the *IPspace* list, select the IPspace that is used to connect to the cloud tier.
 . Click *Save* to save the cloud tier.
 . Click *Save and Attach Aggregates* to save the cloud tier and to attach aggregates to the cloud tier.
@@ -141,7 +141,7 @@ Only all flash (all SSD) aggregates support FabricPool-enabled aggregates.
 +
 The minimum hot spare rule is applied to the disk group that has the largest disk size.
 
- .. Modify the RAID configuration of the aggregate:
+ .. *Optional:* Modify the RAID configuration of the aggregate:
   ... Click *Change*.
   ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
 +

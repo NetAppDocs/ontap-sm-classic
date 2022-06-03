@@ -29,7 +29,7 @@ This issue does not occur if the immediate parent directory is the root volume.
 . Click *Storage* > *Junction Path*.
 . From the drop-down menu in the *SVM* field, select the SVM on which you want to mount a volume.
 . Click *Mount*, and then select the volume that is to be mounted.
-. If you want to change the default junction name, specify a new name.
+. *Optional:* If you want to change the default junction name, specify a new name.
 . Click *Browse*, and then select the junction path to which you want to mount the volume.
 . Click *OK*, and then click *Mount*.
 . Verify the new junction path in the *Details* tab.

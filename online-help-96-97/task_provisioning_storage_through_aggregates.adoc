@@ -75,9 +75,9 @@ All of the disks must be of the same size.
 +
 The minimum hot spare rule is applied to the disk group that has the largest disk size.
 
- .. Modify the RAID configuration of the aggregate:
+ .. *Optional:* Modify the RAID configuration of the aggregate:
   ... Click *Change*.
-  ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
+  ... In the *Change RAID Configuration* dialog box, specify the RAID type and the RAID group size.
 +
 Shared disks support two RAID types: RAID DP and RAID-TEC.
 
@@ -181,7 +181,7 @@ You cannot change the name of a SnapLock Compliance aggregate after you create t
 +
 The minimum hot spare rule is applied to the disk group that has the largest disk size.
 
- .. Modify the RAID configuration of the aggregate:
+ .. *Optional:* Modify the RAID configuration of the aggregate:
   ... Click *Change*.
   ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
 +
@@ -198,7 +198,7 @@ This option is not displayed if the ComplianceClock is already initialized on th
 You must ensure that the current system time is correct. The ComplianceClock is set based on the system clock. Once the ComplianceClock is set, you cannot modify or stop the ComplianceClock.
 ====
 
- .. If you want to mirror the aggregate, select the *Mirror this aggregate* check box.
+ .. *Optional:* If you want to mirror the aggregate, select the *Mirror this aggregate* check box.
 +
 For MetroCluster configurations, creating unmirrored aggregates is restricted. Therefore, the mirroring option is enabled by default for MetroCluster configurations.
 +
@@ -251,7 +251,7 @@ Only all flash (all SSD) aggregates support FabricPool-enabled aggregates.
 +
 The minimum hot spare rule is applied to the disk group that has the largest disk size.
 
- .. Modify the RAID configuration of the aggregate:
+ .. *Optional:* Modify the RAID configuration of the aggregate:
   ... Click *Change*.
   ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
 +

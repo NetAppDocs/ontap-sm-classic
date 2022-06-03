@@ -37,11 +37,15 @@ You can set up a network by enabling an IP address range. The IP address range e
 a|
 You have a range of IP addresses in the same netmask
 a|
-Enter the IP address range, and then click *Apply*.     IP addresses are applied to cluster management, node management, and Service Processor management networks sequentially.
+Enter the IP address range, and then click *Apply*.
+
+IP addresses are applied to cluster management, node management, and Service Processor management networks sequentially.
 a|
 You have a range of IP addresses in different netmasks
 a|
-Enter each IP address range on a separate line, and then click *Apply*.     The first IP address applied to cluster management and other IP addresses are applied to node management and Service Processor management networks sequentially.
+Enter each IP address range on a separate line, and then click *Apply*.
+
+The first IP address applied to cluster management and other IP addresses are applied to node management and Service Processor management networks sequentially.
 
 |===
 +
@@ -86,7 +90,7 @@ In the Networks page, if the *IP Address Range* is disabled, enter individual IP
 
 . Enter the cluster management IP address in the *Cluster Management IP Address* field.
 . Enter the netmask details for cluster management.
-. Enter the gateway details for cluster management.
+. *Optional:* Enter the gateway details for cluster management.
 . Select the port for cluster management in the *Port* field.
 . If you want to provide netmask and gateway details to manage your nodes, clear the *Retain Netmask and Gateway configuration of the Cluster Management* check box, and then enter the netmask and gateway details.
 . Enter the node management IP addresses in the *Node Management* field.

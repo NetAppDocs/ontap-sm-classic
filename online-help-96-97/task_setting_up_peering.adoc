@@ -98,7 +98,7 @@ You can create an authenticated cluster peer relationship to connect clusters so
 
 . Click *Configuration* > *Advanced Cluster Setup*.
 . In the *Target Cluster Intercluster LIF IP addresses* field, enter the IP addresses of the remote cluster's intercluster LIFs.
-. If you are creating a peer relationship between a cluster running ONTAP 9.5 and a cluster running ONTAP 9.6, select the checkbox.
+. *Optional:* If you are creating a peer relationship between a cluster running ONTAP 9.5 and a cluster running ONTAP 9.6, select the checkbox.
 +
 The peer relationship will not be encrypted. If you do not select the checkbox, the peer relationship will not be established.
 
@@ -108,7 +108,7 @@ If you create a custom passphrase, the passphrase will be validated against the 
 +
 If the names of the local cluster and remote cluster are identical, and if you are using a custom passphrase, an alias is created for the remote cluster.
 
-. To generate a passphrase from the remote cluster, enter the management IP address of the remote cluster.
+. *Optional:* To generate a passphrase from the remote cluster, enter the management IP address of the remote cluster.
 . Initiate cluster peering.
 +
 [options="header"]
