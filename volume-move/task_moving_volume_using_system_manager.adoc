@@ -31,7 +31,7 @@ You should review the available space, total space, RAID type, and storage type 
 .. Click *Move*, and then click *Move* again to confirm that you want to proceed with the volume move operation.
 +
 When the Move Volume dialog box is displayed, leave the dialog box open if you want to monitor the volume move job.
-. [[step4-monitor]]Monitor the volume move job:
+. *Optional:* [[step4-monitor]]Monitor the volume move job:
 .. In the *Move Volume* dialog box, click the link to the *Job ID* of the volume move job.
 .. Locate the volume move job, and then review the information in the *Status* column.
 +

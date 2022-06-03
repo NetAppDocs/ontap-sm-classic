@@ -54,10 +54,10 @@ image::../media/svm_setup_cifs_nfs_page_cifs_share_smb.gif[Screenshot of the are
 
 +
 You do not have to specify the aggregate for the volume because it is automatically located on the aggregate with the most available space.
-. Restrict access to the share by modifying the share ACL:
+. *Optional*: Restrict access to the share by modifying the share ACL:
  .. In the *Permission* field, click *Change*.
  .. Select the Everyone group, and click *Remove*.
- .. Click *Add*, and enter the name of an administrator group defined in the Windows Active Directory domain that includes the SVM.
+ .. *Optional*: Click *Add*, and enter the name of an administrator group defined in the Windows Active Directory domain that includes the SVM.
  .. Select the new administrator group, and then select *Full Control*.
  .. Click *Save and Close*.
 . Click *Submit & Close*, and then click *OK*.

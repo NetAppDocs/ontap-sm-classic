@@ -27,7 +27,7 @@ You should download the online bundle (`NetAppNasPlugIn.vib`) of the most recent
 +
 In VMware vSphere 5.0 and later, VAAI is enabled by default.
 
-. In , go to *Tools* > *NFS VAAI Tools*.
+. In Virtual Storage Console, go to *Tools* > *NFS VAAI Tools*.
 . Click *Select File* to upload the `NetAppNasPlugIn.vib` file.
 . Click *Upload*.
 +

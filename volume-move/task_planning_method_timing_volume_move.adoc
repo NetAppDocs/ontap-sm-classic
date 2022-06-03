@@ -36,7 +36,7 @@ The volume move operation is nondisruptive, regardless of whether you choose aut
 +
 If the volume does not contain LUNs or if the cluster contains only two nodes, you can skip this step.
 
-. Plan a time using the following considerations:
+. *Optional:* Plan a time using the following considerations:
 * A volume move operation might take more time than expected because moves are designed to occur nondisruptively in the background in a manner that preserves client access and overall system performance.
 +
 For example, ONTAP throttles the resources that are available to the volume move operation.

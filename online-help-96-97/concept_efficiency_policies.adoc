@@ -27,7 +27,7 @@ You can use System Manager to add efficiency policies for running the deduplicat
 You can specify the maximum run-time duration of the efficiency policy, if required.
 
  ** Select *ChangeLog Threshold*, and specify the threshold value (in percent) for the change in volume data.
-. Select the *Set QoS policy to background* check box to reduce performance impact on client operations.
+. *Optional:* Select the *Set QoS policy to background* check box to reduce performance impact on client operations.
 . Click *Add*.
 
 == Edit efficiency policies

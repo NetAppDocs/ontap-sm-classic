@@ -20,7 +20,7 @@ Only the ports that are in the default broadcast domain will be listed in the Ne
 * All of the nodes in the cluster must be up and running.
 * All of the nodes must be of the same version.
 
-.Steps
+.Step
 
 . Add the new compatible nodes to the cluster:
 +

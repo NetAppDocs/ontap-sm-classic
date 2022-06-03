@@ -169,9 +169,9 @@ The volume name suffix is appended to the source volume names to generate the de
 +
 The default retention period can be set to any value between 1 day through 70 years or Infinite.
 
-. Click *Browse*, and then change the vault policy.
+. *Optional:* Click *Browse*, and then change the vault policy.
 . Select a schedule for the relationship from the list of existing schedules.
-. Select *Initialize Relationship* to initialize the vault relationship.
+. *Optional:* Select *Initialize Relationship* to initialize the vault relationship.
 . Enable SnapLock aggregates, and then select a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate.
 . Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.
 . Click *Validate* to verify whether the selected volumes have matching labels.
@@ -203,7 +203,7 @@ The vault relationship must be initialized.
 . Choose one of the following options:
  ** Select *As Per Policy* to perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.
  ** Select *Select Snapshot copy* and specify the Snapshot copy that you want to transfer.
-. Select *Limit transfer bandwidth to* to limit the network bandwidth that is used for transfers and specify the maximum transfer speed.
+. *Optional:* Select *Limit transfer bandwidth to* to limit the network bandwidth that is used for transfers and specify the maximum transfer speed.
 . Click *Update*.
 . Verify the transfer status in the *Details* tab.
 

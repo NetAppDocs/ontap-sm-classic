@@ -22,7 +22,7 @@ You must have a FlexCache capacity license before you can create a FlexCache vol
 +
 The Create FlexCache volume window displays.
 
-. The following fields in the *Origin Volume* area display values for the origin volume for which you want to create a FlexCache volume. You can modify them.
+. *Optional:* The following fields in the *Origin Volume* area display values for the origin volume for which you want to create a FlexCache volume. You can modify them.
  ** *Cluster*: Use the drop-down menu to select the cluster associated with the origin volume.
  ** *SVM*: Use the drop-down menu to select the SVM that contains the origin volume.
 +

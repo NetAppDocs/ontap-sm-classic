@@ -33,12 +33,13 @@ You should be aware of the following limitations when deleting a FlexVol volume:
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) in which the volume that you want to delete resides.
 . Select the volumes that you want to delete.
-. [NOTE]
++
+[NOTE]
 ====
 Verify that you have selected the correct volumes that you want to delete. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data.
 ====
-+
-Click *Delete*.
+
+. Click *Delete*.
 
 . Select the confirmation check box, and then click *Delete*.
 
