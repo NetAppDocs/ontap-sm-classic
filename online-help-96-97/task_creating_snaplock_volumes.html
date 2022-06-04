@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_snaplock_volumes.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/index.html">
         System Manager Classic docs
       </a></li><li class="subfolders "><a href="#">
@@ -4677,7 +4669,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-08 12:29:04 +0000">04/08/2022</time>
+    <time datetime="2022-05-30 10:31:09 +0000">05/30/2022</time>
     
   
 
@@ -4783,13 +4775,13 @@
 </div>
 </li>
 <li>
-<p>Select <strong>Thin Provisioned</strong> to enable thin provisioning for the volume.</p>
+<p><strong>Optional:</strong> Select <strong>Thin Provisioned</strong> to enable thin provisioning for the volume.</p>
 <div class="paragraph">
 <p>When thin provisioning is enabled, space is allocated to the volume from the aggregate only when data is written to the volume.</p>
 </div>
 </li>
 <li>
-<p>Make the required changes in the <strong>Storage Efficiency</strong> tab to enable deduplication on the volume.</p>
+<p><strong>Optional:</strong> Make the required changes in the <strong>Storage Efficiency</strong> tab to enable deduplication on the volume.</p>
 <div class="paragraph">
 <p>System Manager uses the default deduplication schedule. If the specified volume size exceeds the limit that is required for running deduplication, the volume is created, and deduplication is not enabled.</p>
 </div>
@@ -4799,7 +4791,7 @@
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Specify the autocommit period.</p>
+<p><strong>Optional:</strong> Specify the autocommit period.</p>
 <div class="paragraph">
 <p>The file in the volume remains unchanged for the period that you specify before the file is committed to the WORM state. To set files to the WORM state manually, you must select <strong>Not specified</strong> as the autocommit setting.</p>
 </div>
@@ -4823,7 +4815,7 @@
 </div>
 </li>
 <li>
-<p>Select the <strong>Manage Storage Quality of Service</strong> checkbox in the <strong>Quality of Service</strong> tab to enable storage QoS for the FlexVol volume in order to manage workload performance.</p>
+<p><strong>Optional:</strong> Select the <strong>Manage Storage Quality of Service</strong> checkbox in the <strong>Quality of Service</strong> tab to enable storage QoS for the FlexVol volume in order to manage workload performance.</p>
 </li>
 <li>
 <p>Create a storage QoS policy group or select an existing policy group to control the input/output (I/O) performance of the FlexVol volume.</p>
@@ -5180,4 +5172,5 @@
     </script>
     <script src='/us-en/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/us-en/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/us-en/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

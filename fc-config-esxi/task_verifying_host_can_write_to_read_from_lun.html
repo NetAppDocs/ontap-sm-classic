@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/index.html">
         System Manager Classic docs
       </a></li><li class="subfolders "><a href="#">
@@ -4677,7 +4669,7 @@
 <p class="page-details">
   
     
-    <time datetime="2021-10-11 19:08:52 +0000">10/11/2021</time>
+    <time datetime="2022-05-27 07:24:18 +0000">05/27/2022</time>
     
   
 
@@ -4730,13 +4722,13 @@
 <p>Verify that you can access the file you just wrote.</p>
 </li>
 <li>
-<p>Fail over the cluster node containing the LUN and verify that you can still write and read a file.</p>
+<p><strong>Optional:</strong> Fail over the cluster node containing the LUN and verify that you can still write and read a file.</p>
 <div class="paragraph">
 <p>If any of the tests fail, verify that the FC service is running on the storage cluster and check the FC paths to the LUN and FC switch zoning.</p>
 </div>
 </li>
 <li>
-<p>If you failed over the cluster node, be sure to give back the node and return all LIFs to their home ports.</p>
+<p><strong>Optional:</strong> If you failed over the cluster node, be sure to give back the node and return all LIFs to their home ports.</p>
 </li>
 <li>
 <p>For an ESXi cluster, view the datastore from each ESXi host in the cluster and verify that the file you uploaded is displayed.</p>
@@ -4895,4 +4887,5 @@
     </script>
     <script src='/us-en/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/us-en/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/us-en/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

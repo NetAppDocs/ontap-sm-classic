@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/nas-multiprotocol-config/task_mapping_unix_windows_user_names.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/index.html">
         System Manager Classic docs
       </a></li><li class="subfolders "><a href="#">
@@ -4677,7 +4669,7 @@
 <p class="page-details">
   
     
-    <time datetime="2021-10-19 22:01:21 +0000">10/19/2021</time>
+    <time datetime="2022-05-26 11:36:10 +0000">05/26/2022</time>
     
   
 
@@ -4736,7 +4728,7 @@
 <p>Click the <strong>SVM Settings</strong> tab.</p>
 </li>
 <li>
-<p>Create a name mapping that converts UNIX user accounts to Windows user accounts, and vice versa:</p>
+<p><strong>Optional</strong>: Create a name mapping that converts UNIX user accounts to Windows user accounts, and vice versa:</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
@@ -4773,13 +4765,13 @@
 </div>
 </li>
 <li>
-<p>Repeat steps <a href="#SUBSTEP_8BDAF68A77864AAFAF680961CE879940">#SUBSTEP_8BDAF68A77864AAFAF680961CE879940</a> through <a href="#SUBSTEP_E730068645DB4303B61744DB632A9803">#SUBSTEP_E730068645DB4303B61744DB632A9803</a> to map all of the domains and names on the SVM.</p>
+<p>Repeat steps 5b to 5d to map all of the domains and names on the SVM.</p>
 </li>
 </ol>
 </div>
 </li>
 <li>
-<p>Create a default Windows user:</p>
+<p><strong>Optional</strong>: Create a default Windows user:</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
@@ -4798,7 +4790,7 @@
 </div>
 </li>
 <li>
-<p>Configure the default UNIX user if you want a user different from the default value, which is the &#8220;pcuser&#8221; user.</p>
+<p><strong>Optional</strong>: Configure the default UNIX user if you want a user different from the default value, which is the &#8220;pcuser&#8221; user.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
@@ -4974,4 +4966,5 @@
     </script>
     <script src='/us-en/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/us-en/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/us-en/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

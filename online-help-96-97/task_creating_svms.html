@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_svms.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/online-help-96-97/task_creating_svms.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/index.html">
         System Manager Classic docs
       </a></li><li class="subfolders "><a href="#">
@@ -4677,7 +4669,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-08 12:29:04 +0000">04/08/2022</time>
+    <time datetime="2022-05-30 10:31:09 +0000">05/30/2022</time>
     
   
 
@@ -4821,20 +4813,15 @@
 <p>Security style of the root volume</p>
 </li>
 <li>
-<p>Root aggregate
-The default language setting for any SVM is C.UTF-8.</p>
-</li>
-</ul>
+<p>Root aggregate</p>
+<div class="paragraph">
+<p>The default language setting for any SVM is C.UTF-8.</p>
 </div>
 <div class="paragraph">
 <p>By default, the aggregate with the maximum free space is selected as the container for the root volume of the SVM. Based on the protocols selected, the default security style and the root aggregate are selected.</p>
 </div>
 <div class="paragraph">
-<p>+
-The security style is set to NTFS if you select CIFS protocol or a combination of CIFS protocol with the other protocols. The security style is set to UNIX if you select NFS, iSCSI, NVMe, or FC/FCoE, or a combination of these protocols.</p>
-</div>
-<div class="paragraph">
-<p>+</p>
+<p>The security style is set to NTFS if you select CIFS protocol or a combination of CIFS protocol with the other protocols. The security style is set to UNIX if you select NFS, iSCSI, NVMe, or FC/FCoE, or a combination of these protocols.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -4850,9 +4837,11 @@ The security style is set to NTFS if you select CIFS protocol or a combination o
 </tr>
 </table>
 </div>
+</li>
+</ul>
+</div>
 <div class="paragraph">
-<p>+
-In a MetroCluster configuration, only the aggregates that are contained in the cluster are displayed.</p>
+<p>In a MetroCluster configuration, only the aggregates that are contained in the cluster are displayed.</p>
 </div>
 </li>
 <li>
@@ -4862,7 +4851,7 @@ In a MetroCluster configuration, only the aggregates that are contained in the c
 </div>
 </li>
 <li>
-<p>When configuring a data LIF to access data using a protocol, specify the target alias, subnets, and the number of LIFs per node.</p>
+<p><strong>Optional:</strong> When configuring a data LIF to access data using a protocol, specify the target alias, subnets, and the number of LIFs per node.</p>
 <div class="paragraph">
 <p>You can select the <strong>Review or Modify LIFs configuration (Advanced Settings)</strong> checkbox to modify the number of portsets in the LIF.</p>
 </div>
@@ -4871,16 +4860,16 @@ In a MetroCluster configuration, only the aggregates that are contained in the c
 </div>
 </li>
 <li>
-<p>Enable host-side applications such as SnapDrive and SnapManager for the SVM administrator by providing the SVM credentials.</p>
+<p><strong>Optional:</strong> Enable host-side applications such as SnapDrive and SnapManager for the SVM administrator by providing the SVM credentials.</p>
 </li>
 <li>
-<p>For protocols other than NVMe, create a new LIF for SVM management by clicking <strong>Create a new LIF for SVM management</strong>, and then specify the portsets and the IP address with or without a subnet for the new management LIF.</p>
+<p><strong>Optional:</strong> For protocols other than NVMe, create a new LIF for SVM management by clicking <strong>Create a new LIF for SVM management</strong>, and then specify the portsets and the IP address with or without a subnet for the new management LIF.</p>
 <div class="paragraph">
 <p>For CIFS and NFS protocols, data LIFs have management access by default. You must create a new management LIF only if required. For iSCSI and FC, a SVM management LIF is required because data protocols and management protocols cannot share the same LIF.</p>
 </div>
 </li>
 <li>
-<p>For NVMe protocol, Beginning with ONTAP 9.5, configure a minimum of one LIF for each node on the second page of the SVM Setup wizard: <strong>Configure NVMe Protocol.</strong></p>
+<p><strong>Optional:</strong> For NVMe protocol, Beginning with ONTAP 9.5, configure a minimum of one LIF for each node on the second page of the SVM Setup wizard: <strong>Configure NVMe Protocol.</strong></p>
 <div class="paragraph">
 <p>You must configure at least one LIF for each node in the HA pair. You can also specify two LIFs per node. Click the settings icon to toggle between one or two LIFs configurations.</p>
 </div>
@@ -5053,4 +5042,5 @@ In a MetroCluster configuration, only the aggregates that are contained in the c
     </script>
     <script src='/us-en/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/us-en/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/us-en/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>

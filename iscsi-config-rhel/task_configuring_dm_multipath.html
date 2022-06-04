@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/ontap-sm-classic/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/ontap-sm-classic/iscsi-config-rhel/task_configuring_dm_multipath.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -3463,7 +3455,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/ontap-sm-classic/index.html">
         System Manager Classic docs
       </a></li><li class="subfolders "><a href="#">
@@ -4677,7 +4669,7 @@
 <p class="page-details">
   
     
-    <time datetime="2021-10-19 22:01:21 +0000">10/19/2021</time>
+    <time datetime="2022-05-27 10:25:47 +0000">05/27/2022</time>
     
   
 
@@ -4738,25 +4730,17 @@
 <div class="paragraph">
 <p>To display the WWID of a non-NetApp SCSI device, enter the following command on the device that you want to exclude, where <code>SCSI_device_name</code> is a device that you specify: <code>/lib/udev/scsi_id -gud /dev/SCSI_device_name</code></p>
 </div>
-</li>
-</ul>
-</div>
-</li>
-</ol>
+<div class="paragraph">
+<p>For example, if <code>/dev/sda</code> is the non-NetApp SCSI device that you want to exclude, you would enter the following:</p>
 </div>
 <div class="paragraph">
-<p>For example, if <code>/dev/sda</code> is the non-NetApp SCSI device that you want to exclude, you would enter the following: <code>/lib/udev/scsi_id -gud /dev/sda</code></p>
+<p><code>/lib/udev/scsi_id -gud /dev/sda</code></p>
 </div>
 <div class="paragraph">
-<p>+
-This displays the WWID of the device, which you can copy and paste in the <code>multipath.conf</code> file.</p>
+<p>This displays the WWID of the device, which you can copy and paste in the <code>multipath.conf</code> file.</p>
 </div>
 <div class="paragraph">
-<p>+
-In the following example showing the blacklist section of the <code>multipath.conf</code> file, the non-NetApp SCSI device with WWID <code>3600508e000000000753250f933cc4606</code> is excluded:</p>
-</div>
-<div class="paragraph">
-<p>+</p>
+<p>In the following example showing the blacklist section of the <code>multipath.conf</code> file, the non-NetApp SCSI device with WWID <code>3600508e000000000753250f933cc4606</code> is excluded:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -4768,26 +4752,30 @@ In the following example showing the blacklist section of the <code>multipath.co
 }</pre>
 </div>
 </div>
-<div class="ulist">
-<ul>
+</li>
 <li>
 <p>If there are no devices to exclude, remove the <em>wwid</em> line from the <code>multipath.conf</code> file.</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+</li>
+</ul>
+</div>
+</li>
 <li>
 <p>Enable NetApp recommended DM-Multipath settings by appending the following string to the end of the kernel line in the boot loader: <code>rdloaddriver=scsi_dh_alua</code></p>
 </li>
 </ol>
 </div>
 </li>
-</ul>
+<li>
+<p>Start the DM-Multipath daemon:</p>
+<div class="paragraph">
+<p><code>/etc/init.d/multipathd start</code></p>
 </div>
 </li>
 <li>
-<p>Start the DM-Multipath daemon: <code>/etc/init.d/multipathd start</code></p>
-</li>
-<li>
-<p>Add the multipath service to the boot sequence so that the multipath daemon always starts during system boot: <code>chkconfig multipathd on</code></p>
+<p>Add the multipath service to the boot sequence so that the multipath daemon always starts during system boot:</p>
+<div class="paragraph">
+<p><code>chkconfig multipathd on</code></p>
+</div>
 </li>
 <li>
 <p>Reboot the Linux host.</p>
@@ -4952,4 +4940,5 @@ ro root=/dev/mapper/vg_ibmx3650210104-lv_root rd_NO_LUKS LANG=en_US.UTF-8 rd_NO_
     </script>
     <script src='/us-en/ontap-sm-classic/js/www-ntap.js'></script>
     <script src='/us-en/ontap-sm-classic/js/tabbed-blocks.js'></script>
+    <script src='/us-en/ontap-sm-classic/js/sidebar.js'></script>
   </body></html>
