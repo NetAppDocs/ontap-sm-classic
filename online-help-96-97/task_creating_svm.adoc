@@ -84,12 +84,12 @@ a|
 [NOTE]
 ====
 At least one NVMe capable adapter must be available in one of the nodes to configure NVMe.        Also, Beginning with ONTAP 9.5, at least one NVMe LIF must be configured for each node of a HA pair associated with the SVM. You can create a maximum of two NVMe LIFs for each node in the pair.
-+
+
 ====
 
 |===
 
-. Click the *Advanced Options* icon and provide details to configure advanced options such as the default language, security style, CIFS server details, and NFS details.
+. *Optional:* Click the *Advanced Options* icon and provide details to configure advanced options such as the default language, security style, CIFS server details, and NFS details.
 . Click *Submit and Continue* to create the SVM.
 
 == What to do next

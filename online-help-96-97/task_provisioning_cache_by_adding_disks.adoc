@@ -72,7 +72,7 @@ Select the SSD size and the number of SSDs to include, and optionally modify the
 
 . Click *Add*.
 +
-For mirrored aggregates, an Add Cache dialog box is displayed with the information that twice the number of selected disks will be added.
+For mirrored aggregates, an *Add Cache* dialog box is displayed with the information that twice the number of selected disks will be added.
 
 . In the *Add Cache* dialog box, click *Yes*.
 

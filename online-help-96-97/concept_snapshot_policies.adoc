@@ -45,6 +45,7 @@ You can modify the details of an existing Snapshot policy, such as the schedule 
 . Click *OK*.
 . Verify the changes you made to the selected Snapshot policy in the *Edit Snapshot Policy* dialog box and click *Save*.
 //2021-12-07, created by Mairead sm-classic-rework
+
 == Delete Snapshot policies
 
 You can use System Manager to delete Snapshot policies. If you delete a Snapshot policy that is being used by one or more volumes, Snapshot copies of the volume or volumes are no longer created according to the deleted policy.

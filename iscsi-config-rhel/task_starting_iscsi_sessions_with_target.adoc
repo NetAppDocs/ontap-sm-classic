@@ -17,10 +17,18 @@ In ONTAP, the iSCSI host must have paths to each node in the cluster. DM-Multipa
 
 .Steps
 
-. Start the iSCSI service from the Linux host command prompt: `service iscsid force-start`
-. Discover the iSCSI target: `iscsiadm --mode discovery --op update --type sendtargets --portal targetIP`
+. Start the iSCSI service from the Linux host command prompt:
++
+`service iscsid force-start`
+. Discover the iSCSI target:
++
+`iscsiadm --mode discovery --op update --type sendtargets --portal targetIP`
 +
 The IP address of each discovered target displays on a separate line.
 
-. Establish iSCSI sessions by logging in to each target: `iscsiadm --mode node -l all`
-. You can view a list of the active iSCSI sessions: `iscsiadm --mode session`
+. Establish iSCSI sessions by logging in to each target:
++
+`iscsiadm --mode node -l all`
+. You can view a list of the active iSCSI sessions:
++
+`iscsiadm --mode session`

@@ -188,7 +188,8 @@ Specifies whether management access is enabled on the interface.
 * *Subnet*
 +
 Specifies the subnet to which the interface belongs.
-mx* *Role*
+
+* *mx Role*
 +
 Specifies the operational role of the interface, which can be data, intercluster, cluster, cluster management, or node management.
 
@@ -215,6 +216,8 @@ Opens one of the following dialog boxes:
  ** Edit Ethernet Port dialog box: Enables you to modify Ethernet port settings.
  ** Edit VLAN dialog box: Enables you to modify VLAN settings.
  ** Edit Interface Group dialog box: Enables you to modify interface groups.
+
++
 You can only edit VLANs that are not associated with a broadcast domain.
 
 * *Delete*

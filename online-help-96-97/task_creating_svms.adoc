@@ -53,6 +53,9 @@ The language of the SVM determines the character set that is used to display fil
  ** SVM language
  ** Security style of the root volume
  ** Root aggregate
+
+
++
 The default language setting for any SVM is C.UTF-8.
 
 +
@@ -60,28 +63,30 @@ By default, the aggregate with the maximum free space is selected as the contain
 +
 The security style is set to NTFS if you select CIFS protocol or a combination of CIFS protocol with the other protocols. The security style is set to UNIX if you select NFS, iSCSI, NVMe, or FC/FCoE, or a combination of these protocols.
 +
+
 [NOTE]
 ====
 NVMe does not allow the combination of protocols.
 ====
+
 +
 In a MetroCluster configuration, only the aggregates that are contained in the cluster are displayed.
 . Specify the DNS domain names and the name server IP addresses to configure the DNS services.
 +
 The default values are selected from the existing SVM configurations.
 
-. When configuring a data LIF to access data using a protocol, specify the target alias, subnets, and the number of LIFs per node.
+. *Optional:* When configuring a data LIF to access data using a protocol, specify the target alias, subnets, and the number of LIFs per node.
 +
 You can select the *Review or Modify LIFs configuration (Advanced Settings)* checkbox to modify the number of portsets in the LIF.
 +
 You can edit the details of the portset in a particular node by selecting the node from the nodes list in the details area.
 
-. Enable host-side applications such as SnapDrive and SnapManager for the SVM administrator by providing the SVM credentials.
-. For protocols other than NVMe, create a new LIF for SVM management by clicking *Create a new LIF for SVM management*, and then specify the portsets and the IP address with or without a subnet for the new management LIF.
+. *Optional:* Enable host-side applications such as SnapDrive and SnapManager for the SVM administrator by providing the SVM credentials.
+. *Optional:* For protocols other than NVMe, create a new LIF for SVM management by clicking *Create a new LIF for SVM management*, and then specify the portsets and the IP address with or without a subnet for the new management LIF.
 +
 For CIFS and NFS protocols, data LIFs have management access by default. You must create a new management LIF only if required. For iSCSI and FC, a SVM management LIF is required because data protocols and management protocols cannot share the same LIF.
 
-. For NVMe protocol, Beginning with ONTAP 9.5, configure a minimum of one LIF for each node on the second page of the SVM Setup wizard: *Configure NVMe Protocol.*
+. *Optional:* For NVMe protocol, Beginning with ONTAP 9.5, configure a minimum of one LIF for each node on the second page of the SVM Setup wizard: *Configure NVMe Protocol.*
 +
 You must configure at least one LIF for each node in the HA pair. You can also specify two LIFs per node. Click the settings icon to toggle between one or two LIFs configurations.
 

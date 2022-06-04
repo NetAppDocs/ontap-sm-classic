@@ -40,7 +40,7 @@ a|
 The average performance metrics, read performance metrics, and write performance metrics of the FlexCache volume based on latency, IOPS, and throughput. Also, the percentage of cache hits or cache misses is displayed.
 |===
 
-. Click *More actions* to view additional information and take actions from the selections in the drop-down menu:
+. *Optional:* Click *More actions* to view additional information and take actions from the selections in the drop-down menu:
 +
 [options="header"]
 |===

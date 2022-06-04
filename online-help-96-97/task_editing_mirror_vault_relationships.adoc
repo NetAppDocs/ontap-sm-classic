@@ -190,12 +190,12 @@ If the specified cluster is running a version of ONTAP software earlier than ONT
 +
 The volume name suffix is appended to the source volume names to generate the destination volume names.
 
-. Click *Browse*, and then change the mirror and vault policy.
+. *Optional:* Click *Browse*, and then change the mirror and vault policy.
 +
 You can select the policy that has the maximum number of matching labels with the Snapshot policy that is attached to the source volume.
 
 . Select a schedule for the relationship from the list of existing schedules.
-. Select *Initialize Relationship* to initialize the relationship.
+. *Optional:* Select *Initialize Relationship* to initialize the relationship.
 . Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.
 . Click *Validate* to verify whether the selected volumes have matching labels.
 . Click *Create*.

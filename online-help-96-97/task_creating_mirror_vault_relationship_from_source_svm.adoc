@@ -85,5 +85,5 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 
 |===
 
-. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*, update the protection policy and protection schedule, select *FabricPool-enabled aggregate*, and then initialize the protection relationship.
+. *Optional:* Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*, update the protection policy and protection schedule, select *FabricPool-enabled aggregate*, and then initialize the protection relationship.
 . Click *Save*.

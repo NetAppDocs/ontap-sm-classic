@@ -44,11 +44,11 @@ If you support international character display in both NFS and SMB/CIFS clients,
 +
 This language is inherited by the volume that you create later, and a volume's language cannot be changed.
 
- .. If you enabled the CIFS protocol, change the security style to *UNIX*.
+ .. *Optional*: If you enabled the CIFS protocol, change the security style to *UNIX*.
 +
 Selecting the CIFS protocol sets the security style to NTFS by default.
 
- .. Select the root aggregate to contain the SVM root volume.
+ .. *Optional*: Select the root aggregate to contain the SVM root volume.
 +
 The aggregate that you select for the root volume does not determine the location of the data volume. The aggregate for the data volume is selected automatically when you provision storage in a later step.
 +

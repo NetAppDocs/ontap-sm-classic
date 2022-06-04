@@ -48,6 +48,7 @@ You can use System Manager to delete system health alerts to which you have alre
 
 There are several health monitors that monitor different parts of a cluster. Health monitors help you to recover from errors within ONTAP systems by detecting events, sending alerts to you, and deleting events as they clear.
 
+[cols="1a,1a,1a" options="header"]
 |===
 | Health monitor name (identifier)| Subsystem name (identifier)| Purpose
 a|
@@ -74,9 +75,8 @@ a|
 Interconnect, RAID, and storage
 a|
 Monitors FC-VI adapters, FC initiator adapters, left-behind aggregates and disks, and inter-cluster ports
-a|
+.2+|
 Node connectivity(node-connect)
-
 a|
 CIFS nondisruptive operations (CIFS-NDO)
 a|

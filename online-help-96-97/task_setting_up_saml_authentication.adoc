@@ -44,7 +44,7 @@ After SAML authentication is enabled, only remote users can access the System Ma
 . Configure System Manager to use SAML authentication:
  .. Enter the URI of the IdP.
  .. Enter the IP address of the host system.
- .. If required, change the host system certificate.
+ .. *Optional:* If required, change the host system certificate.
 . Click *Retrieve Host Metadata* to retrieve the host URI and host metadata information.
 . Copy the host URI or host metadata details, access your IdP, and then specify the host URI or host metadata details and the trust rules in the IdP window.
 +

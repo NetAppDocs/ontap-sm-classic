@@ -23,7 +23,7 @@ You must have installed the CIFS license before you set up and start CIFS.
 . Click *Create Share*.
 . In the *Create Share* window, click *Browse*, and then select the folder, qtree, or volume that should be shared.
 . Specify a name for the new CIFS share.
-. Select the *Enable continuous availability for Hyper-V and SQL* check box to permit clients that support SMB 3.0 and later to open files persistently during nondisruptive operations.
+. *Optional:* Select the *Enable continuous availability for Hyper-V and SQL* check box to permit clients that support SMB 3.0 and later to open files persistently during nondisruptive operations.
 +
 Files that are opened by using this option are protected from disruptive events such as failover, giveback, and LIF migration.
 +
@@ -100,6 +100,8 @@ The share name can use the following dynamic names:
  ** `%w` (the user's Windows user name)
  ** `%d` (the user's Windows domain name)
  ** `%u` (the user's mapped UNIX user name)
+
++
 To make the share name unique across all home directories, the share name must contain either the `%w` or the `%u` variable. The share name can contain both the `%d` and the `%w` variable (for example, `%d`/`%w`), or the share name can contain a static portion and a variable portion (for example, home_``%w``).
 
 * *Share path*
