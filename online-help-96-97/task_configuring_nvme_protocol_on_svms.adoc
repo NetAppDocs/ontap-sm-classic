@@ -9,7 +9,7 @@ summary: "You can configure the NVMe protocol on a storage virtual machine (SVM)
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager classic (available in ONTAP 9.7 and earlier) to configure the NVMe protocol on a storage virtual machine (SVM). You can then create namespaces and assign them to an NVMe subsystem and host.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure the NVMe protocol on a storage virtual machine (SVM). You can then create namespaces and assign them to an NVMe subsystem and host.
 
 .About this task
 

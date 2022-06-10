@@ -9,7 +9,7 @@ summary: "You can use System Manager to create fully configured storage virtual 
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager classic (available in ONTAP 9.7 and earlier) to create fully configured storage virtual machines (SVMs) that can serve data immediately. A cluster can have one or more SVMs.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create fully configured storage virtual machines (SVMs) that can serve data immediately. A cluster can have one or more SVMs.
 
 .Before you begin
 
