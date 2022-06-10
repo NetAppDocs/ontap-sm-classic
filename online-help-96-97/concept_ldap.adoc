@@ -9,7 +9,7 @@ summary: "You can use System Manager to configure an LDAP server that centrally 
 :imagesdir: ../media/
 
 [.lead]
-You can use ONTAP System Manager classic (available 9.7 and earlier) to configure an LDAP server that centrally maintains user information.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure an LDAP server that centrally maintains user information.
 
 == View the LDAP client configuration
 
