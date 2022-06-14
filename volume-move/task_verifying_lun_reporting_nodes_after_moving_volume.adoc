@@ -30,9 +30,10 @@ This procedure is required only if you move a volume from one HA pair to a diffe
 . Add the new paths to your MPIO configuration.
 . Remove the previous LUN owner and its partner node from the reporting-nodes list:
 +
-`lun mapping remove-reporting-nodes-remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`
+`lun mapping remove-reporting-nodes -remote-nodes -vserver vserver_name -path lun_path -igroup igroup_name`
 . Rescan the host to verify removal of old paths.
 +
 See your host documentation for specific steps to rescan your hosts.
 
+// 2022-06-14, issue #63
 // BURT 1415751, 10 JAN 2022
