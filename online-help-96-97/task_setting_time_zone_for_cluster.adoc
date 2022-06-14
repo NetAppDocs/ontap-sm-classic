@@ -13,7 +13,7 @@ You can manually set or modify the time zone for a cluster by using the Edit Dat
 
 .About this task
 
-Network Time Protocol (NTP) is always enabled on a cluster. You can disable NTP by contacting technical support. However, disabling NTP is not recommended.
+Network Time Protocol (NTP) is always enabled on a cluster. You can disable NTP, but it is not recommended.
 
 You can add the IP addresses of the NTP server at your site. This server is used to synchronize the time across the cluster.
 
@@ -34,3 +34,5 @@ You can specify either an IPv4 address or an IPv6 address for the time server.
 xref:reference_date_time_window.adoc[Date and Time window]
 
 xref:task_creating_kerberos_realm_configurations.adoc[Creating a Kerberos realm configuration]
+
+// 2022-6-14, BURT 1485039
