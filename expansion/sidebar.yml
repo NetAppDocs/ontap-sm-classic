@@ -58,5 +58,4 @@ entries:
                   url: "/expansion/task_generating_autosupport_message_about_completing_expansion.html"
                 - title: Update LUN paths for the new nodes
                   url: "/expansion/task_updating_lun_paths_for_new_nodes.html"
-            - title: Where to find additional information
-              url: "/expansion/reference_where_to_find_additional_information.html"
+          
