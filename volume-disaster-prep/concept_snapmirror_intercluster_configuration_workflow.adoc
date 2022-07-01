@@ -13,4 +13,11 @@ Preparing volumes for disaster recovery involves verifying the cluster peer rela
 
 image::../media/snapmirror_intercluster_cfg_workflow.gif[This illustration is a flowchart of the volume disaster recovery preparation workflow. The steps in the workflow match the topics.]
 
+Additional documentation is available to help you activate the destination volume to test the disaster recovery setup or when a disaster occurs. You can also learn more about how to reactivate the source volume after the disaster.
+
+xref:../volume-disaster-recovery/index.html[Volume disaster recovery]
++
+Describes how to quickly activate a destination volume after a disaster and then reactivate the source volume in ONTAP.
+
+// 2022-6-30, Feedback from Ed to move Additional info statement to this topic
 // BURT 1448684, 31 JAN 2022
