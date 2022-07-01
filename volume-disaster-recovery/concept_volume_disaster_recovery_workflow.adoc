@@ -13,4 +13,9 @@ The volume disaster recovery workflow includes activating the destination volume
 
 image::../media/snapmirror_failover_resync_workflow_eg.gif[This illustration is a flowchart of the SnapMirror Intercluster Failover and Resync workflow. The steps in the workflow match the topics.]
 
+Additional information is available to help you to manage the volume-level disaster recovery relationships and provides other methods of disaster recovery to protect the availability of your data resources.
+
+xref:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
+
+// 2022-6-30, Feedback from Ed to move Additional info statement to this topic
 // BURT 1448684, 31 JAN 2022

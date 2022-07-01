@@ -1,4 +1,4 @@
-section: nfs-config-esxi 
+section: nfs-config-esxi
 title: NFS configuration for ESXi using VSC
 entries:
     - title: Overview
@@ -41,5 +41,4 @@ entries:
         url: "/nfs-config-esxi/task_deploying_netapp_nfs_plugin_for_vmware_vaai.html"
       - title: Mount datastores on hosts
         url: "/nfs-config-esxi/task_mounting_datastores_on_hosts.html"
-      - title: Where to find additional information
-        url: "/nfs-config-esxi/reference_where_to_find_additional_information.html"
+    

@@ -35,5 +35,3 @@ entries:
         url: "/iscsi-config-windows/task_initializing_formatting_lun.html"
       - title: Verify that the host can write to and read from the LUN
         url: "/iscsi-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
-    - title: Where to find additional information
-      url: "/iscsi-config-windows/reference_where_to_find_additional_information.html"
