@@ -15,6 +15,11 @@ You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to
 
 You can use the Licenses window in System Manager to delete any software license that is installed on a cluster or a node.
 
+For information about managing licenses using ONTAP 9.8 and later, see the following information:
+
+* link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html[Manage licenses overview (cluster administrators only)^]
+* https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html[Enable new features by adding license keys^]
+
 .Before you begin
 
 The software license that you want to delete must not be used by any service or feature.
@@ -209,4 +214,5 @@ https://docs.netapp.com/us-en/ontap/system-admin/index.html[System administratio
 
 xref:task_creating_cluster.adoc[Creating a cluster]
 
+// 2022-7-18, add links to more recent ONTAP license topics 
 // 2021-12-08, Created by Aoife, sm-classic rework
