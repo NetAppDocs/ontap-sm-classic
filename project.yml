@@ -4,8 +4,8 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: true
   search: ontap
-  harmony_enabled: true
 homepage:
   tiles:
     - title: Get started
