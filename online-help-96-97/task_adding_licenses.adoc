@@ -19,6 +19,12 @@ The software license code for the specific ONTAP service must be available.
 
 .About this task
 
+* Beginning with ONTAP 9.10.1, you use System Manager to install a NetApp License File (NLF) to enable multiple licensed features all at once. Using a NetApp License File simplifies license installation because you no longer have to add separate feature license keys. You download the NetApp License File from the NetApp Support Site.
++
+For more information, see link:https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html[Enable new features by adding license keys]
++
+For information about managing licenses, see link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html[Manage licenses overview (cluster administrators only)^]
+
 * When you add a new license in a MetroCluster configuration, it is a best practice to add the license on the surviving site cluster as well.
 * You cannot use System Manager to add the Cloud Volumes ONTAP license.
 +
@@ -80,3 +86,5 @@ The software license is added to your storage system and is displayed in the lis
 *Related information*
 
 xref:reference_licenses_window.adoc[Licenses window]
+
+// 2022-July-18, add links to newer ONTAP license topics
