@@ -1,15 +1,15 @@
 ---
 permalink: online-help-96-97/task_setting_up_branchcache.html
 sidebar: sidebar
-keywords: cifs, svm, system, manager, online, help, branchcache, set, up
+keywords: cifs, svm, system, manager, online, help, branchcache, set, up, modify, settings, delete
 summary: "You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine (SVM) to enable the caching of content on computers that are local to the requesting clients."
 ---
-= Setting up BranchCache
+= Configure BranchCache with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine (SVM) to enable the caching of content on computers that are local to the requesting clients.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure BranchCache on a CIFS-enabled storage virtual machine (SVM) to enable the caching of content on computers that are local to the requesting clients.
 
 .Before you begin
 
@@ -49,3 +49,37 @@ You can set the server key to a specific value so that if multiple servers are p
 +
 By default, all of the versions that are supported by the client are selected.
 . Click *Set Up*.
+
+== Modify the BranchCache settings
+
+You can use the CIFS window in System Manager to modify the BranchCache settings that are configured for a CIFS-enabled storage virtual machine (SVM). You can change the hash store path, the hash store size, the operating mode, and the BranchCache versions that are supported.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *BranchCache* tab, click *Edit*.
+. In the *Modify BranchCache Settings* dialog box, modify the required information:
+ ** Hash store path
++
+If you modify the hash store path, you are provided with an option to retain the cached hash data from the previous hash store.
+
+ ** Hash store size
+ ** Operating mode
+ ** BranchCache version
+. Click *Modify*.
+
+== Delete the BranchCache configuration
+
+You can use System Manager to delete the BranchCache configuration if you no longer want to offer caching services on the storage virtual machine (SVM) that is configured for BranchCache.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *BranchCache* tab, click *Delete*.
+. Select the confirmation check box, and then click *Delete*.
++
+You can also remove existing hashes from the hash store.
+
+// 2021-12-20, Created by Aoife, sm-classic rework

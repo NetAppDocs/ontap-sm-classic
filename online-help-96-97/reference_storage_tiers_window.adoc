@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, storage, tier, window, command, button
 summary: "You can use the Storage Tiers window to view cluster-wide space details and to add and view aggregate details."
 ---
-= Storage Tiers window
+= Storage Tiers window in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Storage Tiers window to view cluster-wide space details and to add and view aggregate details.
+You can use the Storage Tiers window in ONTAP System Manager classic (available in ONTAP 9.7 and earier) to view cluster-wide space details and to add and view aggregate details.
 
 The Internal Tier panel, or the Performance Tier panel if the cluster has all flash (all SSD) aggregates, displays cluster-wide space details such as the sum of the total sizes of all of the aggregates, the space used by the aggregates in the cluster, and the available space in the cluster.
 

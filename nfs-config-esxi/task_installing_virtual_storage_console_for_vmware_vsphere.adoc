@@ -9,7 +9,7 @@ summary: "for automates many of the configuration and provisioning tasks require
 :imagesdir: ../media/
 
 [.lead]
-for automates many of the configuration and provisioning tasks required to use storage with an ESXi host. is a plug-in to vCenter Server.
+Virtual Storage Console for automates many of the configuration and provisioning tasks required to use storage with an ESXi host. is a plug-in to vCenter Server.
 
 .Before you begin
 
@@ -17,12 +17,12 @@ You must have administrator credentials on the vCenter Server used to manage the
 
 .About this task
 
-* is installed as a virtual appliance that includes Virtual Storage Console, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+* Virtual Storage Console is installed as a virtual appliance that includes Virtual Storage Console, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
 
 .Steps
 
-. Download the version of that is supported for your configuration, as shown in the tool.
+. Download the version of that is supported for your configuration, as shown in the Interoperability Matrix tool.
 +
 https://mysupport.netapp.com/site/global/dashboard[NetApp Support]
 
-. Deploy the virtual appliance and configure it following the steps in _Deployment and Setup_.
+. Deploy the virtual appliance and configure it following the steps in _Deployment and Setup Guide_.

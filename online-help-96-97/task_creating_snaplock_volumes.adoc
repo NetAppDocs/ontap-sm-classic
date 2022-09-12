@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: create, snaplock, volume, online, help, system, manager
 summary: "You can use System Manager to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume."
 ---
-= Create SnapLock volumes
+= Create SnapLock volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume.
 
 .Before you begin
 
@@ -51,16 +51,16 @@ If you are creating a SnapMirror destination volume, you must select *Data Prote
 +
 The default space that is reserved for Snapshot copies is zero percent for SAN volumes and VMware volumes. For NAS volumes, the default is 5 percent.
 
-. Select *Thin Provisioned* to enable thin provisioning for the volume.
+. *Optional:* Select *Thin Provisioned* to enable thin provisioning for the volume.
 +
 When thin provisioning is enabled, space is allocated to the volume from the aggregate only when data is written to the volume.
 
-. Make the required changes in the *Storage Efficiency* tab to enable deduplication on the volume.
+. *Optional:* Make the required changes in the *Storage Efficiency* tab to enable deduplication on the volume.
 +
 System Manager uses the default deduplication schedule. If the specified volume size exceeds the limit that is required for running deduplication, the volume is created, and deduplication is not enabled.
 
 . Select the *SnapLock* tab, and then perform the following steps:
- .. Specify the autocommit period.
+ .. *Optional:* Specify the autocommit period.
 +
 The file in the volume remains unchanged for the period that you specify before the file is committed to the WORM state. To set files to the WORM state manually, you must select *Not specified* as the autocommit setting.
 +
@@ -73,7 +73,7 @@ The values must be in the range of 1 day through 70 years or Infinite.
  .. Select the default retention period.
 +
 The default retention period must be within the specified minimum retention period and maximum retention period.
-. Select the *Manage Storage Quality of Service* checkbox in the *Quality of Service* tab to enable storage QoS for the FlexVol volume in order to manage workload performance.
+. *Optional:* Select the *Manage Storage Quality of Service* checkbox in the *Quality of Service* tab to enable storage QoS for the FlexVol volume in order to manage workload performance.
 . Create a storage QoS policy group or select an existing policy group to control the input/output (I/O) performance of the FlexVol volume.
 +
 [options="header"]

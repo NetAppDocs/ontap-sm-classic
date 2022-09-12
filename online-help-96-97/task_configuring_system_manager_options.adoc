@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, configure, system, manager, option, online, help
 summary: "You can enable logging and specify the inactivity timeout value for System Manager."
 ---
-= Configure System Manager options
+= Configure System Manager options - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can enable logging and specify the inactivity timeout value for System Manager.
+You can enable logging and specify the inactivity timeout value for ONTAP System Manager classic (available in ONTAP 9.7 or earlier).
 
 .About this task
 

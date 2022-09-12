@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: create, flexclone, volume, system, manager, online, help
 summary: "You can use System Manager to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data."
 ---
-= Create FlexClone volumes
+= Create FlexClone volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data.
 
 .Before you begin
 
@@ -27,7 +27,7 @@ The base Snapshot copy that is used to create a FlexClone volume of a SnapMirror
 . Select the FlexVol volume that you want to clone from the list of volumes.
 . Click *More Actions* > *Clone* > *Create* > *Volume*.
 . Type the name of the FlexClone volume that you want to create.
-. If you want to enable thin provisioning for the new FlexClone volume, select *Thin Provisioning*.
+. *Optional:* If you want to enable thin provisioning for the new FlexClone volume, select *Thin Provisioning*.
 +
 By default, this setting is the same as that of the parent volume.
 

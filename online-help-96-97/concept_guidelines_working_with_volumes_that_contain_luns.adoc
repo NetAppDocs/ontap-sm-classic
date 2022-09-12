@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot, copy, simplify, administration
 summary: "When you work with FlexVol volumes that contain LUNs, you must change the default settings for Snapshot copies. You can also optimize the LUN layout to simplify administration."
 ---
-= Guidelines for working with FlexVol volumes that contain LUNs
+= Guidelines for working with FlexVol volumes that contain LUNs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-When you work with FlexVol volumes that contain LUNs, you must change the default settings for Snapshot copies. You can also optimize the LUN layout to simplify administration.
+In ONTAP System Manager classic (available in ONTAP 9.7 and earlier), when you work with FlexVol volumes that contain LUNs, you must change the default settings for Snapshot copies. You can also optimize the LUN layout to simplify administration.
 
 Snapshot copies are required for many optional features such as SnapMirror, SyncMirror, dump and restore, and ndmpcopy.
 

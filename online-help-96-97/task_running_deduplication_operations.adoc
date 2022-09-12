@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: run, deduplication, operation, system, manager, online, help, flexvol, volume
 summary: "You can use System Manager to run deduplication immediately after creating a FlexVol volume or to schedule deduplication to run at a specified time."
 ---
-= Running deduplication operations
+= Run deduplication operations with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to run deduplication immediately after creating a FlexVol volume or to schedule deduplication to run at a specified time.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to run deduplication immediately after creating a FlexVol volume or to schedule deduplication to run at a specified time. 
 
 .Before you begin
 

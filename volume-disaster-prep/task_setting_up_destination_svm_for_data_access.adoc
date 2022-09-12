@@ -24,7 +24,7 @@ You must perform this task on the *destination* cluster for the SVM containing t
  .. Create appropriate quota rules.
 * SAN environment:
  .. Create SAN LIFs.
- .. Configure portsets.
+ .. *Optional:* Configure portsets.
  .. Configure initiator groups.
  .. For FC, zone the FC switches to enable the SAN clients to access the LIFs.
 

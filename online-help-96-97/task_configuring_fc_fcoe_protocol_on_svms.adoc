@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, configure, fc, protocol, fcoe, svm, online, help, system, manager
 summary: "You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager."
 ---
-= Configure FC protocol and FCoE protocol on SVMs
+= Configure FC protocol and FCoE protocol on SVMs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.
 
 .Before you begin
 
@@ -43,7 +43,7 @@ If the number of LIFs that you want to assign to the node is more than two, you 
 +
 You can modify only the LIF name and home port. You must ensure that you do not specify duplicate entries.
 
-. Provision a LUN for the FC storage or FCoE storage when configuring the protocol by providing the LUN size, OS type for the LUN, and host initiator details.
+. *Optional:* Provision a LUN for the FC storage or FCoE storage when configuring the protocol by providing the LUN size, OS type for the LUN, and host initiator details.
 . Click *Submit & Continue*.
 
 .Results

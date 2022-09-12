@@ -39,7 +39,7 @@ The Configure iSCSI Protocol window is displayed.
 
 . Configure the iSCSI service and LIFs from the *Configure iSCSI protocol* page:
  .. Enter a target alias name.
- .. Enter `2` in the *LIFs per node* field.
+ .. Enter `*2*` in the *LIFs per node* field.
 +
 Two LIFs are required for each node to ensure availability and data mobility.
 

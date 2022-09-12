@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, create, edit, delete, volume, tab, cif, nfs, online, help
 summary: "You can use System Manager to create, edit, and delete volumes."
 ---
-= Volumes
+= Manage volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create, edit, and delete volumes.
+You can use ONTAP System Manager classic (available in 9.7 and earlier) to create, edit, and delete volumes.
 
 You can access all the volumes in the cluster by using the Volumes tab or you can access the volumes specific to an SVM by using *SVMs* > *Volumes*.
 

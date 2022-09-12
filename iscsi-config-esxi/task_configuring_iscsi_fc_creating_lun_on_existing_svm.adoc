@@ -19,7 +19,7 @@ You must have enough network addresses available to create two LIFs for each nod
 
 . Navigate to the *SVMs* window.
 . Select the SVM that you want to configure.
-. In the SVM**Details** pane, verify that *iSCSI* is displayed with a gray background, which indicates that the protocol is enabled but not fully configured.
+. In the SVM **Details** pane, verify that *iSCSI* is displayed with a gray background, which indicates that the protocol is enabled but not fully configured.
 +
 If *iSCSI* is displayed with a green background, the SVM is already configured.
 +
@@ -31,7 +31,7 @@ The Configure iSCSI Protocol window is displayed.
 
 . Configure the iSCSI service and LIFs from the *Configure iSCSI protocol* page:
  .. Enter a target alias name.
- .. Enter `2` in the *LIFs per node* field.
+ .. Enter `*2*` in the *LIFs per node* field.
 +
 Two LIFs are required for each node to ensure availability and data mobility.
 

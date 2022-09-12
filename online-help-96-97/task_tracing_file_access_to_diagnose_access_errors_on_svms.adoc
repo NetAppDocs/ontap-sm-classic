@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: trace, file, access, diagnost, error, svm, system, manager, online, help
 summary: "Beginning with System Manager 9.6, you can diagnose CIFS or NFS file access errors on a storage virtual machine (SVM)."
 ---
-= Tracing file access to diagnose access errors on SVMs
+= Trace file access to diagnose access errors on SVMs with System Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -26,7 +26,7 @@ The Trace File Access window for the selected SVM shows the prerequisites and st
 . Click *Continue* to begin the file tracing process.
 . Select the protocol that is used to access files or shares on the selected SVM.
 . In the *User Name* field, enter the name of the user who was trying to access the file or share.
-. Click image:../media/advanced_options.gif[] to specify more details to narrow the scope of the trace.
+. *Optional:* Click image:../media/advanced_options.gif[] to specify more details to narrow the scope of the trace.
 +
 The Advanced Options dialog window allows you to specify the following details:
 
@@ -43,7 +43,7 @@ The trace is initiated and a results table is displayed. The table is empty unti
 +
 Details of the denied file access requests are shown in the results table when errors occur for the specified username for the duration of the trace. The Reasons column identifies the problems that are preventing the user from accessing files and reasons why they occurred.
 
-. In the *Reasons* column of the result table, click *View Permissions* to view permissions for the file that the user is trying to access.
+. *Optional:* In the *Reasons* column of the result table, click *View Permissions* to view permissions for the file that the user is trying to access.
  ** When the trace result shows a message saying that access is not granted for "Synchronize", "Read Control", "Read Attributes", "Execute", "Read EA", "Write", or "Read"', the message is indicating that the desired access has not been granted for the set of permissions listed. In order to view the actual permissions status, you need to view the permissions using the provided link.
  ** If you specified the CIFS protocol, the Effective File and Share Permissions dialog box displays, listing both file and share permissions associated with the share and file that the user is trying to access.
  ** If you specified the NFS protocol, the Effective File Permissions dialog box displays, listing the file permissions associated with the file that the user is trying to access.
@@ -51,7 +51,7 @@ A check mark indicates that permissions are granted, and an "`X`" indicates that
 
 +
 Click *OK* to return to the Trace File Access window.
-. The results table displays read-only data. You can perform the following actions with the results of the trace:
+. *Optional:* The results table displays read-only data. You can perform the following actions with the results of the trace:
  ** Click *Copy to Clipboard* to copy the results to the clipboard.
  ** Click *Export Trace Results* to export the results to a comma-separatedvalues (CSV) file.
 . When you want to end the tracing operation, click *Stop Tracing*.

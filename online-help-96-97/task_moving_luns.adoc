@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: move, lun, qtree, storage, virtual, machine, svm, online, help
 summary: "You can use System Manager to move a LUN from its containing volume to another volume or qtree within a storage virtual machine (SVM). You can move the LUN to a volume that is hosted on an aggregate containing high-performance disks, thereby improving the performance when accessing the LUN."
 ---
-= Moving LUNs
+= Move LUNs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to move a LUN from its containing volume to another volume or qtree within a storage virtual machine (SVM). You can move the LUN to a volume that is hosted on an aggregate containing high-performance disks, thereby improving the performance when accessing the LUN.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to move a LUN from its containing volume to another volume or qtree within a storage virtual machine (SVM). You can move the LUN to a volume that is hosted on an aggregate containing high-performance disks, thereby improving the performance when accessing the LUN.
 
 .About this task
 
@@ -26,7 +26,7 @@ You should use the CLI instead.
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select the LUN that you want to move from the list of LUNs, and then click *Move*.
-. In the *Move Options* area of the *Move LUN* dialog box, specify a new name for the LUN if you want to change the default name.
+. *Optional:* In the *Move Options* area of the *Move LUN* dialog box, specify a new name for the LUN if you want to change the default name.
 . Select the storage object to which you want to move the LUN and perform one of the following actions:
 +
 [options="header"]

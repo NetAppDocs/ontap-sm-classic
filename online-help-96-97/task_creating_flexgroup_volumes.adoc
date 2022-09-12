@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: create, flexgroup, volume, online, help, system, manager
 summary: "A FlexGroup volume can contain many volumes that can be administered as a group instead of individually. You can use System Manager to create a FlexGroup volume by selecting specific aggregates or by selecting system-recommended aggregates."
 ---
-= Create FlexGroup volumes
+= Create FlexGroup volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-A FlexGroup volume can contain many volumes that can be administered as a group instead of individually. You can use System Manager to create a FlexGroup volume by selecting specific aggregates or by selecting system-recommended aggregates.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create a FlexGroup volume by selecting specific aggregates or by selecting system-recommended aggregates. A FlexGroup volume can contain many volumes that can be administered as a group instead of individually.
 
 .About this task
 

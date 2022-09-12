@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: update, singe, node, cluster, system, manager, online, help
 summary: "You can use System Manager to update single-node clusters."
 ---
-= Updating single-node clusters
+= Update single-node clusters with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to update single-node clusters.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to update single-node clusters.
 
 .Before you begin
 

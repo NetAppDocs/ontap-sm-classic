@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: system, manager, configuring, cifs, nfs, protocols, svm, online, help
 summary: "You can use System Manager to configure CIFS and NFS protocols on a storage virtual machine (SVM) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs."
 ---
-= Configure CIFS and NFS protocols on SVMs
+= Configure CIFS and NFS protocols on SVMs with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to configure CIFS and NFS protocols on a storage virtual machine (SVM) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to configure CIFS and NFS protocols on a storage virtual machine (SVM) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs.
 
 .Before you begin
 
@@ -83,10 +83,10 @@ If a route does not exist, a new route is automatically created based on the gat
 By default, this parameter is set to CN=Computers.
 
   *** Credentials of an administrative account that has sufficient privileges to add the CIFS server to the OU
- .. Select *Encrypt Data while accessing all shares of this SVM* to enable SMB 3.0 encryption for all of the shares of the SVM.
+ .. *Optional:* Select *Encrypt Data while accessing all shares of this SVM* to enable SMB 3.0 encryption for all of the shares of the SVM.
  .. Provision a volume for CIFS storage when configuring the protocol by specifying the share name, size of the share, and access permissions.
  .. Select *Encrypt Data while accessing this share* to enable SMB 3.0 encryption for a particular share.
-. Configure NIS services:
+. *Optional:* Configure NIS services:
  .. Specify the IP addresses of the NIS servers and NIS domain name to configure NIS services on the SVM.
  .. Select the appropriate database type for which you want to add the "`nis`" name service source.
  .. Provision a volume for NFS storage by specifying the export name, size, and permission.

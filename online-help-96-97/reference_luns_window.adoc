@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, lun, management, window, command, button, initiator, portset, group, online, help
 summary: "You can use the LUNs window to create and manage LUNs and to display information about LUNs. You can also add, edit, or delete initiator groups and initiator IDs."
 ---
-= LUNs window
+= LUNs window in System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the LUNs window to create and manage LUNs and to display information about LUNs. You can also add, edit, or delete initiator groups and initiator IDs.
+You can use the LUNs window in ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to create and manage LUNs and to display information about LUNs. You can also add, edit, or delete initiator groups and initiator IDs.
 
 == LUN Management tab
 
@@ -214,12 +214,6 @@ xref:task_creating_luns.adoc[Creating LUNs]
 xref:task_deleting_luns.adoc[Deleting LUNs]
 
 xref:task_creating_initiator_groups.adoc[Creating initiator groups]
-
-xref:task_deleting_initiator_groups.adoc[Deleting initiator groups]
-
-xref:task_adding_initiators.adoc[Adding initiators]
-
-xref:task_deleting_initiators_from_initiator_group.adoc[Deleting initiators from an initiator group]
 
 xref:task_editing_luns.adoc[Editing LUNs]
 

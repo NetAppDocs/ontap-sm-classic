@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: online, help, delete, volumes, system, manager, flexvol, volume
 summary: "You can use System Manager to delete a FlexVol volume when you no longer require the data that a volume contains or if you have copied the data that a volume contains to another location. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data."
 ---
-= Deleting volumes
+= Delete volumes with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to delete a FlexVol volume when you no longer require the data that a volume contains or if you have copied the data that a volume contains to another location. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to delete a FlexVol volume when you no longer require the data that a volume contains or if you have copied the data that a volume contains to another location. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data.
 
 .Before you begin
 
@@ -33,12 +33,13 @@ You should be aware of the following limitations when deleting a FlexVol volume:
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) in which the volume that you want to delete resides.
 . Select the volumes that you want to delete.
-. [NOTE]
++
+[NOTE]
 ====
 Verify that you have selected the correct volumes that you want to delete. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data.
 ====
-+
-Click *Delete*.
+
+. Click *Delete*.
 
 . Select the confirmation check box, and then click *Delete*.
 

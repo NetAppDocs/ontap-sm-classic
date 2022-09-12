@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: edit, volume, properties, online, help, deduplication, system, manager
 summary: "You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings (deduplication schedule, deduplication policy, and compression) and space reclamation settings."
 ---
-= Editing volume properties
+= Edit volume properties with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings (deduplication schedule, deduplication policy, and compression) and space reclamation settings.
+You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to modify volume properties such as the volume name, security style, fractional reserve, and space guarantee. You can modify storage efficiency settings (deduplication schedule, deduplication policy, and compression) and space reclamation settings.
 
 .Before you begin
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, recommendations, create, aggregate, system, manager, online, help
 summary: "Beginning with System Manager 9.4, you can create aggregates based on storage recommendations. However, you must determine whether creating aggregates based on storage recommendations is supported in your environment. If your environment does not support creating aggregates based on storage recommendations, you must decide the RAID policy and disk configuration, and then create the aggregates manually."
 ---
-= Storage recommendations for creating aggregates
+= Storage recommendations for creating aggregates with System Manager - ONTAP 9.7 and earlier
 :icons: font
 :imagesdir: ../media/
 
