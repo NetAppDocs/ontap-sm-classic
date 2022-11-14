@@ -1,15 +1,15 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html
 sidebar: sidebar
-keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled
-summary: "Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console."
+keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled SVM
+summary: "Setting up a new SVM involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console."
 ---
-= Create a new NFS-enabled
+= Create a new NFS-enabled SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console.
+Setting up a new SVM involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console.
 
 .Before you begin
 
@@ -27,14 +27,14 @@ You can use a wizard that guides you through the process of creating the SVM, co
 
 . Navigate to the *SVMs* window.
 . Click *Create*.
-. In the *Storage Virtual Machine (SVM) Setup* window, create the :
+. In the *Storage Virtual Machine (SVM) Setup* window, create the SVM:
  .. Specify a unique name for the SVM.
 +
 The name must either be a fully qualified domain name (FQDN) or follow another convention that ensures unique names across a cluster.
 
  .. Select *NFS* for the data protocol.
 +
-If you plan to use additional protocols on the same , you should select them even if you do not want to configure them immediately.
+If you plan to use additional protocols on the same SVM, you should select them even if you do not want to configure them immediately.
 
  .. Keep the default language setting, C.UTF-8.
 +
@@ -83,4 +83,4 @@ NFS clients need to know the IP address of the data LIF.
 
 .Results
 
-A new is created with NFS enabled.
+A new SVM is created with NFS enabled.
