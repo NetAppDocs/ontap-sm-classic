@@ -1,15 +1,15 @@
 ---
 permalink: nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html
 sidebar: sidebar
-keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing
-summary: "To add NFS access to an existing , you must first create a data logical interface (LIF). You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi using Virtual Storage Console."
+keywords: nfs, access, exist, create, data, logical, interface, lif, configure, esxi, host, verify, add, add nfs access to an existing SVM
+summary: "To add NFS access to an existing SVM, you must first create a data logical interface (LIF). You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi using Virtual Storage Console."
 ---
-= Add NFS access to an existing
+= Add NFS access to an existing SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-To add NFS access to an existing , you must first create a data logical interface (LIF). You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi using Virtual Storage Console.
+To add NFS access to an existing SVM, you must first create a data logical interface (LIF). You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi using Virtual Storage Console.
 
 .Before you begin
 
@@ -23,8 +23,8 @@ This is the case if you did not follow this procedure to create the SVM while co
 
 .Steps
 
-. Navigate to the *Details* pane where you can configure the protocols of the :
- .. Select the that you want to configure.
+. Navigate to the *Details* pane where you can configure the protocols of the SVM:
+ .. Select the SVM that you want to configure.
  .. In the *Details* pane, next to *Protocols*, click *NFS*.
 +
 image::../media/svm_add_protocol_nfs_nfs_esxi.gif[This image is explained by the surrounding text.]
