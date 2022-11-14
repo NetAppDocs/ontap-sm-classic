@@ -27,11 +27,11 @@ entries:
         url: "/nfs-config-esxi/task_creating_aggregate.html"
       - title: Decide where to provision the new volume
         url: "/nfs-config-esxi/task_deciding_where_to_provision_new_volume.html"
-      - title: Create a new NFS-enabled
+      - title: Create a new NFS-enabled SVM 
         url: "/nfs-config-esxi/task_creating_new_nfs_enabled_svm.html"
-      - title: Add NFS access to an existing
+      - title: Add NFS access to an existing SVM 
         url: "/nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html"
-      - title: Verify that NFS is enabled on an existing
+      - title: Verify that NFS is enabled on an existing SVM 
         url: "/nfs-config-esxi/task_verifying_that_nfs_is_enabled_on_existing_svm.html"
       - title: Provision a datastore and create its containing volume
         url: "/nfs-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
