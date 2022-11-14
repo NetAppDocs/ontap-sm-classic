@@ -1,7 +1,7 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html
 sidebar: sidebar
-keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled
+keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled SVM
 summary: "Setting up a new SVM involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console."
 ---
 = Create a new NFS-enabled SVM
