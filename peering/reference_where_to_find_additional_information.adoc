@@ -10,9 +10,7 @@ summary: "After you successfully create a cluster peering relationship, you are 
 
 [.lead]
 After you successfully create a cluster peering relationship, you are ready to protect the availability of your data.
-// ///////////////////////////////////////////////////////////
-// TOPIC WAS REMOVED FROM SIDEBAR,  BURT 1415746, 10 JAN 2022
-// ///////////////////////////////////////////////////////////
+
 You can protect your data by using the following information:
 
 * link:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
