@@ -120,7 +120,7 @@ Open a drop-down menu, which provides options to enable or disable the selected 
 +
 Updates the information in the window.
 
-=== Efficiency policies list
+=== Efficiency policies list 
 
 * *Auto*
 +
