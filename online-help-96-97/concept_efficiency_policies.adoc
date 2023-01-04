@@ -120,7 +120,13 @@ Open a drop-down menu, which provides options to enable or disable the selected 
 +
 Updates the information in the window.
 
-=== Efficiency policies list
+=== Efficiency policies list 
+
+* *Auto*
++
+Specifies that deduplication is continuously performed in the background. This policy is set for all newly created volumes and for all upgraded volumes that have not been manually configured for background deduplication. If you change the policy to "`default`" or any other policy, the "`auto`" policy is disabled.
++
+If a volume moves from a non-AFF system to an AFF system, the "`auto`" policy is enabled on the destination node by default. If a volume moves from an AFF node to a non-AFF node, the "`auto`" policy on the destination node is replaced by the "`inline-only`" policy by default.
 
 * *Policy*
 +
@@ -162,4 +168,5 @@ Specifies the maximum run-time duration of an efficiency policy. If this value i
 
 The area below the efficiency policy list displays additional information about the selected efficiency policy, including the schedule name and the schedule details for a schedule-based policy, and the threshold value for a threshold-based policy.
 
-// 2021-12-21, Created by Aoife, sm-classic rework
+// 2021 Dec 21, sm-classic rework
+// 2022 Dec 14, BURT 1421223
