@@ -73,4 +73,4 @@ The default values for each of the database types are as follows:
 
 xref:concept_how_data_ontap_name_service_switch_configuration_works.adoc[How ONTAP name service switch configuration works]
 
-// 2023-Mar-22, issue# 73
+// 2023-Mar-22, issue# 73 
