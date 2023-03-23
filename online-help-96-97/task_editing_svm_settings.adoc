@@ -37,7 +37,7 @@ System Manager displays the name service switch and the name mapping switch of a
 .Steps
 
 . Click *Storage* > *SVMs*.
-. Select the SVM, and then click *Edit*.
+. Select the SVM, and then click *Edit*. 
 . In the *Details* tab, modify the required data protocols.
 . In the *Resource Allocation* tab, choose one of the following methods to delegate volume creation:
 +
