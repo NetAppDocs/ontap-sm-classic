@@ -37,7 +37,7 @@ System Manager displays the name service switch and the name mapping switch of a
 .Steps
 
 . Click *Storage* > *SVMs*.
-. Select the SVM, and then click *SVM Settings*.
+. Select the SVM, and then click *Edit*. 
 . In the *Details* tab, modify the required data protocols.
 . In the *Resource Allocation* tab, choose one of the following methods to delegate volume creation:
 +
@@ -72,3 +72,5 @@ The default values for each of the database types are as follows:
 *Related information*
 
 xref:concept_how_data_ontap_name_service_switch_configuration_works.adoc[How ONTAP name service switch configuration works]
+
+// 2023-Mar-22, issue# 73 
