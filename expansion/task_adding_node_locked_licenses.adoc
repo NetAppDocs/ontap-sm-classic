@@ -11,6 +11,10 @@ summary: "If the cluster has features that use node-locked licenses, you must en
 [.lead]
 If the cluster has features that use node-locked licenses (which entitle only specific nodes to the licensed functionality), you must ensure that node-locked licenses are installed for the new nodes. You should add the licenses before the nodes are joined to the cluster.
 
+Complete this task if you are using the _Classic_ System Manager UI with ONTAP 9.7 and earlier releases. If you are using the System Manager UI with ONTAP 9.7 and later, see link:https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html[Enable new features by adding license keys].
+
+For more information about managing licenses, see link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html[Manage licenses overview].
+
 .Steps
 
 . Add each license key by using the `system license add` command.
@@ -35,3 +39,5 @@ CIFS              license CIFS License          -
 ----
 
 . Review the output to ensure that a node-locked license is displayed for all serial numbers, including serial numbers for existing and new nodes.
+
+// 2023-Apr-4, issue# 75
