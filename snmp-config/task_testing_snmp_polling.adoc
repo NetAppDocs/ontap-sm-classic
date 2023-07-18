@@ -59,7 +59,7 @@ In this example, the IP address of the cluster management LIF that you are polli
 +
 ----
 C:\Windows\System32>snmpwalk -v 3 -a MD5 -l authnopriv -u snmpv3
-       -a password123 10.11.12.123 system
+       -A password123 10.11.12.123 system
 
 SNMPv3-MIB::sysDescr.0 = STRING: NetApp Release 8.3.0
        Cluster-Mode: Tue Apr 22 16:24:48 EDT 2014
@@ -70,3 +70,5 @@ SNMPv3-MIB::sysName.0 = STRING: systemname.testlabs.com
 SNMPv3-MIB::sysLocation.0 = STRING: Floor 2 Row B Cab 2
 SNMPv3-MIB::sysServices.0 = INTEGER: 72
 ----
+
+// 2023-July-18, issue# 78
