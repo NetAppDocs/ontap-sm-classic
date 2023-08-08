@@ -31,7 +31,7 @@ You must perform this task from the *source* cluster.
 +
 Only peered SVMs and allowed SVMs are listed under destination SVMs.
 
- .. Click image:../media/advanced_options_icon_disaster.gif[].
+ .. Click image:../media/advanced_options_icon_disaster.gif[Advanced options icon].
  .. In the *Advanced Options* dialog box, verify that `MirrorAllSnapshots` is set as the protection policy.
 +
 `DPDefault` and `MirrorLatest` are the other default protection policies that are available for SnapMirror relationships.
@@ -46,15 +46,17 @@ All of the data protection relationships are initialized by default. Initializin
 
  .. Click *Apply* to save the changes.
 +
-image::../media/snapmirror_advanced_options_93.gif[]
+image::../media/snapmirror_advanced_options_93.gif[Advanced Options window]
 . Click *Save* to create the SnapMirror relationship.
 . Verify that the relationship status of the SnapMirror relationship is in the `Snapmirrored` state.
  .. Navigate to the *Volumes* window, and then select the volume that the volume for which you created the SnapMirror relationship.
  .. Double-click the volume to view the volume details, and then click *PROTECTION* to view the data protection status of the volume.
 
 +
-image::../media/snapmirror_9_3.gif[]
+image::../media/snapmirror_9_3.gif[SnapMirror status screenshot]
 
 == What to do next
 
 You must make a note of the settings for the source volume such as thin provisioning, deduplication, compression, and autogrow. You can use this information to verify the destination volume settings when you break the SnapMirror relationship.
+
+// 2023-Aug-8 fix Lipi errors
