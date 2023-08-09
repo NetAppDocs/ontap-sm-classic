@@ -26,6 +26,11 @@ You can use ONTAP System Manager classic (available in ONTAP 9.7 and earlier) to
 +
 You must use the command-line interface to reassign disks for MetroCluster configurations.
 
+[NOTE]
+====
+In later ONTAP releases, you use the ONTAP CLI to remove disk ownership and then assign a new owner. 
+====
+
 .Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Disks*.
@@ -34,3 +39,11 @@ You must use the command-line interface to reassign disks for MetroCluster confi
 . In the *Warning* dialog box, click *Continue*.
 . In the *Assign Disks* dialog box, select the node to which you want to reassign the disks.
 . Click *Assign*.
+
+.Related information
+
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/remove-ownership-disk-task.html[Remove disk ownership using the ONTAP CLI (ONTAP 9.3 and later)]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/disk-autoassignment-policy-concept.html[Assign disks automatically using the ONTAP CLI (ONTAP 9.3 and later)]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/manual-assign-disks-ownership-manage-task.html[Manually assign disks using the ONTAP CLI (ONTAP 9.3 and later)]
+
+// 2023-Aug-9, issue# 81
