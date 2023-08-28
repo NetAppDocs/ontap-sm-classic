@@ -30,7 +30,11 @@ See the documentation that is provided by the IdP that you have configured.
 
 .About this task
 
-The IdPs that have been validated with System Manager are Shibboleth and Active Directory Federation Services.
+The following IdPs have been validated with System Manager: 
+
+* Shibboleth
+* Active Directory Federation Services
+* Cisco DUO
 
 [NOTE]
 ====
