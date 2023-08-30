@@ -32,9 +32,9 @@ See the documentation that is provided by the IdP that you have configured.
 
 The following IdPs have been validated with System Manager: 
 
-* Shibboleth
 * Active Directory Federation Services
 * Cisco DUO (ONTAP 9.7P21 and later 9.7 patches only)
+* Shibboleth
 
 [NOTE]
 ====
