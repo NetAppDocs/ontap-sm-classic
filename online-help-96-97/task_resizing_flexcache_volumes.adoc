@@ -27,7 +27,7 @@ By default, existing aggregates are used to resize the FlexCache volume. Beginni
 +
 [NOTE]
 ====
-If you want to expand the FlexCache volume by adding new resources, click image:../media/advanced_options.gif[] (advanced options). Refer to link:task_specifying_advanced_options_for_flexcache_volume.md#GUID-021C533F-BBA1-41A9-A191-DE223A158B4B[Specifying advanced options for FlexCache volumes].
+If you want to expand the FlexCache volume by adding new resources, click image:../media/advanced_options.gif[] (advanced options). Refer to link:https://docs.netapp.com/us-en/ontap-sm-classic/online-help-96-97/task_specifying_advanced_options_for_flexcache_volume.html[Specifying advanced options for FlexCache volumes].
 ====
 
 . Click *Save* to resize the FlexCache volume.
@@ -35,3 +35,5 @@ If you want to expand the FlexCache volume by adding new resources, click image:
 *Related information*
 
 xref:reference_volumes_window.adoc[Volumes window]
+
+// 2023-Dec-6, issue# 88
