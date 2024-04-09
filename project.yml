@@ -45,8 +45,7 @@ sidebar:
     - title: Legal Notices
       url: /reference_legal_notices.html
 
-
 product-family: 
   name: ONTAP
   repo: ontap-family
-  
+
